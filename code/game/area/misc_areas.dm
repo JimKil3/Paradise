@@ -72,3 +72,51 @@
 /area/secret/gaybar
 	name = "\improper Dance Bar"
 	icon_state = "dancebar"
+
+/area/station/fluff_ship
+	name = "Ivory Tower"
+	icon_state = "dorms"
+
+/area/station/fluff_ship/engineering
+	name = "Ivory Tower Engineering"
+	icon_state = "engi"
+
+/area/station/fluff_ship/bedroom
+	name = "Ivory Tower Bedroom"
+	icon_state = "Sleep"
+
+/area/station/fluff_ship/bridge
+	name = "Ivory Tower Bridge"
+	icon_state = "bridge"
+
+/obj/item/documents/pandora
+	name = "Pandora's documents"
+	desc = "Various documents detailing Violet 'Pandora' Shea's medical history, employment, citizenship status..."
+	icon_state = "docs_part"
+
+/obj/item/documents/anokhi
+	name = "Anokhi's documents"
+	desc = "Various documents detailing Anokhi's medical history, employment, citizenship status..."
+	icon_state = "docs_blue"
+
+/obj/item/documents/ship_documents
+	name = "ship's papers"
+	desc = "The <i>Ivory Castle</i>'s registration papers with local authorities."
+	icon_state = "docs_verified"
+
+/obj/item/folder/important_documents
+	name = "strong folder"
+	desc = "A particularly robust folder containing important documentation."
+	icon_state = "folder_sblue"
+
+/obj/item/folder/important_documents/New()
+	..()
+	new /obj/item/documents/pandora(src)
+	new /obj/item/documents/anokhi(src)
+	new /obj/item/documents/ship_documents(src)
+	update_icon(UPDATE_OVERLAYS)
+
+/obj/structure/closet/secure_closet/personal/cabinet/fluff_ship
+
+/obj/structure/closet/secure_closet/personal/cabinet/fluff_ship/populate_contents()
+	return
