@@ -601,18 +601,15 @@
 /area/shuttle/arrival/station)
 "rK" = (
 /obj/structure/table/reinforced,
-/obj/item/reagent_containers/food/condiment/saltshaker{
-	pixel_x = -4
-	},
-/obj/item/reagent_containers/food/condiment/peppermill{
-	pixel_x = 4
-	},
 /obj/machinery/light{
 	dir = 4
 	},
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 8
 	},
+/obj/item/handheld_chem_dispenser/booze,
+/obj/item/storage/box/drinkingglasses,
+/obj/item/handheld_chem_dispenser/soda,
 /turf/simulated/floor/plasteel{
 	icon_regular_floor = "yellowsiding";
 	icon_state = "tranquillite"
@@ -647,6 +644,7 @@
 	dir = 4
 	},
 /obj/item/analyzer,
+/obj/item/clothing/gloves/color/yellow,
 /turf/simulated/floor/engine,
 /area/station/fluff_ship/engineering)
 "sT" = (
@@ -1003,6 +1001,7 @@
 	dir = 1
 	},
 /obj/machinery/atmospherics/unary/vent_pump/on,
+/obj/item/storage/bag/trash,
 /turf/simulated/floor/plasteel{
 	icon_state = "dark"
 	},
@@ -1323,6 +1322,12 @@
 	dir = 1
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/item/reagent_containers/food/condiment/saltshaker{
+	pixel_x = -4
+	},
+/obj/item/reagent_containers/food/condiment/peppermill{
+	pixel_x = 4
+	},
 /turf/simulated/floor/plasteel{
 	icon_regular_floor = "yellowsiding";
 	icon_state = "tranquillite"
@@ -1599,6 +1604,7 @@
 	icon_state = "1-2"
 	},
 /obj/item/toy/plushie/orange_fox/grump,
+/obj/item/storage/box/cups,
 /turf/simulated/floor/plasteel,
 /area/station/fluff_ship/bridge)
 "Qs" = (
@@ -1759,6 +1765,11 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 8
 	},
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
 /turf/simulated/floor/engine,
 /area/station/fluff_ship/engineering)
 "TP" = (
@@ -1876,6 +1887,9 @@
 	pixel_y = -33;
 	id = "starboard_shutters";
 	name = "Starboard Bridge Shutters"
+	},
+/obj/structure/chair/comfy/shuttle{
+	dir = 4
 	},
 /turf/simulated/floor/plasteel/dark,
 /area/station/fluff_ship/bridge)
