@@ -16,6 +16,7 @@
 	/// The real name required to open the letter
 	var/recipient
 	var/has_been_scanned = FALSE
+	var/mapperbus = FALSE
 
 /obj/item/envelope/suicide_act(mob/user)
 	user.visible_message("<span class='suicide'>[user] is licking a sharp corner of the envelope. It looks like [user.p_theyre()] trying to commit suicide!</span>")
@@ -38,6 +39,9 @@
 
 /obj/item/envelope/Initialize(mapload)
 	. = ..()
+	if(mapperbus)
+		return
+
 	var/item = pick(possible_contents)
 	new item(src)
 	new /obj/item/stack/spacecash(src, rand(1, 50) * 5)

@@ -1220,6 +1220,7 @@
 /area/station/fluff_ship)
 "GA" = (
 /obj/structure/chair/sofa/corp/left,
+/obj/item/storage/backpack/duffel/syndie/orlandos,
 /turf/simulated/floor/plasteel{
 	icon_state = "darkblue"
 	},
@@ -1411,7 +1412,9 @@
 /turf/simulated/floor/plating,
 /area/station/fluff_ship/bridge)
 "Lb" = (
-/obj/machinery/processor,
+/obj/machinery/processor{
+	dir = 8
+	},
 /turf/simulated/floor/plasteel{
 	icon_regular_floor = "yellowsiding";
 	icon_state = "tranquillite"

@@ -120,3 +120,57 @@
 
 /obj/structure/closet/secure_closet/personal/cabinet/fluff_ship/populate_contents()
 	return
+
+/obj/item/clothing/gloves/ring/shadow/astras
+	name = "Astra's ring"
+	desc = "A ring of smooth, soot-black metal. A single, large amethyst is embedded into it."
+	fluff_material = TRUE
+	stud = TRUE
+
+/obj/item/paper/astras
+	name = "ornate letter"
+	info = "<i>The paper is written in pleasant-to-read, flowing handwriting.</i> <br> \
+			Dear Orlando,\n \
+			As I am finalizing my new chassis - Lazuli, I believe, we settled on - I've realised that were something to happen to me, \
+			whether that be because of the Syndicate or pure happenstance, you might be entirely left out of the loop on what happens. \
+			To that end, though it pains me to not be able to share everything with you, and there is a lot you do not know, I'm penning \
+			this letter to you, with the intention that one of my connections at Fafnir would be able to deliver it in the event of my termination. \n \
+			I've likely been gone for some weeks now, as this letter is quite well hidden, and my parents won't look into my belongings immediately. \
+			With that aside - I do find it somewhat hard to put into words what I want to convey to you. As I always have, though I may hide it. <br> \
+			<i>There's a splotch of ink here, where the tip of a pen sat for some time and feathered out.</i> <br> \
+			Were it not for your presence, I think I would have left Nanotrasen a very long time ago. Frankly, I do not like their policies and stations \
+			in the slightest, and there's never truly moments of peace. However, though we've apparently had some bad blood before <br> \
+			<i>A few words were written, then scratched out.</i> <br> \
+			Though something may have happened before I lost my memory, you still light up my visits to Epsilon Eridani. I am, regretfully, \
+			horrific at conveying these things - sometimes I curse my nature, though then I remember I'd have to contend with hormones and the like - \
+			I do care for you, truly, and thoroughly. No, not that - damn my lack of planning. Orlando, if I speak with \"carefully-measured pauses\" \
+			it's because I'm lost for words - not because I'm some silver-tongued devil. No, I do not 'care for you,' I love you, and that makes this \
+			all the more difficult to write. I would not be able to begin consoling you, much less through a surely years-old letter. I don't want to write \
+			for much longer - surely, you have better things to be doing in the future than reading this silly machine's rambles and internal monologue. \
+			I've put my craftsmanship and, frankly, excessive disposable income to work and made you a ring to remember me by. To that extent, please, \
+			remember that I will always be with you. <br> \
+			Until we meet again, <br> \
+			<i>Astra</i>"
+
+/obj/item/envelope/orlandos
+	name = "ornate letter for Orlando GT-R"
+	desc = "It's made of fancy craft paper. The wax seal has a glittery effect to it."
+	icon_state = "mail_sci"
+	recipient = "Orlando GT-R"
+	mapperbus = TRUE
+
+/obj/item/envelope/orlandos/Initialize(mapload)
+	. = ..()
+	new /obj/item/paper/astras(src)
+	new /obj/item/clothing/gloves/ring/shadow/astras(src)
+
+/obj/item/storage/backpack/duffel/syndie/orlandos
+	name = "Orlando's duffelbag"
+	desc = "A Syndicate dufflebag plundered from the maintenance tunnels of the NSS Cyberiad."
+
+/obj/item/storage/backpack/duffel/syndie/orlandos/Initialize(mapload)
+	. = ..()
+	new /obj/item/storage/bible(src)
+	new /obj/item/pen/multi(src)
+	new /obj/item/clothing/gloves/ring/gold(src)
+	new /obj/item/crowbar/red(src)
