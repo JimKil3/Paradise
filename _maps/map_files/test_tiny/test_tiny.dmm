@@ -55,6 +55,8 @@
 /obj/item/clothing/head/beret/black,
 /obj/item/clothing/head/beret/durathread,
 /obj/item/clothing/under/pants/blackjeans,
+/obj/item/clothing/under/misc/pj/red,
+/obj/item/clothing/shoes/slippers,
 /turf/simulated/floor/plasteel{
 	dir = 8;
 	icon_state = "darkyellowfull"
@@ -290,9 +292,14 @@
 /obj/machinery/light{
 	dir = 1
 	},
-/obj/item/toy/plushie/abductor/agent,
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 4
+	},
+/obj/item/clothing/gloves/ring/shadow/astras{
+	pixel_x = 6
+	},
+/obj/item/paper/astras{
+	pixel_x = -6
 	},
 /turf/simulated/floor/plasteel{
 	icon_state = "darkblue"
@@ -541,6 +548,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 10
 	},
+/obj/item/toy/plushie/abductor/agent,
 /turf/simulated/floor/plasteel,
 /area/station/fluff_ship/bridge)
 "pM" = (
@@ -1272,6 +1280,8 @@
 /obj/item/clothing/glasses/hud/health/sunglasses,
 /obj/item/clothing/under/pants/tan,
 /obj/item/melee/energy/cleaving_saw,
+/obj/item/clothing/under/misc/pj/blue,
+/obj/item/clothing/shoes/slippers,
 /turf/simulated/floor/plasteel{
 	icon_state = "darkpurplefull"
 	},
@@ -1608,7 +1618,6 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/obj/item/toy/plushie/orange_fox/grump,
 /obj/item/storage/box/cups,
 /turf/simulated/floor/plasteel,
 /area/station/fluff_ship/bridge)
@@ -1851,6 +1860,7 @@
 /obj/machinery/door/window/classic/reversed{
 	dir = 1
 	},
+/obj/item/toy/plushie/orange_fox/grump,
 /turf/simulated/floor/plasteel{
 	icon_regular_floor = "yellowsiding";
 	icon_state = "tranquillite"
