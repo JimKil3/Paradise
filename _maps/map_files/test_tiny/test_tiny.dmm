@@ -735,6 +735,12 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 6
 	},
+/obj/item/stack/sheet/wood{
+	amount = 20
+	},
+/obj/item/stack/sheet/cardboard{
+	amount = 25
+	},
 /turf/simulated/floor/engine,
 /area/station/fluff_ship/engineering)
 "vf" = (
@@ -782,6 +788,7 @@
 /obj/item/reagent_containers/food/snacks/salmonmeat,
 /obj/item/reagent_containers/food/snacks/shrimp,
 /obj/item/reagent_containers/food/snacks/shrimp,
+/obj/item/reagent_containers/food/condiment/enzyme,
 /turf/simulated/floor/plasteel{
 	icon_regular_floor = "yellowsiding";
 	icon_state = "tranquillite"
@@ -955,10 +962,10 @@
 /turf/simulated/floor/engine,
 /area/station/fluff_ship/engineering)
 "Ae" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/door/window/classic/reversed{
 	dir = 1
 	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /turf/simulated/floor/plasteel{
 	icon_regular_floor = "yellowsiding";
 	icon_state = "tranquillite"
@@ -1004,9 +1011,6 @@
 "AN" = (
 /obj/structure/table/reinforced,
 /obj/machinery/kitchen_machine/microwave/upgraded,
-/obj/machinery/door/window/classic/reversed{
-	dir = 1
-	},
 /turf/simulated/floor/plasteel{
 	icon_regular_floor = "yellowsiding";
 	icon_state = "tranquillite"
@@ -1146,6 +1150,11 @@
 	icon_state = "4-8"
 	},
 /obj/machinery/light,
+/obj/structure/bed/dogbed{
+	name = "Sirius' bed"
+	},
+/obj/item/toy/cattoy,
+/mob/living/simple_animal/pet/cat/sirius,
 /turf/simulated/floor/plasteel{
 	icon_state = "darkpurple"
 	},
@@ -1178,8 +1187,16 @@
 /turf/simulated/floor/plasteel/dark,
 /area/station/fluff_ship/bridge)
 "Eh" = (
-/obj/structure/closet/walllocker/emerglocker/north,
-/obj/item/storage/pill_bottle/painkillers,
+/obj/structure/closet/walllocker/emerglocker/north{
+	filled = 0
+	},
+/obj/item/storage/pill_bottle/painkillers{
+	pixel_x = -10
+	},
+/obj/item/storage/pill_bottle/charcoal,
+/obj/item/storage/pill_bottle/antihol{
+	pixel_x = 10
+	},
 /turf/simulated/floor/plasteel{
 	icon_state = "white"
 	},
@@ -1355,9 +1372,6 @@
 /area/shuttle/arrival/station)
 "Jq" = (
 /obj/structure/table/reinforced,
-/obj/machinery/door/window/classic/reversed{
-	dir = 1
-	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/item/reagent_containers/food/condiment/saltshaker{
 	pixel_x = -4
@@ -1466,7 +1480,9 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/obj/structure/closet/walllocker/emerglocker/south,
+/obj/structure/closet/walllocker/emerglocker/south{
+	filled = 0
+	},
 /obj/item/storage/firstaid/adv,
 /turf/simulated/floor/plasteel{
 	dir = 1;
@@ -1914,9 +1930,6 @@
 /area/station/fluff_ship/bridge)
 "Wa" = (
 /obj/structure/table/reinforced,
-/obj/machinery/door/window/classic/reversed{
-	dir = 1
-	},
 /obj/item/toy/plushie/orange_fox/grump,
 /turf/simulated/floor/plasteel{
 	icon_regular_floor = "yellowsiding";
@@ -1985,7 +1998,9 @@
 /area/station/fluff_ship/bridge)
 "Xq" = (
 /obj/structure/table/glass,
-/obj/item/deck/cards/syndicate,
+/obj/item/deck/cards/syndicate{
+	pixel_x = -6
+	},
 /obj/structure/cable{
 	d1 = 1;
 	d2 = 2;
@@ -1993,6 +2008,9 @@
 	},
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 8
+	},
+/obj/item/deck/unum{
+	pixel_x = 8
 	},
 /turf/simulated/floor/plasteel,
 /area/station/fluff_ship/bridge)
@@ -35088,7 +35106,7 @@ el
 el
 el
 ST
-ST
+Yo
 UN
 ST
 GV

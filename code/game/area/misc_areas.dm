@@ -174,3 +174,30 @@
 	new /obj/item/pen/multi(src)
 	new /obj/item/clothing/gloves/ring/gold(src)
 	new /obj/item/crowbar/red(src)
+
+/mob/living/simple_animal/pet/cat/sirius
+	name = "Sirius"
+	desc = "The Ivory Tower's cat."
+	icon_state = "cat"
+	icon_living = "cat"
+	icon_dead = "cat_dead"
+	icon_resting = "cat_rest"
+	gender = FEMALE
+	gold_core_spawnable = NO_SPAWN
+	unique_pet = TRUE
+
+/obj/item/reagent_containers/food/pill/antihol
+	name = "\improper Antihol pill"
+	desc = "A pill that helps with drunkenness and hangovers."
+	icon_state = "pill3"
+	list_reagents = list("antihol" = 10)
+
+/obj/item/storage/pill_bottle/antihol
+	name = "Pill Bottle (Antihol)"
+	desc = "Contains antihol pills, used to cure drunkenness and hangovers."
+	wrapper_color = COLOR_DEEP_SKY_BLUE
+
+/obj/item/storage/pill_bottle/antihol/populate_contents()
+	. = ..()
+	for(var/i in 1 to 7)
+		new /obj/item/reagent_containers/food/pill/antihol(src)

@@ -21,17 +21,19 @@
 	icon_state = "emerg"
 	icon_closed = "emerg"
 	icon_opened = "emerg_open"
+	var/filled = TRUE
 
 /obj/structure/closet/walllocker/emerglocker/populate_contents()
-	new /obj/item/tank/internals/emergency_oxygen(src)
-	new /obj/item/tank/internals/emergency_oxygen(src)
-	new /obj/item/tank/internals/emergency_oxygen(src)
-	new /obj/item/clothing/mask/breath(src)
-	new /obj/item/clothing/mask/breath(src)
-	new /obj/item/clothing/mask/breath(src)
-	new /obj/item/crowbar(src)
-	new /obj/item/crowbar(src)
-	new /obj/item/crowbar(src)
+	if(filled)
+		new /obj/item/tank/internals/emergency_oxygen(src)
+		new /obj/item/tank/internals/emergency_oxygen(src)
+		new /obj/item/tank/internals/emergency_oxygen(src)
+		new /obj/item/clothing/mask/breath(src)
+		new /obj/item/clothing/mask/breath(src)
+		new /obj/item/clothing/mask/breath(src)
+		new /obj/item/crowbar(src)
+		new /obj/item/crowbar(src)
+		new /obj/item/crowbar(src)
 
 /obj/structure/closet/walllocker/emerglocker/north
 	pixel_y = 32
