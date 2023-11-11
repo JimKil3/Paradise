@@ -1064,7 +1064,7 @@
 /area/ruin/powered/fafnir)
 "py" = (
 /obj/machinery/computer/security{
-	network = list("SS13","Research    Outpost","Mining    Outpost")
+	network = list("SS13","Research        Outpost","Mining        Outpost")
 	},
 /turf/simulated/floor/plasteel{
 	dir = 4;
@@ -1389,9 +1389,9 @@
 /area/ruin/powered/fafnir)
 "tx" = (
 /obj/structure/bed,
-/obj/item/bedsheet/rd{
-	name = "Fancy Purple Bedsheet";
-	desc = "A fancy purple bedsheet with the Fafnir Positronics logo sewn in"
+/obj/item/bedsheet/black{
+	name = "Astra's bedsheet";
+	desc = "A heavy bedsheet with a cable running to a connector in the nearby wall."
 	},
 /turf/simulated/floor/carpet/purple,
 /area/ruin/powered/fafnir)
