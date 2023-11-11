@@ -201,3 +201,6 @@
 	. = ..()
 	for(var/i in 1 to 7)
 		new /obj/item/reagent_containers/food/pill/antihol(src)
+
+/area/ruin/powered/fafnir
+	name = "Fafnir Experimental Positronics"

@@ -58,6 +58,17 @@
 	icon_state = "darkpurple"
 	},
 /area/station/fluff_ship/bedroom)
+"ay" = (
+/obj/machinery/photocopier,
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/obj/machinery/light_switch{
+	name = "north bump";
+	pixel_y = 24
+	},
+/turf/simulated/floor/carpet/royalblack,
+/area/ruin/powered/fafnir)
 "aD" = (
 /obj/machinery/light{
 	dir = 1
@@ -84,6 +95,11 @@
 	icon_state = "darkyellowfull"
 	},
 /area/station/fluff_ship/bedroom)
+"aN" = (
+/turf/simulated/floor/plasteel{
+	icon_state = "white"
+	},
+/area/ruin/powered/fafnir)
 "aY" = (
 /obj/effect/spawner/window/plastitanium,
 /obj/structure/cable,
@@ -109,11 +125,50 @@
 	icon_state = "blackcorner"
 	},
 /area/station/fluff_ship/bridge)
+"br" = (
+/obj/structure/table/glass/reinforced/plastitanium,
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/obj/structure/window/reinforced,
+/turf/simulated/floor/carpet/royalblack,
+/area/ruin/powered/fafnir)
+"bI" = (
+/obj/structure/railing/cap{
+	dir = 8
+	},
+/turf/simulated/floor/plasteel/dark,
+/area/ruin/powered/fafnir)
+"bK" = (
+/obj/effect/turf_decal/delivery/red/partial,
+/turf/simulated/floor/plasteel/dark,
+/area/ruin/powered/fafnir)
 "cd" = (
 /turf/simulated/floor/plasteel{
 	icon_state = "white"
 	},
 /area/station/fluff_ship)
+"cp" = (
+/obj/machinery/door/airlock/command/glass{
+	id_tag = "ntrepofficedoor";
+	name = "Personal Quarters"
+	},
+/turf/simulated/floor/plasteel/dark,
+/area/ruin/powered/fafnir)
+"cE" = (
+/obj/effect/turf_decal/box,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 6
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 6
+	},
+/turf/simulated/floor/plasteel/dark,
+/area/ruin/powered/fafnir)
+"cQ" = (
+/obj/machinery/bluespace_beacon,
+/turf/simulated/floor/plating,
+/area/ruin/powered/fafnir)
 "cS" = (
 /obj/effect/spawner/window/plastitanium,
 /obj/structure/cable{
@@ -127,6 +182,22 @@
 	},
 /turf/simulated/floor/plating,
 /area/station/fluff_ship/bridge)
+"cT" = (
+/obj/machinery/economy/vending/coffee,
+/turf/simulated/floor/plasteel/dark,
+/area/ruin/powered/fafnir)
+"da" = (
+/obj/effect/turf_decal/box,
+/obj/effect/turf_decal/arrows{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/simulated/floor/plasteel/dark,
+/area/ruin/powered/fafnir)
 "dg" = (
 /obj/machinery/alarm/all_access{
 	pixel_y = -24;
@@ -140,6 +211,34 @@
 	icon_state = "dark"
 	},
 /area/station/fluff_ship)
+"dC" = (
+/obj/machinery/conveyor/west{
+	id = "fafassembly";
+	dir = 9
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 10
+	},
+/obj/effect/turf_decal/stripes/corner{
+	dir = 4
+	},
+/turf/simulated/floor/plasteel/dark,
+/area/ruin/powered/fafnir)
+"dJ" = (
+/obj/structure/table,
+/obj/item/storage/belt/utility,
+/obj/item/multitool,
+/turf/simulated/floor/plasteel/dark,
+/area/ruin/powered/fafnir)
+"dV" = (
+/obj/structure/chair/office/dark{
+	dir = 4
+	},
+/turf/simulated/floor/plasteel{
+	dir = 4;
+	icon_state = "darkred"
+	},
+/area/ruin/powered/fafnir)
 "el" = (
 /turf/space,
 /area/space)
@@ -178,12 +277,22 @@
 /obj/item/clothing/head/helmet/space/syndicate/black/red,
 /turf/simulated/floor/engine,
 /area/station/fluff_ship)
+"eC" = (
+/obj/effect/spawner/window/reinforced,
+/turf/simulated/floor/plating,
+/area/ruin/powered/fafnir)
 "eJ" = (
 /obj/structure/chair/sofa/corp,
 /turf/simulated/floor/plasteel{
 	icon_state = "darkblue"
 	},
 /area/station/fluff_ship)
+"eL" = (
+/turf/simulated/floor/plasteel{
+	dir = 4;
+	icon_state = "darkred"
+	},
+/area/ruin/powered/fafnir)
 "eX" = (
 /obj/machinery/light{
 	dir = 1
@@ -191,11 +300,43 @@
 /obj/machinery/computer/teleporter,
 /turf/simulated/floor/mineral/titanium/blue,
 /area/shuttle/arrival/station)
+"fb" = (
+/obj/structure/table,
+/obj/machinery/light{
+	dir = 4
+	},
+/obj/item/mmi,
+/obj/item/tank/internals/anesthetic,
+/obj/item/clothing/mask/breath/medical,
+/obj/machinery/holosign_switch{
+	id = "surgery1";
+	pixel_y = -24;
+	dir = 1;
+	pixel_x = -8
+	},
+/obj/machinery/button/windowtint{
+	id = "fafsurg";
+	pixel_y = -24;
+	req_access_txt = "45";
+	dir = 1;
+	pixel_x = 8
+	},
+/obj/machinery/light_switch{
+	dir = 1;
+	name = "south bump";
+	pixel_y = -24
+	},
+/turf/simulated/floor/plasteel/dark,
+/area/ruin/powered/fafnir)
 "fn" = (
 /obj/machinery/light,
 /obj/machinery/economy/vending/suitdispenser,
 /turf/simulated/floor/mineral/titanium/blue,
 /area/shuttle/arrival/station)
+"fp" = (
+/obj/effect/spawner/window/reinforced/tinted/grilled,
+/turf/simulated/floor/plating,
+/area/ruin/powered/fafnir)
 "fA" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
 	dir = 8
@@ -214,6 +355,51 @@
 	icon_state = "tranquillite"
 	},
 /area/station/fluff_ship)
+"fC" = (
+/obj/machinery/door_control{
+	id = "toilet_unit2";
+	name = "Door Bolt Control";
+	normaldoorcontrol = 1;
+	pixel_y = -25;
+	specialfunctions = 4
+	},
+/obj/machinery/recharge_station,
+/turf/simulated/floor/plasteel{
+	icon_state = "freezerfloor"
+	},
+/area/ruin/powered/fafnir)
+"fG" = (
+/obj/effect/turf_decal/box,
+/turf/simulated/floor/plasteel/dark,
+/area/ruin/powered/fafnir)
+"fL" = (
+/obj/machinery/economy/vending/medical,
+/turf/simulated/floor/plasteel{
+	dir = 8;
+	icon_state = "whiteblue"
+	},
+/area/ruin/powered/fafnir)
+"fM" = (
+/obj/structure/table/wood,
+/obj/item/paper_bin/nanotrasen,
+/obj/item/pen,
+/turf/simulated/floor/carpet/purple,
+/area/ruin/powered/fafnir)
+"fP" = (
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "freezerfloor"
+	},
+/area/ruin/powered/fafnir)
+"fS" = (
+/obj/machinery/door/airlock/hatch{
+	name = "Server Administration";
+	locked = 1
+	},
+/turf/simulated/floor/plating,
+/area/ruin/powered/fafnir)
 "fU" = (
 /obj/structure/railing/cap{
 	dir = 6
@@ -242,6 +428,22 @@
 	icon_state = "darkblue"
 	},
 /area/station/fluff_ship/bridge)
+"gt" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/effect/turf_decal/delivery/red/partial{
+	dir = 1
+	},
+/turf/simulated/floor/plasteel/dark,
+/area/ruin/powered/fafnir)
+"gF" = (
+/obj/structure/chair/sofa,
+/obj/machinery/light_switch{
+	name = "north bump";
+	pixel_y = 24
+	},
+/turf/simulated/floor/carpet/black,
+/area/ruin/powered/fafnir)
 "hd" = (
 /obj/machinery/door/airlock/centcom{
 	name = "Bedroom";
@@ -254,9 +456,26 @@
 	},
 /turf/simulated/floor/plasteel/dark,
 /area/station/fluff_ship/bedroom)
+"hg" = (
+/obj/structure/table/reinforced,
+/obj/machinery/photocopier/faxmachine{
+	department = "Fafnir Security";
+	fax_network = "Fafnir Network"
+	},
+/turf/simulated/floor/plasteel{
+	dir = 5;
+	icon_state = "darkred"
+	},
+/area/ruin/powered/fafnir)
 "hk" = (
 /turf/simulated/wall/mineral/plastitanium/nodiagonal,
 /area/station/fluff_ship/bridge)
+"hq" = (
+/obj/structure/table/wood,
+/obj/item/paper_bin,
+/obj/item/pen,
+/turf/simulated/floor/carpet/royalblue,
+/area/ruin/powered/fafnir)
 "hw" = (
 /obj/machinery/firealarm{
 	dir = 4;
@@ -269,6 +488,15 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/engine,
 /area/station/fluff_ship/engineering)
+"hx" = (
+/obj/machinery/disposal{
+	name = "Personal Weapons Storage"
+	},
+/turf/simulated/floor/plasteel{
+	dir = 4;
+	icon_state = "darkred"
+	},
+/area/ruin/powered/fafnir)
 "hG" = (
 /obj/structure/chair/stool/bar,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -287,6 +515,14 @@
 	icon_state = "darkblue"
 	},
 /area/station/fluff_ship)
+"hK" = (
+/obj/machinery/r_n_d/circuit_imprinter,
+/turf/simulated/floor/plasteel/dark,
+/area/ruin/powered/fafnir)
+"hR" = (
+/obj/machinery/photocopier,
+/turf/simulated/floor/carpet/royalblue,
+/area/ruin/powered/fafnir)
 "ib" = (
 /obj/structure/cable{
 	d1 = 1;
@@ -321,6 +557,72 @@
 	dir = 8
 	},
 /area/station/fluff_ship)
+"iB" = (
+/obj/machinery/light_switch{
+	dir = 8;
+	name = "east bump";
+	pixel_x = 24
+	},
+/turf/simulated/floor/plasteel/dark,
+/area/ruin/powered/fafnir)
+"iD" = (
+/turf/simulated/floor/carpet/black,
+/area/ruin/powered/fafnir)
+"iF" = (
+/obj/structure/railing/cap{
+	dir = 1
+	},
+/turf/simulated/floor/plasteel/dark,
+/area/ruin/powered/fafnir)
+"iM" = (
+/turf/simulated/floor/plasteel{
+	icon_state = "freezerfloor"
+	},
+/area/ruin/powered/fafnir)
+"iW" = (
+/obj/structure/table/wood,
+/obj/machinery/recharger{
+	pixel_y = 4
+	},
+/turf/simulated/floor/carpet/purple,
+/area/ruin/powered/fafnir)
+"jo" = (
+/obj/machinery/door/airlock/hatch{
+	name = "Auxiliary Storage Bay";
+	locked = 1
+	},
+/turf/simulated/floor/plating,
+/area/ruin/powered/fafnir)
+"jq" = (
+/obj/machinery/mech_bay_recharge_port{
+	dir = 8
+	},
+/turf/simulated/floor/bluegrid,
+/area/ruin/powered/fafnir)
+"js" = (
+/obj/structure/table,
+/obj/machinery/conveyor_switch/oneway{
+	id = "fafassembly"
+	},
+/turf/simulated/floor/engine,
+/area/ruin/powered/fafnir)
+"jw" = (
+/obj/machinery/economy/vending/cigarette,
+/turf/simulated/floor/plasteel/dark,
+/area/ruin/powered/fafnir)
+"ka" = (
+/obj/effect/turf_decal/loading_area{
+	dir = 1
+	},
+/turf/simulated/floor/engine,
+/area/ruin/powered/fafnir)
+"ke" = (
+/obj/machinery/door/window/reinforced/normal{
+	name = "Reception Desk";
+	dir = 4
+	},
+/turf/simulated/floor/carpet/royalblack,
+/area/ruin/powered/fafnir)
 "kn" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 8
@@ -329,6 +631,81 @@
 	icon_state = "darkblue"
 	},
 /area/station/fluff_ship)
+"kp" = (
+/obj/machinery/door/airlock/research{
+	name = "Assembly Line"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/turf/simulated/floor/engine,
+/area/ruin/powered/fafnir)
+"kr" = (
+/obj/structure/railing/cap/normal{
+	dir = 1
+	},
+/turf/simulated/floor/plasteel/dark,
+/area/ruin/powered/fafnir)
+"ks" = (
+/obj/structure/chair/wood{
+	dir = 1
+	},
+/obj/machinery/newscaster{
+	dir = 8;
+	name = "east bump";
+	pixel_x = 28
+	},
+/turf/simulated/floor/carpet/black,
+/area/ruin/powered/fafnir)
+"kv" = (
+/obj/machinery/door/airlock{
+	id_tag = "toilet_unit1";
+	name = "Public Restroom"
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "freezerfloor"
+	},
+/area/ruin/powered/fafnir)
+"kQ" = (
+/obj/structure/table/glass/reinforced/plastitanium,
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/obj/machinery/door_control{
+	id = "fafeast";
+	name = "West Entrance Door";
+	normaldoorcontrol = 1;
+	pixel_x = -5;
+	pixel_y = -3
+	},
+/turf/simulated/floor/carpet/royalblack,
+/area/ruin/powered/fafnir)
+"kS" = (
+/obj/structure/chair{
+	dir = 8
+	},
+/turf/simulated/floor/carpet/royalblue,
+/area/ruin/powered/fafnir)
+"kV" = (
+/obj/machinery/recharge_station,
+/turf/simulated/floor/plasteel/dark,
+/area/ruin/powered/fafnir)
+"lh" = (
+/obj/structure/railing,
+/turf/simulated/floor/plasteel/stairs{
+	dir = 8
+	},
+/area/ruin/powered/fafnir)
+"lk" = (
+/obj/machinery/door/airlock/hatch{
+	name = "Tertiary Storage";
+	locked = 1
+	},
+/turf/simulated/floor/plating,
+/area/ruin/powered/fafnir)
 "lx" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -346,6 +723,33 @@
 "lE" = (
 /turf/simulated/wall/mineral/plastitanium/nodiagonal,
 /area/station/fluff_ship/engineering)
+"lF" = (
+/obj/item/storage/backpack/duffel/science,
+/obj/structure/table/tray,
+/obj/item/storage/firstaid/machine,
+/turf/simulated/floor/plasteel{
+	dir = 4;
+	icon_state = "whitepurple"
+	},
+/area/ruin/powered/fafnir)
+"lI" = (
+/obj/structure/table/wood,
+/obj/machinery/computer/secure_data/laptop{
+	dir = 8;
+	pixel_y = 2;
+	pixel_x = -4
+	},
+/turf/simulated/floor/carpet/royalblue,
+/area/ruin/powered/fafnir)
+"lJ" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/door/poddoor/preopen{
+	id_tag = "fafsecsouth";
+	name = "Security South Door"
+	},
+/turf/simulated/floor/catwalk,
+/area/ruin/powered/fafnir)
 "lL" = (
 /obj/machinery/light{
 	dir = 1
@@ -374,6 +778,19 @@
 	icon_state = "black"
 	},
 /area/station/fluff_ship)
+"lR" = (
+/obj/structure/closet/secure_closet/security,
+/turf/simulated/floor/plasteel{
+	dir = 8;
+	icon_state = "darkred"
+	},
+/area/ruin/powered/fafnir)
+"lS" = (
+/obj/structure/chair{
+	dir = 1
+	},
+/turf/simulated/floor/plasteel/dark,
+/area/ruin/powered/fafnir)
 "lV" = (
 /obj/structure/cable{
 	d1 = 2;
@@ -396,6 +813,17 @@
 	icon_state = "black"
 	},
 /area/station/fluff_ship/bridge)
+"mk" = (
+/obj/machinery/door/airlock/maintenance{
+	name = "Maintenance Shaft";
+	locked = 1
+	},
+/turf/simulated/floor/plating,
+/area/ruin/powered/fafnir)
+"mr" = (
+/obj/effect/turf_decal,
+/turf/simulated/floor/plasteel/dark,
+/area/ruin/powered/fafnir)
 "mG" = (
 /obj/structure/cable{
 	d1 = 4;
@@ -415,10 +843,39 @@
 	icon_state = "darkpurple"
 	},
 /area/station/fluff_ship/bedroom)
+"mJ" = (
+/obj/machinery/computer/operating{
+	name = "Robotics Operating Computer";
+	dir = 1
+	},
+/turf/simulated/floor/plasteel{
+	dir = 8;
+	icon_state = "whitepurple"
+	},
+/area/ruin/powered/fafnir)
 "mZ" = (
 /obj/machinery/economy/vending/hatdispenser,
 /turf/simulated/floor/mineral/titanium/blue,
 /area/shuttle/arrival/station)
+"na" = (
+/obj/structure/table/glass/reinforced/plastitanium,
+/obj/machinery/photocopier/faxmachine{
+	department = "Fafnir Reception";
+	fax_network = "Fafnir Network"
+	},
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/turf/simulated/floor/carpet/royalblack,
+/area/ruin/powered/fafnir)
+"nc" = (
+/obj/machinery/door/airlock{
+	name = "Staff Restroom"
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "freezerfloor"
+	},
+/area/ruin/powered/fafnir)
 "np" = (
 /obj/item/kirbyplants,
 /obj/structure/cable{
@@ -464,10 +921,81 @@
 /obj/structure/railing/cap,
 /turf/simulated/floor/plasteel,
 /area/station/fluff_ship/bridge)
+"nU" = (
+/obj/structure/sign/bobross{
+	pixel_y = 32
+	},
+/obj/structure/closet/secure_closet/personal/cabinet/fluff_ship,
+/obj/item/clothing/under/syndicate,
+/obj/item/clothing/under/syndicate/tacticool,
+/obj/item/clothing/under/syndicate/combat,
+/obj/item/clothing/shoes/jackboots,
+/obj/item/clothing/head/beret,
+/obj/item/clothing/head/beret/black,
+/turf/simulated/floor/carpet/purple,
+/area/ruin/powered/fafnir)
+"of" = (
+/obj/machinery/light,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/turf/simulated/floor/catwalk,
+/area/ruin/powered/fafnir)
+"oh" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/door/poddoor/preopen{
+	id_tag = "fafsecnorth";
+	name = "Security South Door"
+	},
+/turf/simulated/floor/catwalk,
+/area/ruin/powered/fafnir)
+"ok" = (
+/obj/effect/turf_decal{
+	dir = 8
+	},
+/obj/structure/railing{
+	dir = 8
+	},
+/turf/simulated/floor/plasteel/stairs/right{
+	dir = 1
+	},
+/area/ruin/powered/fafnir)
 "or" = (
 /obj/structure/lattice/catwalk,
 /turf/space,
 /area/space)
+"ow" = (
+/obj/machinery/light_switch{
+	dir = 1;
+	name = "south bump";
+	pixel_y = -24
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "freezerfloor"
+	},
+/area/ruin/powered/fafnir)
+"oz" = (
+/obj/structure/chair/sofa/corner{
+	dir = 4
+	},
+/obj/machinery/button/windowtint{
+	id = "faflounge";
+	pixel_x = -24;
+	dir = 4
+	},
+/turf/simulated/floor/carpet/black,
+/area/ruin/powered/fafnir)
+"oA" = (
+/obj/machinery/photocopier,
+/turf/simulated/floor/plasteel{
+	dir = 9;
+	icon_state = "darkred"
+	},
+/area/ruin/powered/fafnir)
 "oB" = (
 /obj/structure/cable{
 	d1 = 1;
@@ -505,6 +1033,12 @@
 	icon_state = "darkpurple"
 	},
 /area/station/fluff_ship/bedroom)
+"oR" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/structure/railing/cap,
+/turf/simulated/floor/catwalk,
+/area/ruin/powered/fafnir)
 "pa" = (
 /obj/structure/railing/cap/normal{
 	dir = 8
@@ -520,6 +1054,23 @@
 	icon_state = "tranquillite"
 	},
 /area/station/fluff_ship)
+"pe" = (
+/obj/effect/mapping_helpers/airlock/locked,
+/obj/machinery/door/airlock/command,
+/turf/simulated/floor/plating,
+/area/ruin/powered/fafnir)
+"pu" = (
+/turf/simulated/floor/engine,
+/area/ruin/powered/fafnir)
+"py" = (
+/obj/machinery/computer/security{
+	network = list("SS13","Research    Outpost","Mining    Outpost")
+	},
+/turf/simulated/floor/plasteel{
+	dir = 4;
+	icon_state = "darkred"
+	},
+/area/ruin/powered/fafnir)
 "pB" = (
 /turf/simulated/floor/transparent/glass,
 /area/station/fluff_ship)
@@ -568,6 +1119,19 @@
 	},
 /turf/simulated/floor/transparent/glass,
 /area/station/fluff_ship)
+"qb" = (
+/obj/machinery/door/window/reinforced/normal{
+	name = "Reception Desk";
+	dir = 8
+	},
+/turf/simulated/floor/carpet/royalblack,
+/area/ruin/powered/fafnir)
+"qf" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/effect/turf_decal/delivery/red/partial,
+/turf/simulated/floor/plasteel/dark,
+/area/ruin/powered/fafnir)
 "qu" = (
 /turf/simulated/floor/plasteel/stairs{
 	dir = 8
@@ -584,6 +1148,35 @@
 /obj/item/pen/multi/fountain,
 /turf/simulated/floor/plasteel,
 /area/station/fluff_ship/bridge)
+"qI" = (
+/turf/simulated/floor/plasteel{
+	icon_state = "whitepurple"
+	},
+/area/ruin/powered/fafnir)
+"qL" = (
+/obj/structure/table,
+/obj/item/stack/nanopaste{
+	pixel_y = -3;
+	pixel_x = -7
+	},
+/obj/item/stack/nanopaste{
+	pixel_y = 4;
+	pixel_x = 6
+	},
+/obj/item/stack/nanopaste,
+/turf/simulated/floor/plasteel/dark,
+/area/ruin/powered/fafnir)
+"qP" = (
+/obj/machinery/mech_bay_recharge_port,
+/turf/simulated/floor/bluegrid,
+/area/ruin/powered/fafnir)
+"qS" = (
+/obj/structure/table,
+/turf/simulated/floor/plasteel{
+	dir = 8;
+	icon_state = "whiteblue"
+	},
+/area/ruin/powered/fafnir)
 "qT" = (
 /obj/structure/sink{
 	pixel_y = 24
@@ -595,6 +1188,12 @@
 	icon_state = "dark"
 	},
 /area/station/fluff_ship)
+"qW" = (
+/obj/structure/chair/office/dark{
+	dir = 4
+	},
+/turf/simulated/floor/carpet/royalblue,
+/area/ruin/powered/fafnir)
 "rc" = (
 /obj/structure/chair/comfy/corp{
 	dir = 8
@@ -673,6 +1272,52 @@
 /obj/machinery/atmospherics/unary/vent_pump/on,
 /turf/simulated/floor/engine,
 /area/station/fluff_ship/engineering)
+"rR" = (
+/obj/machinery/computer/teleporter{
+	dir = 4
+	},
+/turf/simulated/floor/plating,
+/area/ruin/powered/fafnir)
+"rX" = (
+/obj/structure/table/wood,
+/turf/simulated/floor/carpet/purple,
+/area/ruin/powered/fafnir)
+"sa" = (
+/obj/structure/table/glass/reinforced/plastitanium,
+/obj/machinery/door/window/reinforced/normal{
+	name = "Reception Desk"
+	},
+/obj/machinery/computer/secure_data/laptop{
+	dir = 1;
+	pixel_y = 4
+	},
+/turf/simulated/floor/carpet/royalblack,
+/area/ruin/powered/fafnir)
+"sd" = (
+/obj/machinery/sleeper{
+	dir = 4
+	},
+/turf/simulated/floor/plasteel{
+	dir = 8;
+	icon_state = "whiteblue"
+	},
+/area/ruin/powered/fafnir)
+"sh" = (
+/obj/structure/table/wood,
+/obj/item/phone{
+	pixel_x = -3;
+	pixel_y = 3
+	},
+/obj/machinery/light,
+/turf/simulated/floor/carpet/royalblue,
+/area/ruin/powered/fafnir)
+"sj" = (
+/obj/structure/table/reinforced,
+/obj/item/mecha_parts/core,
+/obj/item/book/manual/ripley_build_and_repair,
+/obj/item/crowbar,
+/turf/simulated/floor/plasteel/dark,
+/area/ruin/powered/fafnir)
 "sl" = (
 /obj/structure/rack,
 /obj/item/storage/belt/utility/full/multitool,
@@ -686,6 +1331,26 @@
 /obj/item/clothing/gloves/color/yellow,
 /turf/simulated/floor/engine,
 /area/station/fluff_ship/engineering)
+"sp" = (
+/obj/structure/table/reinforced,
+/obj/item/clothing/gloves/color/fyellow,
+/turf/simulated/floor/plasteel/dark,
+/area/ruin/powered/fafnir)
+"sz" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/turf/simulated/floor/plasteel/dark,
+/area/ruin/powered/fafnir)
+"sE" = (
+/obj/machinery/door/airlock/hatch{
+	name = "Facility Access"
+	},
+/turf/simulated/floor/plating,
+/area/ruin/powered/fafnir)
+"sQ" = (
+/obj/structure/reagent_dispensers/fueltank,
+/turf/simulated/floor/plasteel/dark,
+/area/ruin/powered/fafnir)
 "sT" = (
 /obj/machinery/door/airlock/hatch{
 	name = "airlock exterior";
@@ -695,6 +1360,10 @@
 /obj/structure/fans/tiny,
 /turf/simulated/floor/engine,
 /area/station/fluff_ship)
+"tf" = (
+/obj/machinery/mecha_part_fabricator,
+/turf/simulated/floor/engine,
+/area/ruin/powered/fafnir)
 "ti" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -710,10 +1379,73 @@
 	},
 /turf/simulated/floor/engine,
 /area/station/fluff_ship/engineering)
+"tp" = (
+/obj/structure/chair/wood,
+/turf/simulated/floor/carpet/black,
+/area/ruin/powered/fafnir)
+"tr" = (
+/obj/machinery/economy/vending/coffee,
+/turf/simulated/floor/carpet/black,
+/area/ruin/powered/fafnir)
+"tx" = (
+/obj/structure/bed,
+/obj/item/bedsheet/rd{
+	name = "Fancy Purple Bedsheet";
+	desc = "A fancy purple bedsheet with the Fafnir Positronics logo sewn in"
+	},
+/turf/simulated/floor/carpet/purple,
+/area/ruin/powered/fafnir)
 "ua" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /turf/simulated/floor/plasteel,
 /area/station/fluff_ship/bridge)
+"uf" = (
+/obj/structure/railing{
+	dir = 8
+	},
+/turf/simulated/floor/plasteel/stairs/right{
+	dir = 1
+	},
+/area/ruin/powered/fafnir)
+"uk" = (
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/simulated/floor/plasteel/dark,
+/area/ruin/powered/fafnir)
+"uo" = (
+/obj/structure/closet/crate/freezer/iv_storage,
+/turf/simulated/floor/plasteel{
+	dir = 8;
+	icon_state = "whiteblue"
+	},
+/area/ruin/powered/fafnir)
+"uA" = (
+/turf/simulated/floor/plating,
+/area/ruin/powered/fafnir)
+"uI" = (
+/obj/structure/filingcabinet,
+/turf/simulated/floor/carpet/royalblack,
+/area/ruin/powered/fafnir)
+"uR" = (
+/obj/structure/bed,
+/obj/item/bedsheet/medical,
+/obj/machinery/light_switch{
+	dir = 8;
+	name = "east bump";
+	pixel_x = 24
+	},
+/turf/simulated/floor/plasteel{
+	dir = 4;
+	icon_state = "whiteblue"
+	},
+/area/ruin/powered/fafnir)
+"uS" = (
+/obj/machinery/status_display{
+	pixel_x = -32
+	},
+/turf/simulated/floor/plasteel/dark,
+/area/ruin/powered/fafnir)
 "uT" = (
 /obj/machinery/door/airlock/freezer{
 	name = "Bathroom";
@@ -723,6 +1455,13 @@
 	icon_state = "white"
 	},
 /area/station/fluff_ship)
+"uV" = (
+/obj/machinery/teleport/hub/upgraded,
+/turf/simulated/floor/plating,
+/area/ruin/powered/fafnir)
+"uX" = (
+/turf/simulated/floor/carpet/purple,
+/area/ruin/powered/fafnir)
 "vd" = (
 /obj/item/stack/sheet/metal/fifty,
 /obj/item/stack/sheet/glass/fifty,
@@ -756,6 +1495,50 @@
 	},
 /turf/simulated/floor/plating/airless,
 /area/station/fluff_ship/bedroom)
+"vg" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/simulated/floor/catwalk,
+/area/ruin/powered/fafnir)
+"vB" = (
+/obj/machinery/door_control{
+	id = "fafbay";
+	name = "Bay Shutters Control";
+	pixel_y = 24
+	},
+/turf/simulated/floor/plasteel/dark,
+/area/ruin/powered/fafnir)
+"vD" = (
+/obj/machinery/button/windowtint{
+	id = "fafoffice";
+	pixel_x = -24;
+	dir = 4
+	},
+/obj/structure/table/wood,
+/obj/machinery/photocopier/faxmachine{
+	department = "Fafnir Facility Manager";
+	fax_network = "Fafnir Network"
+	},
+/obj/machinery/light_switch{
+	dir = 1;
+	name = "south bump";
+	pixel_y = -24
+	},
+/turf/simulated/floor/carpet/royalblue,
+/area/ruin/powered/fafnir)
+"vJ" = (
+/obj/machinery/door/airlock/hatch{
+	name = "Facility Access (OOC AREA)"
+	},
+/turf/simulated/floor/plating,
+/area/ruin/powered/fafnir)
 "vQ" = (
 /obj/machinery/power/smes/engineering,
 /obj/structure/cable{
@@ -764,6 +1547,22 @@
 	},
 /turf/simulated/floor/engine,
 /area/station/fluff_ship/engineering)
+"vU" = (
+/obj/structure/toilet{
+	dir = 4
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "freezerfloor"
+	},
+/area/ruin/powered/fafnir)
+"vZ" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/simulated/floor/catwalk,
+/area/ruin/powered/fafnir)
 "we" = (
 /obj/machinery/smartfridge/food,
 /obj/item/reagent_containers/food/condiment/flour,
@@ -818,6 +1617,46 @@
 /obj/machinery/power/terminal,
 /turf/simulated/floor/engine,
 /area/station/fluff_ship/engineering)
+"wy" = (
+/obj/structure/table/reinforced,
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/obj/machinery/recharger,
+/obj/machinery/door_control{
+	desc = "A remote control-switch for the checkpoint security doors.";
+	id = "fafsecsouth";
+	name = "South Checkpoint Lockdown";
+	pixel_x = -6;
+	pixel_y = 24;
+	req_access_txt = "10"
+	},
+/obj/machinery/door_control{
+	desc = "A remote control-switch for the checkpoint security doors.";
+	id = "fafsecnorth";
+	name = "North Checkpoint Lockdown";
+	pixel_x = 6;
+	pixel_y = 24;
+	req_access_txt = "10"
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "darkredfull"
+	},
+/area/ruin/powered/fafnir)
+"wE" = (
+/obj/machinery/conveyor/west{
+	id = "fafassembly";
+	dir = 1
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/structure/plasticflaps,
+/turf/simulated/floor/plasteel/dark,
+/area/ruin/powered/fafnir)
 "wF" = (
 /obj/machinery/power/apc{
 	name = "south bump";
@@ -857,6 +1696,10 @@
 	},
 /turf/simulated/floor/plasteel,
 /area/station/fluff_ship/bridge)
+"wV" = (
+/obj/structure/chair/office/dark,
+/turf/simulated/floor/carpet/purple,
+/area/ruin/powered/fafnir)
 "wY" = (
 /obj/structure/cable{
 	d1 = 4;
@@ -865,6 +1708,29 @@
 	},
 /turf/simulated/floor/plasteel,
 /area/station/fluff_ship/bridge)
+"xa" = (
+/obj/machinery/conveyor/west{
+	id = "fafassembly";
+	dir = 10
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 6
+	},
+/obj/effect/turf_decal/stripes/corner{
+	dir = 1
+	},
+/turf/simulated/floor/plasteel/dark,
+/area/ruin/powered/fafnir)
+"xf" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/structure/railing/cap/normal,
+/turf/simulated/floor/catwalk,
+/area/ruin/powered/fafnir)
+"xh" = (
+/obj/structure/reagent_dispensers/oil,
+/turf/simulated/floor/plasteel/dark,
+/area/ruin/powered/fafnir)
 "xp" = (
 /obj/machinery/light{
 	dir = 4
@@ -908,6 +1774,24 @@
 	icon_state = "darkblue"
 	},
 /area/station/fluff_ship)
+"ye" = (
+/obj/item/research,
+/obj/structure/closet/crate,
+/turf/simulated/floor/plasteel/dark,
+/area/ruin/powered/fafnir)
+"yl" = (
+/obj/machinery/door/airlock/command/glass{
+	id_tag = "ntrepofficedoor";
+	name = "Staff Lounge"
+	},
+/turf/simulated/floor/plating,
+/area/ruin/powered/fafnir)
+"yn" = (
+/obj/structure/railing,
+/turf/simulated/floor/plasteel/stairs{
+	dir = 4
+	},
+/area/ruin/powered/fafnir)
 "ys" = (
 /obj/machinery/teleport/station,
 /turf/simulated/floor/mineral/titanium/blue,
@@ -926,6 +1810,26 @@
 	},
 /turf/simulated/floor/engine,
 /area/station/fluff_ship)
+"yT" = (
+/obj/machinery/door_control{
+	id = "toilet_unit3";
+	name = "Door Bolt Control";
+	normaldoorcontrol = 1;
+	pixel_y = 25;
+	specialfunctions = 4
+	},
+/obj/structure/toilet{
+	dir = 4
+	},
+/obj/machinery/newscaster{
+	dir = 4;
+	name = "west bump";
+	pixel_x = -28
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "freezerfloor"
+	},
+/area/ruin/powered/fafnir)
 "zc" = (
 /obj/structure/toilet/secret{
 	dir = 1;
@@ -943,6 +1847,21 @@
 	icon_state = "white"
 	},
 /area/station/fluff_ship)
+"zi" = (
+/obj/machinery/door/airlock{
+	id_tag = "toilet_unit3";
+	name = "Public Restroom"
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "freezerfloor"
+	},
+/area/ruin/powered/fafnir)
+"zn" = (
+/turf/simulated/floor/plasteel{
+	dir = 1;
+	icon_state = "whitepurple"
+	},
+/area/ruin/powered/fafnir)
 "zx" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/universal{
 	dir = 4
@@ -961,6 +1880,61 @@
 	},
 /turf/simulated/floor/engine,
 /area/station/fluff_ship/engineering)
+"zD" = (
+/obj/structure/table,
+/obj/item/stack/sheet/metal{
+	amount = 50
+	},
+/obj/item/stack/sheet/metal{
+	amount = 50
+	},
+/obj/item/stack/sheet/metal{
+	amount = 50
+	},
+/obj/item/stack/sheet/glass{
+	amount = 10;
+	pixel_x = -3;
+	pixel_y = 6
+	},
+/obj/item/stack/sheet/glass{
+	amount = 10;
+	pixel_x = -3;
+	pixel_y = 6
+	},
+/obj/item/stack/sheet/glass{
+	amount = 10;
+	pixel_x = -3;
+	pixel_y = 6
+	},
+/turf/simulated/floor/engine,
+/area/ruin/powered/fafnir)
+"zN" = (
+/obj/structure/table/reinforced,
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/obj/machinery/computer/secure_data/laptop{
+	dir = 8;
+	pixel_y = 2;
+	pixel_x = -4
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "darkredfull"
+	},
+/area/ruin/powered/fafnir)
+"zU" = (
+/obj/structure/table/wood,
+/obj/machinery/light,
+/turf/simulated/floor/carpet/purple,
+/area/ruin/powered/fafnir)
+"Ad" = (
+/obj/machinery/light/small{
+	dir = 8
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "freezerfloor"
+	},
+/area/ruin/powered/fafnir)
 "Ae" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/door/window/classic/reversed{
@@ -971,6 +1945,10 @@
 	icon_state = "tranquillite"
 	},
 /area/station/fluff_ship)
+"Ap" = (
+/obj/machinery/r_n_d/protolathe,
+/turf/simulated/floor/plasteel/dark,
+/area/ruin/powered/fafnir)
 "Aw" = (
 /obj/machinery/access_button{
 	pixel_y = 25;
@@ -987,6 +1965,21 @@
 	icon_state = "tranquillite"
 	},
 /area/station/fluff_ship)
+"AA" = (
+/obj/effect/spawner/window/reinforced/polarized{
+	id = "fafsurg"
+	},
+/turf/simulated/floor/plating,
+/area/ruin/powered/fafnir)
+"AB" = (
+/obj/machinery/door/airlock/security/glass{
+	id_tag = "checkpoint";
+	name = "Security Checkpoint Access"
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "darkredfull"
+	},
+/area/ruin/powered/fafnir)
 "AC" = (
 /turf/simulated/floor/plasteel,
 /area/station/fluff_ship/bridge)
@@ -1035,6 +2028,30 @@
 	},
 /turf/simulated/floor/plating,
 /area/station/fluff_ship/bridge)
+"Bi" = (
+/obj/structure/sink{
+	dir = 4;
+	pixel_x = 11
+	},
+/obj/structure/mirror{
+	pixel_x = 28
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "freezerfloor"
+	},
+/area/ruin/powered/fafnir)
+"Bj" = (
+/obj/effect/turf_decal/delivery/red/partial{
+	dir = 1
+	},
+/turf/simulated/floor/plasteel/dark,
+/area/ruin/powered/fafnir)
+"Bo" = (
+/turf/simulated/floor/plasteel{
+	dir = 1;
+	icon_state = "darkred"
+	},
+/area/ruin/powered/fafnir)
 "Bq" = (
 /obj/structure/rack,
 /obj/item/reagent_containers/glass/bucket,
@@ -1048,6 +2065,18 @@
 	icon_state = "dark"
 	},
 /area/station/fluff_ship)
+"Bt" = (
+/turf/simulated/floor/carpet/royalblue,
+/area/ruin/powered/fafnir)
+"Bu" = (
+/obj/structure/table/reinforced,
+/obj/item/paper_bin,
+/obj/item/pen,
+/turf/simulated/floor/plasteel{
+	dir = 10;
+	icon_state = "darkred"
+	},
+/area/ruin/powered/fafnir)
 "BA" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -1061,6 +2090,17 @@
 /obj/machinery/recharger/wallcharger,
 /turf/simulated/wall/mineral/plastitanium,
 /area/station/fluff_ship/engineering)
+"BJ" = (
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/obj/structure/table/reinforced,
+/obj/item/paper_bin,
+/obj/item/pen,
+/turf/simulated/floor/plasteel{
+	icon_state = "darkredfull"
+	},
+/area/ruin/powered/fafnir)
 "Cf" = (
 /obj/structure/table/wood,
 /obj/machinery/computer/secure_data/laptop{
@@ -1087,6 +2127,12 @@
 	},
 /turf/simulated/floor/engine,
 /area/station/fluff_ship/engineering)
+"Ck" = (
+/obj/effect/turf_decal/delivery/partial{
+	dir = 1
+	},
+/turf/simulated/floor/engine,
+/area/ruin/powered/fafnir)
 "Cp" = (
 /turf/simulated/wall/mineral/plastitanium,
 /area/station/fluff_ship/bridge)
@@ -1101,6 +2147,22 @@
 	},
 /turf/simulated/floor/engine,
 /area/station/fluff_ship/engineering)
+"CE" = (
+/obj/effect/turf_decal{
+	dir = 4
+	},
+/turf/simulated/floor/plasteel/dark,
+/area/ruin/powered/fafnir)
+"CL" = (
+/obj/machinery/door/poddoor/preopen{
+	id_tag = "fafsecsouth";
+	name = "Security South Door"
+	},
+/obj/effect/turf_decal/loading_area/red{
+	dir = 1
+	},
+/turf/simulated/floor/plasteel/dark,
+/area/ruin/powered/fafnir)
 "CR" = (
 /obj/effect/spawner/window/plastitanium,
 /obj/structure/cable,
@@ -1110,6 +2172,16 @@
 	},
 /turf/simulated/floor/plating,
 /area/station/fluff_ship/bridge)
+"CS" = (
+/obj/machinery/iv_drip,
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/simulated/floor/plasteel{
+	dir = 4;
+	icon_state = "whiteblue"
+	},
+/area/ruin/powered/fafnir)
 "CU" = (
 /obj/structure/railing{
 	dir = 1
@@ -1129,6 +2201,12 @@
 	icon_state = "blackcorner"
 	},
 /area/station/fluff_ship/bridge)
+"CY" = (
+/obj/structure/mirror{
+	pixel_x = 28
+	},
+/turf/simulated/floor/carpet/purple,
+/area/ruin/powered/fafnir)
 "Dd" = (
 /obj/machinery/power/apc{
 	name = "south bump";
@@ -1159,6 +2237,12 @@
 	icon_state = "darkpurple"
 	},
 /area/station/fluff_ship/bedroom)
+"De" = (
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/simulated/floor/plasteel/dark,
+/area/ruin/powered/fafnir)
 "Di" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /turf/simulated/floor/plasteel{
@@ -1166,6 +2250,14 @@
 	icon_state = "tranquillite"
 	},
 /area/station/fluff_ship)
+"DE" = (
+/obj/machinery/light_switch{
+	dir = 1;
+	name = "south bump";
+	pixel_y = -24
+	},
+/turf/simulated/floor/plasteel/dark,
+/area/ruin/powered/fafnir)
 "DF" = (
 /obj/machinery/door/airlock/multi_tile/glass{
 	dir = 1
@@ -1186,6 +2278,17 @@
 	},
 /turf/simulated/floor/plasteel/dark,
 /area/station/fluff_ship/bridge)
+"DL" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/simulated/floor/carpet/royalblue,
+/area/ruin/powered/fafnir)
+"DV" = (
+/obj/machinery/door/airlock/command,
+/obj/effect/mapping_helpers/airlock/locked,
+/turf/simulated/floor/plating,
+/area/ruin/powered/fafnir)
 "Eh" = (
 /obj/structure/closet/walllocker/emerglocker/north{
 	filled = 0
@@ -1201,6 +2304,78 @@
 	icon_state = "white"
 	},
 /area/station/fluff_ship)
+"Ek" = (
+/obj/machinery/door/airlock/command/glass{
+	id_tag = "ntrepofficedoor";
+	name = "Facility Manager's Office"
+	},
+/turf/simulated/floor/plasteel/dark,
+/area/ruin/powered/fafnir)
+"En" = (
+/obj/machinery/autolathe,
+/obj/machinery/light_switch{
+	dir = 4;
+	name = "west bump";
+	pixel_x = -24
+	},
+/turf/simulated/floor/plasteel/dark,
+/area/ruin/powered/fafnir)
+"Es" = (
+/obj/structure/bed,
+/obj/item/bedsheet/medical,
+/turf/simulated/floor/plasteel{
+	dir = 4;
+	icon_state = "whiteblue"
+	},
+/area/ruin/powered/fafnir)
+"Ex" = (
+/obj/effect/turf_decal,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/turf/simulated/floor/plasteel/dark,
+/area/ruin/powered/fafnir)
+"ED" = (
+/obj/machinery/defibrillator_mount/loaded{
+	pixel_y = 30
+	},
+/turf/simulated/floor/plasteel/dark,
+/area/ruin/powered/fafnir)
+"EG" = (
+/obj/structure/table/glass/reinforced/plastitanium,
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/obj/machinery/door_control{
+	id = "fafwest";
+	name = "West Entrance Door";
+	normaldoorcontrol = 1;
+	pixel_x = 5;
+	pixel_y = -3
+	},
+/obj/item/folder/blue,
+/turf/simulated/floor/carpet/royalblack,
+/area/ruin/powered/fafnir)
+"EH" = (
+/obj/structure/table,
+/obj/item/crowbar,
+/obj/item/stack/cable_coil,
+/obj/item/cautery,
+/obj/item/scalpel,
+/obj/item/hemostat{
+	pixel_x = 6
+	},
+/obj/machinery/light{
+	dir = 8
+	},
+/obj/item/screwdriver,
+/obj/item/wrench,
+/obj/item/weldingtool/largetank,
+/turf/simulated/floor/plasteel/dark,
+/area/ruin/powered/fafnir)
 "ET" = (
 /obj/structure/railing/corner{
 	dir = 4
@@ -1231,6 +2406,14 @@
 	icon_state = "darkpurple"
 	},
 /area/station/fluff_ship/bedroom)
+"Fb" = (
+/obj/machinery/light_switch{
+	dir = 8;
+	name = "east bump";
+	pixel_x = 24
+	},
+/turf/simulated/floor/carpet/purple,
+/area/ruin/powered/fafnir)
 "Fw" = (
 /obj/structure/table,
 /turf/simulated/floor/plasteel{
@@ -1248,6 +2431,30 @@
 	icon_state = "tranquillite"
 	},
 /area/station/fluff_ship)
+"FT" = (
+/obj/machinery/economy/vending/cola,
+/turf/simulated/floor/plasteel/dark,
+/area/ruin/powered/fafnir)
+"Gg" = (
+/obj/vehicle/secway,
+/obj/item/key/security,
+/obj/machinery/light_switch{
+	dir = 4;
+	name = "west bump";
+	pixel_x = -24
+	},
+/turf/simulated/floor/plasteel{
+	dir = 8;
+	icon_state = "darkred"
+	},
+/area/ruin/powered/fafnir)
+"Gr" = (
+/obj/machinery/computer/rdconsole/robotics,
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/simulated/floor/plasteel/dark,
+/area/ruin/powered/fafnir)
 "GA" = (
 /obj/structure/chair/sofa/corp/left,
 /obj/item/storage/backpack/duffel/syndie/orlandos,
@@ -1255,6 +2462,16 @@
 	icon_state = "darkblue"
 	},
 /area/station/fluff_ship)
+"GE" = (
+/obj/machinery/computer/mech_bay_power_console,
+/turf/simulated/floor/bluegrid,
+/area/ruin/powered/fafnir)
+"GM" = (
+/obj/effect/spawner/window/reinforced/polarized{
+	id = "faflounge"
+	},
+/turf/simulated/floor/plating,
+/area/ruin/powered/fafnir)
 "GN" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
 	dir = 8
@@ -1293,6 +2510,20 @@
 	icon_state = "darkblue"
 	},
 /area/station/fluff_ship)
+"GW" = (
+/obj/machinery/door/airlock/command{
+	id_tag = "fafeast";
+	name = "East Entrance"
+	},
+/turf/simulated/floor/plasteel/dark,
+/area/ruin/powered/fafnir)
+"Hf" = (
+/obj/machinery/door/airlock/command/glass{
+	id_tag = "ntrepofficedoor";
+	name = "Theatre Observation"
+	},
+/turf/simulated/floor/plasteel/dark,
+/area/ruin/powered/fafnir)
 "Hs" = (
 /obj/item/ammo_box/magazine/enforcer/lethal,
 /obj/item/ammo_box/magazine/enforcer/lethal,
@@ -1315,12 +2546,80 @@
 	icon_state = "darkblue"
 	},
 /area/station/fluff_ship)
+"Hu" = (
+/obj/effect/spawner/window/reinforced/polarized{
+	id = "fafoffice"
+	},
+/turf/simulated/floor/plating,
+/area/ruin/powered/fafnir)
+"HJ" = (
+/obj/effect/turf_decal/box,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 10
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 10
+	},
+/turf/simulated/floor/plasteel/dark,
+/area/ruin/powered/fafnir)
+"HV" = (
+/obj/structure/filingcabinet/chestdrawer,
+/turf/simulated/floor/carpet/royalblue,
+/area/ruin/powered/fafnir)
+"HX" = (
+/obj/structure/table/reinforced,
+/obj/item/clipboard,
+/turf/simulated/floor/plasteel{
+	dir = 8;
+	icon_state = "darkred"
+	},
+/area/ruin/powered/fafnir)
+"Ib" = (
+/obj/structure/dresser,
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/simulated/floor/carpet/purple,
+/area/ruin/powered/fafnir)
+"Id" = (
+/obj/structure/table/reinforced,
+/obj/machinery/light,
+/obj/machinery/cell_charger,
+/turf/simulated/floor/plasteel/dark,
+/area/ruin/powered/fafnir)
+"If" = (
+/turf/simulated/floor/carpet/royalblack,
+/area/ruin/powered/fafnir)
+"Io" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/turf/simulated/floor/catwalk,
+/area/ruin/powered/fafnir)
 "Ip" = (
 /obj/structure/chair/sofa/corp/right,
 /turf/simulated/floor/plasteel{
 	icon_state = "darkblue"
 	},
 /area/station/fluff_ship)
+"Ir" = (
+/obj/structure/chair{
+	dir = 4
+	},
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/simulated/floor/plasteel/dark,
+/area/ruin/powered/fafnir)
+"It" = (
+/turf/simulated/floor/plasteel{
+	dir = 5;
+	icon_state = "whitepurple"
+	},
+/area/ruin/powered/fafnir)
 "Iy" = (
 /obj/effect/spawner/window/plastitanium,
 /obj/machinery/door/poddoor/multi_tile/impassable/three_tile_hor{
@@ -1370,6 +2669,23 @@
 	},
 /turf/simulated/floor/mineral/titanium/blue,
 /area/shuttle/arrival/station)
+"Jb" = (
+/obj/structure/railing/cap/normal,
+/turf/simulated/floor/plasteel/dark,
+/area/ruin/powered/fafnir)
+"Jn" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/simulated/floor/catwalk,
+/area/ruin/powered/fafnir)
+"Jo" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/turf/simulated/floor/catwalk,
+/area/ruin/powered/fafnir)
 "Jq" = (
 /obj/structure/table/reinforced,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -1390,6 +2706,19 @@
 	dir = 1
 	},
 /area/station/fluff_ship/bridge)
+"JK" = (
+/obj/structure/table/reinforced,
+/obj/machinery/door/window/reinforced/normal{
+	dir = 8;
+	name = "Checkpoint"
+	},
+/obj/structure/window/reinforced{
+	dir = 1
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "darkredfull"
+	},
+/area/ruin/powered/fafnir)
 "JL" = (
 /obj/structure/railing/cap{
 	dir = 9
@@ -1421,6 +2750,60 @@
 	icon_state = "black"
 	},
 /area/station/fluff_ship/bridge)
+"JV" = (
+/obj/machinery/door/poddoor/shutters/preopen{
+	id_tag = "fafbay";
+	name = "Privacy Shutters"
+	},
+/turf/simulated/floor/plasteel/dark,
+/area/ruin/powered/fafnir)
+"JW" = (
+/obj/structure/reagent_dispensers/water_cooler,
+/turf/simulated/floor/plasteel/dark,
+/area/ruin/powered/fafnir)
+"Kh" = (
+/obj/machinery/light{
+	dir = 4
+	},
+/obj/structure/chair{
+	dir = 8
+	},
+/turf/simulated/floor/plasteel/dark,
+/area/ruin/powered/fafnir)
+"Kk" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/door/airlock/research{
+	name = "Assembly Line"
+	},
+/turf/simulated/floor/engine,
+/area/ruin/powered/fafnir)
+"Ko" = (
+/obj/structure/table,
+/obj/item/storage/toolbox/mechanical{
+	pixel_x = -2;
+	pixel_y = -1
+	},
+/obj/item/storage/toolbox/electrical{
+	pixel_x = 1;
+	pixel_y = 6
+	},
+/obj/item/book/manual/wiki/robotics_cyborgs,
+/turf/simulated/floor/plasteel/dark,
+/area/ruin/powered/fafnir)
+"Kp" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/turf/simulated/floor/engine,
+/area/ruin/powered/fafnir)
 "Kt" = (
 /obj/effect/spawner/window/plastitanium,
 /obj/structure/cable{
@@ -1433,10 +2816,26 @@
 	},
 /turf/simulated/floor/plating,
 /area/station/fluff_ship/bridge)
+"Ku" = (
+/obj/machinery/door_control{
+	id = "toilet_unit1";
+	name = "Door Bolt Control";
+	normaldoorcontrol = 1;
+	pixel_y = 25;
+	specialfunctions = 4
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "freezerfloor"
+	},
+/area/ruin/powered/fafnir)
 "KL" = (
 /obj/machinery/teleport/hub,
 /turf/simulated/floor/mineral/titanium/blue,
 /area/shuttle/arrival/station)
+"KM" = (
+/obj/structure/table/wood,
+/turf/simulated/floor/carpet/royalblue,
+/area/ruin/powered/fafnir)
 "KT" = (
 /obj/effect/spawner/window/plastitanium,
 /obj/structure/cable{
@@ -1489,6 +2888,13 @@
 	icon_state = "darkblue"
 	},
 /area/station/fluff_ship)
+"Lk" = (
+/obj/effect/turf_decal/caution{
+	dir = 4;
+	pixel_x = -6
+	},
+/turf/simulated/floor/plasteel/dark,
+/area/ruin/powered/fafnir)
 "Ll" = (
 /turf/simulated/wall/mineral/titanium,
 /area/shuttle/arrival/station)
@@ -1500,6 +2906,15 @@
 /obj/machinery/autolathe/upgraded,
 /turf/simulated/floor/engine,
 /area/station/fluff_ship/engineering)
+"Lv" = (
+/obj/structure/chair{
+	dir = 8
+	},
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/simulated/floor/plasteel/dark,
+/area/ruin/powered/fafnir)
 "LC" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -1517,6 +2932,15 @@
 	icon_state = "darkblue"
 	},
 /area/station/fluff_ship)
+"LE" = (
+/obj/effect/turf_decal{
+	dir = 8
+	},
+/obj/structure/railing/cap{
+	dir = 1
+	},
+/turf/simulated/floor/plasteel/dark,
+/area/ruin/powered/fafnir)
 "Ma" = (
 /obj/structure/cable{
 	d1 = 1;
@@ -1557,6 +2981,44 @@
 "Mj" = (
 /turf/simulated/wall/mineral/plastitanium,
 /area/station/fluff_ship/engineering)
+"Mz" = (
+/obj/machinery/door/airlock{
+	id_tag = "toilet_unit2";
+	name = "Public Restroom"
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "freezerfloor"
+	},
+/area/ruin/powered/fafnir)
+"MU" = (
+/obj/machinery/economy/vending/chinese,
+/turf/simulated/floor/carpet/black,
+/area/ruin/powered/fafnir)
+"MY" = (
+/obj/structure/chair{
+	dir = 8
+	},
+/obj/machinery/newscaster{
+	dir = 8;
+	name = "east bump";
+	pixel_x = 28
+	},
+/turf/simulated/floor/plasteel/dark,
+/area/ruin/powered/fafnir)
+"MZ" = (
+/obj/machinery/conveyor/west{
+	id = "fafassembly";
+	dir = 2
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/structure/plasticflaps,
+/turf/simulated/floor/plasteel/dark,
+/area/ruin/powered/fafnir)
 "Nv" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 5
@@ -1571,6 +3033,25 @@
 	},
 /turf/simulated/floor/engine,
 /area/station/fluff_ship/engineering)
+"Ny" = (
+/obj/machinery/light,
+/turf/simulated/floor/plating,
+/area/ruin/powered/fafnir)
+"NU" = (
+/obj/machinery/door/poddoor/preopen{
+	id_tag = "fafsecnorth";
+	name = "Security South Door"
+	},
+/obj/effect/turf_decal/loading_area/red,
+/turf/simulated/floor/plasteel/dark,
+/area/ruin/powered/fafnir)
+"NV" = (
+/obj/machinery/door/airlock/command{
+	id_tag = "fafwest";
+	name = "West Entrance"
+	},
+/turf/simulated/floor/plasteel/dark,
+/area/ruin/powered/fafnir)
 "Oj" = (
 /obj/structure/shuttle/engine/propulsion{
 	dir = 8;
@@ -1597,6 +3078,12 @@
 /obj/item/clothing/mask/gas,
 /turf/simulated/floor/engine,
 /area/station/fluff_ship)
+"OE" = (
+/obj/structure/chair{
+	dir = 4
+	},
+/turf/simulated/floor/plasteel/dark,
+/area/ruin/powered/fafnir)
 "OM" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
@@ -1617,6 +3104,33 @@
 /obj/item/stock_parts/cell/high,
 /turf/simulated/floor/engine,
 /area/station/fluff_ship/engineering)
+"OS" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/turf/simulated/floor/catwalk,
+/area/ruin/powered/fafnir)
+"OV" = (
+/obj/structure/table/reinforced,
+/obj/machinery/cell_charger,
+/turf/simulated/floor/plasteel/dark,
+/area/ruin/powered/fafnir)
+"OX" = (
+/turf/simulated/floor/plasteel{
+	icon_state = "darkred"
+	},
+/area/ruin/powered/fafnir)
+"Pd" = (
+/obj/effect/turf_decal/box,
+/obj/effect/turf_decal/arrows{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/simulated/floor/plasteel/dark,
+/area/ruin/powered/fafnir)
 "Pf" = (
 /obj/structure/cable{
 	d1 = 2;
@@ -1634,6 +3148,14 @@
 	icon_state = "darkpurple"
 	},
 /area/station/fluff_ship/bedroom)
+"Pm" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/simulated/floor/catwalk,
+/area/ruin/powered/fafnir)
 "Pw" = (
 /obj/structure/table,
 /obj/machinery/light_switch{
@@ -1670,6 +3192,16 @@
 	},
 /turf/simulated/floor/engine,
 /area/station/fluff_ship/engineering)
+"PV" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/simulated/floor/mech_bay_recharge_floor,
+/area/ruin/powered/fafnir)
+"PW" = (
+/obj/structure/railing,
+/turf/simulated/floor/plasteel,
+/area/ruin/powered/fafnir)
 "Qa" = (
 /obj/structure/lattice,
 /turf/space,
@@ -1721,6 +3253,41 @@
 	},
 /turf/simulated/floor/carpet/purple,
 /area/station/fluff_ship/bedroom)
+"QK" = (
+/obj/machinery/door/airlock/medical/glass{
+	name = "Infirmary"
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "white"
+	},
+/area/ruin/powered/fafnir)
+"QN" = (
+/obj/structure/table/reinforced,
+/turf/simulated/floor/plasteel{
+	dir = 6;
+	icon_state = "darkred"
+	},
+/area/ruin/powered/fafnir)
+"QR" = (
+/obj/structure/railing/cap,
+/turf/simulated/floor/plasteel/dark,
+/area/ruin/powered/fafnir)
+"QS" = (
+/obj/machinery/conveyor/west{
+	id = "fafassembly"
+	},
+/obj/effect/turf_decal/stripes/line,
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/turf/simulated/floor/plasteel/dark,
+/area/ruin/powered/fafnir)
+"Rh" = (
+/obj/structure/chair{
+	dir = 8
+	},
+/turf/simulated/floor/plasteel/dark,
+/area/ruin/powered/fafnir)
 "Ro" = (
 /obj/structure/table,
 /obj/machinery/recharger,
@@ -1770,6 +3337,10 @@
 	icon_state = "darkbluecorners"
 	},
 /area/station/fluff_ship)
+"RS" = (
+/obj/machinery/teleport/station,
+/turf/simulated/floor/plating,
+/area/ruin/powered/fafnir)
 "RU" = (
 /turf/simulated/floor/plasteel/dark,
 /area/station/fluff_ship/bridge)
@@ -1788,6 +3359,22 @@
 	},
 /turf/simulated/floor/plasteel,
 /area/station/fluff_ship/bridge)
+"Se" = (
+/obj/structure/railing/cap/normal{
+	dir = 4
+	},
+/turf/simulated/floor/plasteel/dark,
+/area/ruin/powered/fafnir)
+"Sr" = (
+/obj/structure/filingcabinet/chestdrawer,
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/simulated/floor/plasteel{
+	dir = 8;
+	icon_state = "darkred"
+	},
+/area/ruin/powered/fafnir)
 "Su" = (
 /obj/machinery/economy/vending/coffee/free,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -1831,6 +3418,15 @@
 	},
 /turf/simulated/floor/plasteel,
 /area/station/fluff_ship/bridge)
+"SZ" = (
+/obj/machinery/light{
+	dir = 8
+	},
+/obj/structure/chair{
+	dir = 4
+	},
+/turf/simulated/floor/plasteel/dark,
+/area/ruin/powered/fafnir)
 "Ta" = (
 /obj/structure/railing{
 	dir = 1
@@ -1842,6 +3438,13 @@
 	icon_state = "black"
 	},
 /area/station/fluff_ship/bridge)
+"Tb" = (
+/obj/machinery/door/airlock/command/glass{
+	id_tag = "ntrepofficedoor";
+	name = "Staff Lounge"
+	},
+/turf/simulated/floor/carpet/black,
+/area/ruin/powered/fafnir)
 "Tj" = (
 /obj/machinery/door/airlock/hatch{
 	name = "Engineering"
@@ -1860,6 +3463,10 @@
 	},
 /turf/simulated/floor/engine,
 /area/station/fluff_ship/engineering)
+"Ty" = (
+/obj/structure/table/wood,
+/turf/simulated/floor/carpet/black,
+/area/ruin/powered/fafnir)
 "TP" = (
 /obj/effect/spawner/window/plastitanium,
 /obj/structure/cable{
@@ -1879,6 +3486,34 @@
 /obj/item/radio/intercom,
 /turf/simulated/floor/carpet/purple,
 /area/station/fluff_ship/bedroom)
+"TX" = (
+/obj/machinery/door/poddoor/shutters/preopen{
+	dir = 8;
+	id_tag = "fafbay";
+	name = "Privacy Shutters"
+	},
+/turf/simulated/floor/plasteel/dark,
+/area/ruin/powered/fafnir)
+"Up" = (
+/obj/machinery/iv_drip,
+/turf/simulated/floor/plasteel{
+	dir = 4;
+	icon_state = "whiteblue"
+	},
+/area/ruin/powered/fafnir)
+"UB" = (
+/obj/structure/table/reinforced,
+/obj/item/clothing/glasses/hud/diagnostic,
+/obj/item/assembly/prox_sensor{
+	pixel_x = -8;
+	pixel_y = 4
+	},
+/obj/item/stack/cable_coil,
+/turf/simulated/floor/plasteel/dark,
+/area/ruin/powered/fafnir)
+"UC" = (
+/turf/simulated/wall,
+/area/ruin/powered/fafnir)
 "UN" = (
 /obj/structure/curtain/black{
 	name = "shower curtain"
@@ -1903,9 +3538,34 @@
 	icon_state = "darkpurple"
 	},
 /area/station/fluff_ship/bedroom)
+"UR" = (
+/obj/structure/window/reinforced,
+/obj/structure/table/glass/reinforced/plastitanium,
+/obj/item/paper_bin,
+/turf/simulated/floor/carpet/royalblack,
+/area/ruin/powered/fafnir)
+"UZ" = (
+/obj/effect/turf_decal/caution{
+	dir = 8;
+	pixel_x = 6
+	},
+/turf/simulated/floor/plasteel/dark,
+/area/ruin/powered/fafnir)
 "Vn" = (
 /turf/simulated/floor/plasteel/dark,
 /area/station/fluff_ship)
+"Vr" = (
+/obj/effect/mapping_helpers/airlock/polarized{
+	id = "fafsurg"
+	},
+/obj/machinery/holosign/surgery{
+	id = "surgery1"
+	},
+/obj/machinery/door/airlock/research/glass{
+	name = "Robotic Surgical Theater"
+	},
+/turf/simulated/floor/plasteel/dark,
+/area/ruin/powered/fafnir)
 "Vw" = (
 /obj/structure/window/reinforced/tinted{
 	dir = 8
@@ -1921,6 +3581,23 @@
 	icon_state = "blackcorner"
 	},
 /area/station/fluff_ship/bridge)
+"VE" = (
+/obj/structure/sign/securearea{
+	pixel_y = 32
+	},
+/turf/simulated/floor/plasteel/dark,
+/area/ruin/powered/fafnir)
+"VQ" = (
+/obj/machinery/conveyor/west{
+	id = "fafassembly"
+	},
+/obj/effect/turf_decal/stripes/line,
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/machinery/light,
+/turf/simulated/floor/plasteel/dark,
+/area/ruin/powered/fafnir)
 "VT" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /turf/simulated/floor/plasteel{
@@ -1928,6 +3605,9 @@
 	icon_state = "darkblue"
 	},
 /area/station/fluff_ship/bridge)
+"VZ" = (
+/turf/simulated/floor/plasteel/dark,
+/area/ruin/powered/fafnir)
 "Wa" = (
 /obj/structure/table/reinforced,
 /obj/item/toy/plushie/orange_fox/grump,
@@ -1936,6 +3616,20 @@
 	icon_state = "tranquillite"
 	},
 /area/station/fluff_ship)
+"Wq" = (
+/obj/effect/turf_decal{
+	dir = 4
+	},
+/obj/structure/railing/cap/normal{
+	dir = 1
+	},
+/turf/simulated/floor/plasteel/dark,
+/area/ruin/powered/fafnir)
+"Wt" = (
+/obj/structure/table/wood,
+/obj/item/flashlight/lamp/green,
+/turf/simulated/floor/carpet/purple,
+/area/ruin/powered/fafnir)
 "Ww" = (
 /turf/simulated/floor/carpet/purple,
 /area/station/fluff_ship/bedroom)
@@ -1968,10 +3662,34 @@
 	},
 /turf/simulated/floor/plasteel/dark,
 /area/station/fluff_ship/bedroom)
+"WR" = (
+/obj/machinery/bodyscanner{
+	dir = 4
+	},
+/turf/simulated/floor/plasteel{
+	dir = 8;
+	icon_state = "whiteblue"
+	},
+/area/ruin/powered/fafnir)
+"WT" = (
+/turf/simulated/floor/plasteel{
+	dir = 9;
+	icon_state = "whitepurple"
+	},
+/area/ruin/powered/fafnir)
 "WZ" = (
 /obj/structure/railing,
 /turf/simulated/floor/plasteel,
 /area/station/fluff_ship/bridge)
+"Xe" = (
+/obj/structure/closet/firecloset{
+	pixel_x = -8
+	},
+/obj/structure/closet/emcloset{
+	pixel_x = 8
+	},
+/turf/simulated/floor/plasteel/dark,
+/area/ruin/powered/fafnir)
 "Xh" = (
 /obj/machinery/door_control{
 	id = "port_shutters";
@@ -1996,6 +3714,32 @@
 	},
 /turf/simulated/floor/plasteel/dark,
 /area/station/fluff_ship/bridge)
+"Xj" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/simulated/floor/catwalk,
+/area/ruin/powered/fafnir)
+"Xk" = (
+/obj/structure/chair/office/dark,
+/turf/simulated/floor/carpet/royalblack,
+/area/ruin/powered/fafnir)
+"Xm" = (
+/obj/structure/railing{
+	dir = 4
+	},
+/turf/simulated/floor/plasteel/stairs/left{
+	dir = 1
+	},
+/area/ruin/powered/fafnir)
+"Xp" = (
+/turf/simulated/floor/plasteel{
+	dir = 10;
+	icon_state = "whitepurple"
+	},
+/area/ruin/powered/fafnir)
 "Xq" = (
 /obj/structure/table/glass,
 /obj/item/deck/cards/syndicate{
@@ -2032,6 +3776,31 @@
 	},
 /turf/simulated/floor/plating,
 /area/station/fluff_ship/bridge)
+"XH" = (
+/obj/structure/chair/sofa/right{
+	dir = 4
+	},
+/turf/simulated/floor/carpet/black,
+/area/ruin/powered/fafnir)
+"XS" = (
+/obj/structure/table,
+/obj/item/storage/belt/utility,
+/obj/item/clothing/glasses/hud/diagnostic,
+/obj/item/multitool,
+/obj/item/wirecutters,
+/turf/simulated/floor/plasteel/dark,
+/area/ruin/powered/fafnir)
+"XT" = (
+/obj/machinery/disposal{
+	name = "Personal Items Storage"
+	},
+/turf/simulated/floor/carpet/royalblack,
+/area/ruin/powered/fafnir)
+"XY" = (
+/obj/structure/table/wood,
+/obj/item/aicard,
+/turf/simulated/floor/carpet/royalblue,
+/area/ruin/powered/fafnir)
 "Yo" = (
 /turf/simulated/wall/mineral/plastitanium/nodiagonal,
 /area/station/fluff_ship)
@@ -2061,6 +3830,25 @@
 	icon_state = "darkblue"
 	},
 /area/station/fluff_ship)
+"YI" = (
+/obj/structure/table/glass/reinforced/plastitanium,
+/obj/structure/window/reinforced,
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/turf/simulated/floor/carpet/royalblack,
+/area/ruin/powered/fafnir)
+"YJ" = (
+/obj/effect/turf_decal{
+	dir = 4
+	},
+/obj/structure/railing{
+	dir = 4
+	},
+/turf/simulated/floor/plasteel/stairs/left{
+	dir = 1
+	},
+/area/ruin/powered/fafnir)
 "Zb" = (
 /obj/machinery/economy/vending/clothing,
 /turf/simulated/floor/mineral/titanium/blue,
@@ -2078,6 +3866,41 @@
 	},
 /turf/simulated/floor/plating/airless,
 /area/station/fluff_ship/bedroom)
+"Zj" = (
+/obj/machinery/light_switch{
+	dir = 4;
+	name = "west bump";
+	pixel_x = -24
+	},
+/turf/simulated/floor/plasteel/dark,
+/area/ruin/powered/fafnir)
+"Zn" = (
+/obj/structure/table/reinforced,
+/obj/item/storage/toolbox/electrical{
+	pixel_x = 1;
+	pixel_y = 6
+	},
+/obj/item/storage/toolbox/mechanical{
+	pixel_x = -2;
+	pixel_y = -1
+	},
+/turf/simulated/floor/plasteel/dark,
+/area/ruin/powered/fafnir)
+"Zu" = (
+/obj/machinery/optable{
+	name = "Robotics Operating Table"
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "white"
+	},
+/area/ruin/powered/fafnir)
+"ZG" = (
+/obj/structure/chair/sofa/left,
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/simulated/floor/carpet/black,
+/area/ruin/powered/fafnir)
 "ZP" = (
 /obj/structure/cable{
 	d1 = 1;
@@ -2086,6 +3909,18 @@
 	},
 /turf/simulated/floor/plasteel/dark,
 /area/station/fluff_ship)
+"ZT" = (
+/turf/simulated/floor/plasteel{
+	dir = 6;
+	icon_state = "whitepurple"
+	},
+/area/ruin/powered/fafnir)
+"ZU" = (
+/obj/effect/turf_decal{
+	dir = 8
+	},
+/turf/simulated/floor/plasteel/dark,
+/area/ruin/powered/fafnir)
 
 (1,1,1) = {"
 el
@@ -21723,16 +23558,16 @@ el
 el
 el
 el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
+UC
+UC
+UC
+UC
+UC
+UC
+UC
+UC
+UC
+UC
 el
 el
 el
@@ -21980,16 +23815,16 @@ el
 el
 el
 el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
+UC
+EH
+VZ
+uS
+VZ
+qL
+UC
+uk
+lS
+UC
 el
 el
 el
@@ -22237,16 +24072,16 @@ el
 el
 el
 el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
+UC
+VZ
+WT
+mJ
+Xp
+VZ
+AA
+VZ
+lS
+UC
 el
 el
 el
@@ -22494,16 +24329,16 @@ el
 el
 el
 el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
+UC
+ED
+zn
+Zu
+qI
+VZ
+AA
+VZ
+lS
+UC
 el
 el
 el
@@ -22751,16 +24586,16 @@ el
 el
 el
 el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
+UC
+VZ
+It
+lF
+ZT
+VZ
+AA
+VZ
+lS
+UC
 el
 el
 el
@@ -23008,16 +24843,16 @@ el
 el
 el
 el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
+UC
+XS
+VZ
+VZ
+VZ
+fb
+UC
+VZ
+lS
+UC
 el
 el
 el
@@ -23263,6 +25098,23 @@ el
 el
 el
 el
+UC
+UC
+UC
+UC
+AA
+Vr
+AA
+UC
+UC
+Hf
+eC
+UC
+fp
+pe
+fp
+UC
+UC
 el
 el
 el
@@ -23287,26 +25139,9 @@ el
 el
 el
 el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
+UC
+UC
+UC
 el
 el
 el
@@ -23520,55 +25355,55 @@ el
 el
 el
 el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
+UC
+VZ
+VZ
+VZ
+VZ
+VZ
+VZ
+VZ
+VZ
+VZ
+VZ
+VZ
+VZ
+VZ
+VZ
+VZ
+UC
+UC
+UC
+UC
+UC
+UC
+UC
+UC
+UC
+UC
+DV
+UC
+UC
+UC
+mk
+UC
+UC
+UC
+UC
+UC
+UC
+fp
+fp
+UC
+jo
+UC
+Xe
+UC
+UC
+UC
+UC
+UC
+UC
 el
 el
 el
@@ -23777,62 +25612,62 @@ el
 el
 el
 el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
+UC
+Jo
+Jo
+Jo
+sz
+sz
+Jo
+vZ
+Jo
+sz
+sz
+Jo
+Jo
+Jo
+fG
+VZ
+UC
+oA
+Gg
+Sr
+lR
+HX
+Bu
+UC
+VZ
+VZ
+VZ
+Jb
+uf
+iF
+VZ
+UZ
+VZ
+VZ
+VZ
+VZ
+VZ
+VZ
+VZ
+VZ
+VZ
+VZ
+VZ
+UC
+jw
+SZ
+OE
+JW
+UC
+UC
+UC
+UC
+UC
+UC
+UC
+UC
 el
 el
 el
@@ -24034,62 +25869,62 @@ el
 el
 el
 el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
+UC
+UC
+kp
+eC
+eC
+UC
+UC
+UC
+UC
+TX
+TX
+UC
+UC
+UC
+vg
+VZ
+AB
+Bo
+VZ
+VZ
+VZ
+VZ
+OX
+AB
+VZ
+cE
+Jo
+oR
+YJ
+Wq
+OS
+da
+OS
+CE
+CE
+OS
+Pm
+OS
+CE
+CE
+OS
+Pm
+OS
+NV
+VZ
+VZ
+VZ
+VZ
+OE
+Ir
+OE
+UC
+rR
+RS
+uV
+UC
 el
 el
 el
@@ -24291,62 +26126,62 @@ el
 el
 el
 el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
+UC
+En
+Io
+ka
+wE
+dC
+UC
+qP
+VZ
+VZ
+VZ
+Zj
+kV
+UC
+Io
+VZ
+UC
+hg
+py
+dV
+eL
+hx
+QN
+UC
+VZ
+of
+UC
+UC
+Hu
+Hu
+Hu
+UC
+UC
+UC
+UC
+UC
+UC
+UC
+GM
+Tb
+GM
+UC
+UC
+UC
+VZ
+VZ
+VZ
+Se
+VZ
+VZ
+DE
+UC
+uA
+cQ
+Ny
+UC
 el
 el
 el
@@ -24548,62 +26383,62 @@ el
 el
 el
 el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
+UC
+dJ
+Io
+pu
+tf
+QS
+fp
+PV
+VZ
+VZ
+VZ
+VZ
+Id
+UC
+Io
+VZ
+UC
+UC
+wy
+zN
+JK
+BJ
+UC
+UC
+VE
+Io
+UC
+Bt
+XY
+hR
+HV
+vD
+UC
+fC
+UC
+yT
+UC
+oz
+XH
+iD
+iD
+MU
+UC
+ay
+qb
+EG
+YI
+yn
+VZ
+VZ
+VZ
+UC
+UC
+vJ
+UC
+UC
 el
 el
 el
@@ -24805,62 +26640,62 @@ el
 el
 el
 el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
+UC
+hK
+Kp
+pu
+js
+QS
+fp
+GE
+VZ
+xh
+sj
+VZ
+kV
+UC
+VZ
+VZ
+NU
+uk
+VZ
+bK
+Bj
+VZ
+VZ
+CL
+VZ
+Ex
+UC
+Bt
+Bt
+Bt
+Bt
+Bt
+UC
+Mz
+UC
+zi
+UC
+gF
+Ty
+iD
+iD
+tr
+GM
+XT
+If
+Xk
+sa
+PW
+VZ
+VZ
+VZ
+fp
+uA
+uA
+uA
+UC
 el
 el
 el
@@ -25062,62 +26897,62 @@ el
 el
 el
 el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
+UC
+Gr
+Kp
+pu
+tf
+VQ
+UC
+vB
+VZ
+Zn
+sp
+VZ
+OV
+UC
+VZ
+VZ
+oh
+Jo
+Jo
+qf
+gt
+Jo
+Jo
+lJ
+sz
+mr
+UC
+DL
+KM
+qW
+Bt
+sh
+UC
+iM
+Ad
+ow
+UC
+ZG
+Ty
+iD
+iD
+iD
+yl
+If
+If
+If
+UR
+PW
+VZ
+VZ
+VZ
+sE
+uA
+uA
+Ny
+UC
 el
 el
 el
@@ -25319,62 +27154,62 @@ el
 el
 el
 el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
+UC
+Ap
+Io
+pu
+zD
+QS
+fp
+GE
+VZ
+sQ
+UB
+VZ
+kV
+UC
+VZ
+VZ
+NU
+VZ
+VZ
+bK
+Bj
+VZ
+De
+CL
+VZ
+Ex
+UC
+Bt
+hq
+lI
+KM
+KM
+UC
+iM
+iM
+iM
+nc
+iD
+iD
+iD
+iD
+iD
+GM
+uI
+If
+Xk
+sa
+PW
+VZ
+VZ
+VZ
+fp
+uA
+uA
+uA
+UC
 el
 el
 el
@@ -25576,62 +27411,62 @@ el
 el
 el
 el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
+UC
+Ko
+Kp
+pu
+tf
+QS
+fp
+PV
+VZ
+VZ
+VZ
+VZ
+Id
+UC
+Io
+VZ
+UC
+UC
+fp
+fp
+fp
+fp
+UC
+UC
+VE
+Io
+UC
+Bt
+Bt
+kS
+Bt
+Bt
+UC
+Bi
+iM
+Bi
+UC
+iD
+iD
+tp
+Ty
+ks
+UC
+na
+ke
+kQ
+br
+lh
+VZ
+VZ
+VZ
+UC
+UC
+UC
+UC
+UC
 el
 el
 el
@@ -25833,62 +27668,62 @@ el
 el
 el
 el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
+UC
+ye
+Io
+Ck
+MZ
+xa
+UC
+jq
+VZ
+VZ
+VZ
+iB
+kV
+UC
+Io
+VZ
+eC
+sd
+WR
+qS
+uo
+fL
+qS
+UC
+VZ
+of
+UC
+UC
+Hu
+Ek
+Hu
+UC
+UC
+UC
+UC
+UC
+UC
+UC
+GM
+GM
+GM
+UC
+UC
+UC
+VZ
+VZ
+VZ
+bI
+VZ
+VZ
+VZ
+kv
+iM
+fP
+vU
+UC
 el
 el
 el
@@ -26090,62 +27925,62 @@ el
 el
 el
 el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
+UC
+UC
+Kk
+eC
+eC
+UC
+UC
+UC
+UC
+JV
+JV
+UC
+UC
+UC
+vg
+VZ
+QK
+aN
+aN
+aN
+aN
+aN
+aN
+UC
+VZ
+HJ
+OS
+xf
+ok
+LE
+OS
+Pd
+OS
+ZU
+ZU
+OS
+Jn
+OS
+ZU
+ZU
+OS
+Jn
+OS
+GW
+VZ
+VZ
+VZ
+VZ
+MY
+Lv
+Rh
+UC
+Ku
+Bi
+iM
+UC
 el
 el
 el
@@ -26347,62 +28182,62 @@ el
 el
 el
 el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
+UC
+Jo
+Jo
+Jo
+sz
+sz
+Jo
+Xj
+Jo
+sz
+sz
+Jo
+Jo
+Jo
+fG
+VZ
+eC
+Up
+Es
+CS
+uR
+Up
+Es
+UC
+VZ
+VZ
+VZ
+QR
+Xm
+kr
+VZ
+Lk
+VZ
+VZ
+VZ
+VZ
+VZ
+VZ
+VZ
+VZ
+VZ
+VZ
+VZ
+UC
+FT
+Kh
+Rh
+cT
+UC
+UC
+UC
+UC
+UC
+UC
+UC
+UC
 el
 el
 el
@@ -26604,55 +28439,55 @@ el
 el
 el
 el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
+UC
+VZ
+VZ
+VZ
+VZ
+VZ
+VZ
+VZ
+VZ
+VZ
+VZ
+VZ
+VZ
+VZ
+VZ
+VZ
+UC
+UC
+UC
+UC
+UC
+UC
+UC
+UC
+UC
+UC
+UC
+Xe
+UC
+UC
+UC
+UC
+DV
+UC
+UC
+UC
+fp
+fS
+fp
+fp
+fp
+UC
+UC
+UC
+UC
+UC
+UC
+UC
+UC
 el
 el
 el
@@ -26861,6 +28696,23 @@ el
 el
 el
 el
+UC
+UC
+fp
+lk
+fp
+UC
+fp
+pe
+fp
+UC
+UC
+fp
+cp
+fp
+UC
+UC
+UC
 el
 el
 el
@@ -26870,26 +28722,9 @@ el
 el
 el
 el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
+UC
+UC
+UC
 el
 el
 el
@@ -27127,13 +28962,13 @@ el
 el
 el
 el
-el
-el
-el
-el
-el
-el
-el
+UC
+iW
+rX
+uX
+uX
+Wt
+UC
 el
 el
 el
@@ -27384,13 +29219,13 @@ el
 el
 el
 el
-el
-el
-el
-el
-el
-el
-el
+UC
+Ib
+uX
+uX
+wV
+zU
+UC
 el
 el
 el
@@ -27641,13 +29476,13 @@ el
 el
 el
 el
-el
-el
-el
-el
-el
-el
-el
+UC
+nU
+CY
+tx
+Fb
+fM
+UC
 el
 el
 el
@@ -27898,13 +29733,13 @@ el
 el
 el
 el
-el
-el
-el
-el
-el
-el
-el
+UC
+UC
+UC
+UC
+UC
+UC
+UC
 el
 el
 el
