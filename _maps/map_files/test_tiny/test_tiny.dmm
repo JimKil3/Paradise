@@ -21,6 +21,10 @@
 	icon_state = "darkblue"
 	},
 /area/station/fluff_ship)
+"ai" = (
+/obj/structure/flora/grass/jungle,
+/turf/simulated/floor/grass,
+/area/ruin/powered/promise)
 "ao" = (
 /obj/structure/table/wood,
 /obj/item/gun/projectile/automatic/pistol/enforcer/lethal{
@@ -32,6 +36,26 @@
 	icon_state = "darkpurple"
 	},
 /area/station/fluff_ship/bedroom)
+"aq" = (
+/turf/simulated/floor/plasteel/stairs{
+	dir = 1
+	},
+/area/ruin/powered/promise)
+"at" = (
+/obj/structure/window/reinforced/survival_pod,
+/obj/structure/railing{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden{
+	dir = 9
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 10
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "engine"
+	},
+/area/ruin/powered/promise)
 "au" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 8
@@ -69,6 +93,12 @@
 	},
 /turf/simulated/floor/carpet/royalblack,
 /area/ruin/powered/fafnir)
+"aB" = (
+/obj/machinery/economy/vending/snack/free,
+/turf/simulated/floor/plasteel{
+	icon_state = "darkbluefull"
+	},
+/area/ruin/powered/promise)
 "aD" = (
 /obj/machinery/light{
 	dir = 1
@@ -95,11 +125,44 @@
 	icon_state = "darkyellowfull"
 	},
 /area/station/fluff_ship/bedroom)
+"aI" = (
+/obj/structure/flora/ausbushes/fullgrass,
+/obj/structure/flora/ausbushes/sparsegrass,
+/obj/structure/flora/tree/jungle/small,
+/turf/simulated/floor/grass,
+/area/ruin/powered/restraunt)
+"aL" = (
+/obj/structure/railing{
+	dir = 4;
+	pixel_y = -6
+	},
+/obj/structure/railing/corner{
+	dir = 8;
+	pixel_y = 24;
+	pixel_x = 23
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "whitehall";
+	dir = 5
+	},
+/area/ruin/powered/promise)
 "aN" = (
 /turf/simulated/floor/plasteel{
 	icon_state = "white"
 	},
 /area/ruin/powered/fafnir)
+"aQ" = (
+/obj/structure/closet/cardboard,
+/obj/machinery/light/small{
+	dir = 4
+	},
+/turf/simulated/floor/plasteel,
+/area/ruin/powered/promise)
+"aV" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/turf/simulated/floor/plasteel/stairs,
+/area/ruin/powered/promise)
 "aY" = (
 /obj/effect/spawner/window/plastitanium,
 /obj/structure/cable,
@@ -133,6 +196,45 @@
 /obj/structure/window/reinforced,
 /turf/simulated/floor/carpet/royalblack,
 /area/ruin/powered/fafnir)
+"bs" = (
+/obj/structure/closet,
+/turf/simulated/floor/plasteel{
+	icon_state = "black";
+	dir = 8
+	},
+/area/ruin/powered/promise)
+"bt" = (
+/obj/machinery/shower{
+	dir = 1
+	},
+/obj/structure/curtain/open/shower,
+/turf/simulated/floor/plasteel{
+	icon_state = "white"
+	},
+/area/ruin/powered/promise)
+"bu" = (
+/turf/simulated/floor/plasteel{
+	icon_state = "cautioncorner";
+	dir = 1
+	},
+/area/ruin/powered/promise)
+"bv" = (
+/obj/structure/chair/stool{
+	dir = 8
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "white"
+	},
+/area/ruin/powered/promise)
+"bB" = (
+/obj/machinery/door/airlock/maintenance/glass,
+/turf/simulated/floor/plating,
+/area/ruin/powered/promise)
+"bG" = (
+/obj/structure/grille,
+/obj/structure/window/full/plastitanium,
+/turf/simulated/floor/plating,
+/area/ruin/powered/promise)
 "bI" = (
 /obj/structure/railing/cap{
 	dir = 8
@@ -143,11 +245,47 @@
 /obj/effect/turf_decal/delivery/red/partial,
 /turf/simulated/floor/plasteel/dark,
 /area/ruin/powered/fafnir)
+"bN" = (
+/obj/structure/table,
+/obj/machinery/reagentgrinder,
+/turf/simulated/floor/plasteel{
+	icon_state = "cafeteria"
+	},
+/area/ruin/powered/restraunt)
+"bW" = (
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/simulated/floor/wood,
+/area/ruin/powered/restraunt)
+"bY" = (
+/obj/structure/chair/comfy/shuttle{
+	dir = 4
+	},
+/obj/structure/chair/comfy/shuttle{
+	dir = 4
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "dark"
+	},
+/area/ruin/powered/promise)
+"cb" = (
+/obj/structure/flora/ausbushes/fullgrass,
+/obj/structure/flora/ausbushes/lavendergrass,
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/simulated/floor/grass,
+/area/ruin/powered/restraunt)
 "cd" = (
 /turf/simulated/floor/plasteel{
 	icon_state = "white"
 	},
 /area/station/fluff_ship)
+"ci" = (
+/obj/machinery/light,
+/turf/simulated/floor/plasteel,
+/area/ruin/powered/restraunt)
 "cp" = (
 /obj/machinery/door/airlock/command/glass{
 	id_tag = "ntrepofficedoor";
@@ -155,6 +293,81 @@
 	},
 /turf/simulated/floor/plasteel/dark,
 /area/ruin/powered/fafnir)
+"cq" = (
+/obj/structure/rack,
+/obj/item/stack/sheet/metal/fifty{
+	pixel_x = 2;
+	pixel_y = 2
+	},
+/obj/item/stack/sheet/glass/fifty{
+	pixel_y = -2;
+	pixel_x = -2
+	},
+/obj/machinery/alarm{
+	pixel_x = 32
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "caution";
+	dir = 4
+	},
+/area/ruin/powered/promise)
+"cw" = (
+/obj/structure/railing/corner,
+/turf/simulated/floor/plasteel,
+/area/ruin/powered/restraunt)
+"cx" = (
+/obj/structure/chair/comfy/shuttle{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 9
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 9
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "darkbluecorners";
+	dir = 1
+	},
+/area/ruin/powered/promise)
+"cy" = (
+/obj/structure/railing{
+	dir = 4
+	},
+/obj/structure/table,
+/obj/machinery/light/small{
+	dir = 1
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "dark"
+	},
+/area/ruin/powered/promise)
+"cz" = (
+/obj/machinery/door/airlock/maintenance_hatch{
+	name = "HVAC & Power"
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "dark"
+	},
+/area/ruin/powered/reverie)
+"cB" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/obj/item/radio/intercom{
+	name = "north bump";
+	pixel_y = 28
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "showroomfloor"
+	},
+/area/ruin/powered/restraunt)
+"cD" = (
+/obj/effect/turf_decal/stripes/white/line{
+	dir = 8
+	},
+/turf/simulated/floor/plating,
+/area/ruin/powered/promise)
 "cE" = (
 /obj/effect/turf_decal/box,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -165,6 +378,9 @@
 	},
 /turf/simulated/floor/plasteel/dark,
 /area/ruin/powered/fafnir)
+"cN" = (
+/turf/simulated/wall/mineral/plastitanium,
+/area/ruin/powered/promise)
 "cQ" = (
 /obj/machinery/bluespace_beacon,
 /turf/simulated/floor/plating,
@@ -186,6 +402,27 @@
 /obj/machinery/economy/vending/coffee,
 /turf/simulated/floor/plasteel/dark,
 /area/ruin/powered/fafnir)
+"cV" = (
+/turf/simulated/floor/plasteel{
+	icon_state = "black";
+	dir = 8
+	},
+/area/ruin/powered/promise)
+"cW" = (
+/obj/machinery/atmospherics/unary/tank/toxins{
+	dir = 1
+	},
+/turf/simulated/floor/catwalk,
+/area/ruin/powered/promise)
+"cX" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 10
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "whitehall";
+	dir = 1
+	},
+/area/ruin/powered/promise)
 "da" = (
 /obj/effect/turf_decal/box,
 /obj/effect/turf_decal/arrows{
@@ -198,6 +435,12 @@
 	},
 /turf/simulated/floor/plasteel/dark,
 /area/ruin/powered/fafnir)
+"de" = (
+/obj/structure/railing,
+/turf/simulated/floor/plasteel{
+	icon_state = "whitehall"
+	},
+/area/ruin/powered/promise)
 "dg" = (
 /obj/machinery/alarm/all_access{
 	pixel_y = -24;
@@ -211,6 +454,44 @@
 	icon_state = "dark"
 	},
 /area/station/fluff_ship)
+"di" = (
+/obj/structure/railing{
+	dir = 10
+	},
+/turf/simulated/floor/plasteel,
+/area/ruin/powered/restraunt)
+"dj" = (
+/obj/structure/closet/secure_closet/freezer/kitchen,
+/turf/simulated/floor/plasteel{
+	icon_state = "cafeteria"
+	},
+/area/ruin/powered/restraunt)
+"dn" = (
+/obj/structure/sink{
+	pixel_y = 11
+	},
+/obj/structure/mirror{
+	pixel_y = 28
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "freezerfloor"
+	},
+/area/ruin/powered/reverie)
+"dt" = (
+/obj/machinery/door/airlock{
+	id_tag = "toilet_unit3";
+	name = "Unit 3"
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "showroomfloor"
+	},
+/area/ruin/powered/restraunt)
+"dy" = (
+/obj/machinery/door/airlock/public/glass{
+	name = "Restaurant"
+	},
+/turf/simulated/floor/carpet,
+/area/ruin/powered/restraunt)
 "dC" = (
 /obj/machinery/conveyor/west{
 	id = "fafassembly";
@@ -230,6 +511,24 @@
 /obj/item/multitool,
 /turf/simulated/floor/plasteel/dark,
 /area/ruin/powered/fafnir)
+"dQ" = (
+/obj/machinery/newscaster{
+	pixel_y = 32
+	},
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "caution";
+	dir = 9
+	},
+/area/ruin/powered/promise)
+"dS" = (
+/obj/machinery/light,
+/turf/simulated/floor/plasteel{
+	icon_state = "freezerfloor"
+	},
+/area/ruin/powered/reverie)
 "dV" = (
 /obj/structure/chair/office/dark{
 	dir = 4
@@ -239,9 +538,45 @@
 	icon_state = "darkred"
 	},
 /area/ruin/powered/fafnir)
+"ee" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/structure/sign/poster/official/here_for_your_safety{
+	pixel_y = -32
+	},
+/obj/machinery/light/small,
+/turf/simulated/floor/plasteel{
+	icon_state = "caution"
+	},
+/area/ruin/powered/promise)
+"ei" = (
+/turf/simulated/floor/plasteel{
+	icon_state = "cautionfull"
+	},
+/area/ruin/powered/reverie)
 "el" = (
 /turf/space,
 /area/space)
+"en" = (
+/obj/item/kitchen/knife/combat,
+/obj/structure/rack,
+/turf/simulated/floor/plasteel{
+	icon_state = "black";
+	dir = 8
+	},
+/area/ruin/powered/promise)
+"ew" = (
+/obj/machinery/ai_status_display{
+	pixel_x = 32
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "grimy"
+	},
+/area/ruin/powered/restraunt)
 "ex" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 9
@@ -281,6 +616,19 @@
 /obj/effect/spawner/window/reinforced,
 /turf/simulated/floor/plating,
 /area/ruin/powered/fafnir)
+"eD" = (
+/obj/machinery/atmospherics/unary/tank/toxins{
+	dir = 1
+	},
+/obj/machinery/light/small,
+/turf/simulated/floor/catwalk,
+/area/ruin/powered/promise)
+"eI" = (
+/obj/structure/flora/ausbushes/fullgrass,
+/obj/structure/flora/ausbushes/lavendergrass,
+/obj/structure/flora/ausbushes/grassybush,
+/turf/simulated/floor/grass,
+/area/ruin/powered/restraunt)
 "eJ" = (
 /obj/structure/chair/sofa/corp,
 /turf/simulated/floor/plasteel{
@@ -293,6 +641,30 @@
 	icon_state = "darkred"
 	},
 /area/ruin/powered/fafnir)
+"eP" = (
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/simulated/floor/wood,
+/area/ruin/powered/restraunt)
+"eT" = (
+/obj/structure/closet/secure_closet/freezer/fridge,
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "cafeteria"
+	},
+/area/ruin/powered/restraunt)
+"eU" = (
+/obj/machinery/door/airlock{
+	id_tag = "bt1";
+	name = "Bathroom"
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "freezerfloor"
+	},
+/area/ruin/powered/reverie)
 "eX" = (
 /obj/machinery/light{
 	dir = 1
@@ -328,15 +700,92 @@
 	},
 /turf/simulated/floor/plasteel/dark,
 /area/ruin/powered/fafnir)
+"ff" = (
+/obj/machinery/atmospherics/unary/vent_scrubber/on{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "whitehall"
+	},
+/area/ruin/powered/promise)
+"fh" = (
+/obj/structure/extinguisher_cabinet{
+	pixel_x = 32
+	},
+/obj/structure/sink/kitchen{
+	dir = 8;
+	pixel_x = 12
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "cafeteria"
+	},
+/area/ruin/powered/promise)
+"fj" = (
+/obj/machinery/light/small{
+	dir = 1
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "whitehall";
+	dir = 1
+	},
+/area/ruin/powered/promise)
+"fl" = (
+/obj/structure/closet/walllocker/emerglocker{
+	pixel_x = -32
+	},
+/obj/effect/turf_decal/stripes/white/line{
+	dir = 9
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "dark"
+	},
+/area/ruin/powered/promise)
 "fn" = (
 /obj/machinery/light,
 /obj/machinery/economy/vending/suitdispenser,
 /turf/simulated/floor/mineral/titanium/blue,
 /area/shuttle/arrival/station)
+"fo" = (
+/obj/structure/flora/ausbushes/fullgrass,
+/obj/structure/flora/ausbushes/lavendergrass,
+/obj/structure/flora/ausbushes/ppflowers,
+/turf/simulated/floor/grass,
+/area/ruin/powered/restraunt)
 "fp" = (
 /obj/effect/spawner/window/reinforced/tinted/grilled,
 /turf/simulated/floor/plating,
 /area/ruin/powered/fafnir)
+"ft" = (
+/obj/machinery/door_control{
+	id = "ap1";
+	name = "Door Bolt Control";
+	normaldoorcontrol = 1;
+	pixel_y = -25;
+	specialfunctions = 4
+	},
+/turf/simulated/floor/wood{
+	icon_state = "wood-broken"
+	},
+/area/ruin/powered/reverie)
+"fw" = (
+/obj/machinery/door/airlock{
+	name = "Apartment 1023A";
+	locked = 1
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "dark"
+	},
+/area/ruin/powered/reverie)
+"fx" = (
+/obj/item/radio/intercom{
+	name = "west bump";
+	pixel_x = -28
+	},
+/turf/simulated/floor/wood,
+/area/ruin/powered/reverie)
 "fA" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
 	dir = 8
@@ -368,6 +817,12 @@
 	icon_state = "freezerfloor"
 	},
 /area/ruin/powered/fafnir)
+"fF" = (
+/obj/structure/railing{
+	dir = 9
+	},
+/turf/simulated/floor/plasteel,
+/area/ruin/powered/restraunt)
 "fG" = (
 /obj/effect/turf_decal/box,
 /turf/simulated/floor/plasteel/dark,
@@ -393,6 +848,12 @@
 	icon_state = "freezerfloor"
 	},
 /area/ruin/powered/fafnir)
+"fQ" = (
+/obj/structure/railing{
+	dir = 5
+	},
+/turf/simulated/floor/plasteel,
+/area/ruin/powered/restraunt)
 "fS" = (
 /obj/machinery/door/airlock/hatch{
 	name = "Server Administration";
@@ -400,6 +861,15 @@
 	},
 /turf/simulated/floor/plating,
 /area/ruin/powered/fafnir)
+"fT" = (
+/obj/structure/chair/comfy/shuttle{
+	dir = 4
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "darkbluecorners";
+	dir = 4
+	},
+/area/ruin/powered/promise)
 "fU" = (
 /obj/structure/railing/cap{
 	dir = 6
@@ -410,6 +880,12 @@
 /obj/machinery/atmospherics/unary/vent_scrubber/on,
 /turf/simulated/floor/plasteel/dark,
 /area/station/fluff_ship/bedroom)
+"ga" = (
+/obj/machinery/door/airlock/wood/glass,
+/turf/simulated/floor/plasteel{
+	icon_state = "white"
+	},
+/area/ruin/powered/promise)
 "gc" = (
 /obj/machinery/door/airlock/hatch{
 	id_tag = "airlock_interior";
@@ -419,6 +895,13 @@
 /obj/structure/fans/tiny,
 /turf/simulated/floor/engine,
 /area/station/fluff_ship)
+"gg" = (
+/obj/machinery/door/airlock/maintenance/glass,
+/turf/simulated/floor/plasteel{
+	icon_state = "black";
+	dir = 4
+	},
+/area/ruin/powered/promise)
 "gk" = (
 /obj/machinery/computer/communications{
 	dir = 8
@@ -436,6 +919,19 @@
 	},
 /turf/simulated/floor/plasteel/dark,
 /area/ruin/powered/fafnir)
+"gv" = (
+/obj/structure/rack,
+/obj/item/toy/plushie/black_cat,
+/obj/item/toy/plushie/abductor/agent,
+/obj/item/toy/plushie/crimson_fox,
+/obj/item/toy/plushie/lizardplushie,
+/obj/item/toy/plushie/shark,
+/obj/item/toy/plushie/slimeplushie,
+/obj/item/toy/plushie/snakeplushie,
+/turf/simulated/floor/plasteel{
+	icon_state = "darkfull"
+	},
+/area/ruin/powered/promise)
 "gF" = (
 /obj/structure/chair/sofa,
 /obj/machinery/light_switch{
@@ -444,6 +940,49 @@
 	},
 /turf/simulated/floor/carpet/black,
 /area/ruin/powered/fafnir)
+"gK" = (
+/obj/structure/railing{
+	dir = 4
+	},
+/obj/structure/table/glass/reinforced/plastitanium,
+/obj/item/toy/redbutton{
+	pixel_x = -14;
+	pixel_y = 8
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "darkblue";
+	dir = 4
+	},
+/area/ruin/powered/promise)
+"gL" = (
+/obj/structure/chair/stool{
+	dir = 8
+	},
+/obj/effect/turf_decal/stripes/white/line{
+	dir = 5
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "dark"
+	},
+/area/ruin/powered/promise)
+"gV" = (
+/obj/machinery/kitchen_machine/oven,
+/turf/simulated/floor/plasteel{
+	icon_state = "cafeteria"
+	},
+/area/ruin/powered/restraunt)
+"gW" = (
+/turf/simulated/floor/wood{
+	icon_state = "wood-broken3"
+	},
+/area/ruin/powered/reverie)
+"gZ" = (
+/obj/structure/table/glass/reinforced/titanium,
+/turf/simulated/floor/plasteel{
+	icon_state = "whitehall";
+	dir = 1
+	},
+/area/ruin/powered/promise)
 "hd" = (
 /obj/machinery/door/airlock/centcom{
 	name = "Bedroom";
@@ -456,6 +995,21 @@
 	},
 /turf/simulated/floor/plasteel/dark,
 /area/station/fluff_ship/bedroom)
+"he" = (
+/obj/structure/railing,
+/turf/simulated/floor/plasteel{
+	icon_state = "black";
+	dir = 1
+	},
+/area/ruin/powered/promise)
+"hf" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 9
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "dark"
+	},
+/area/ruin/powered/promise)
 "hg" = (
 /obj/structure/table/reinforced,
 /obj/machinery/photocopier/faxmachine{
@@ -467,6 +1021,12 @@
 	icon_state = "darkred"
 	},
 /area/ruin/powered/fafnir)
+"hh" = (
+/obj/structure/grille,
+/obj/structure/window/full/plastitanium,
+/obj/structure/curtain/open,
+/turf/simulated/floor/plating,
+/area/ruin/powered/promise)
 "hk" = (
 /turf/simulated/wall/mineral/plastitanium/nodiagonal,
 /area/station/fluff_ship/bridge)
@@ -476,6 +1036,19 @@
 /obj/item/pen,
 /turf/simulated/floor/carpet/royalblue,
 /area/ruin/powered/fafnir)
+"hu" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "engine"
+	},
+/area/ruin/powered/promise)
+"hv" = (
+/obj/structure/closet/crate,
+/obj/effect/turf_decal/stripes/white/line,
+/turf/simulated/floor/plating,
+/area/ruin/powered/promise)
 "hw" = (
 /obj/machinery/firealarm{
 	dir = 4;
@@ -497,6 +1070,19 @@
 	icon_state = "darkred"
 	},
 /area/ruin/powered/fafnir)
+"hz" = (
+/turf/simulated/floor/plasteel{
+	icon_state = "white"
+	},
+/area/ruin/powered/promise)
+"hC" = (
+/obj/machinery/light/small{
+	dir = 8
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "dark"
+	},
+/area/ruin/powered/promise)
 "hG" = (
 /obj/structure/chair/stool/bar,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -519,10 +1105,25 @@
 /obj/machinery/r_n_d/circuit_imprinter,
 /turf/simulated/floor/plasteel/dark,
 /area/ruin/powered/fafnir)
+"hM" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 6
+	},
+/turf/simulated/wall/mineral/plastitanium,
+/area/ruin/powered/promise)
+"hO" = (
+/obj/structure/chair/wood{
+	dir = 4
+	},
+/turf/simulated/floor/wood,
+/area/ruin/powered/restraunt)
 "hR" = (
 /obj/machinery/photocopier,
 /turf/simulated/floor/carpet/royalblue,
 /area/ruin/powered/fafnir)
+"hT" = (
+/turf/simulated/floor/carpet,
+/area/ruin/powered/restraunt)
 "ib" = (
 /obj/structure/cable{
 	d1 = 1;
@@ -541,6 +1142,73 @@
 	icon_state = "darkpurple"
 	},
 /area/station/fluff_ship/bedroom)
+"ic" = (
+/obj/structure/flora/ausbushes/fullgrass,
+/obj/structure/chair/sofa/bamboo,
+/turf/simulated/floor/grass,
+/area/ruin/powered/promise)
+"id" = (
+/obj/machinery/cooking/oven,
+/turf/simulated/floor/plasteel{
+	icon_state = "cafeteria"
+	},
+/area/ruin/powered/promise)
+"ie" = (
+/obj/structure/railing{
+	pixel_x = -6
+	},
+/obj/structure/railing/corner{
+	dir = 8;
+	pixel_x = 22
+	},
+/obj/structure/chair/sofa/bench/right{
+	dir = 1
+	},
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "whitehall"
+	},
+/area/ruin/powered/promise)
+"if" = (
+/obj/structure/lattice/catwalk,
+/turf/template_noop,
+/area/space)
+"ih" = (
+/obj/structure/chair/wood,
+/obj/structure/railing{
+	dir = 1
+	},
+/turf/simulated/floor/plasteel,
+/area/ruin/powered/restraunt)
+"ii" = (
+/obj/structure/flora/ausbushes/fullgrass,
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/simulated/floor/grass,
+/area/ruin/powered/promise)
+"im" = (
+/obj/machinery/teleport/hub/upgraded,
+/turf/simulated/floor/plasteel{
+	icon_state = "dark"
+	},
+/area/ruin/powered/reverie)
+"in" = (
+/obj/structure/chair/sofa/corp/left,
+/turf/simulated/floor/carpet/royalblue,
+/area/ruin/powered/promise)
+"ir" = (
+/obj/structure/bookcase/random,
+/turf/simulated/floor/plasteel{
+	icon_state = "black";
+	dir = 8
+	},
+/area/ruin/powered/promise)
 "is" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 10
@@ -574,11 +1242,27 @@
 	},
 /turf/simulated/floor/plasteel/dark,
 /area/ruin/powered/fafnir)
+"iH" = (
+/obj/structure/lattice,
+/turf/template_noop,
+/area/space)
 "iM" = (
 /turf/simulated/floor/plasteel{
 	icon_state = "freezerfloor"
 	},
 /area/ruin/powered/fafnir)
+"iU" = (
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 1
+	},
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 4
+	},
+/obj/machinery/atmospherics/air_sensor,
+/turf/simulated/floor/plasteel{
+	icon_state = "podfloor"
+	},
+/area/ruin/powered/promise)
 "iW" = (
 /obj/structure/table/wood,
 /obj/machinery/recharger{
@@ -586,6 +1270,18 @@
 	},
 /turf/simulated/floor/carpet/purple,
 /area/ruin/powered/fafnir)
+"jb" = (
+/turf/simulated/floor/plasteel{
+	icon_state = "darkblue";
+	dir = 5
+	},
+/area/ruin/powered/promise)
+"jg" = (
+/obj/structure/shuttle/engine/propulsion{
+	dir = 8
+	},
+/turf/template_noop,
+/area/space)
 "jo" = (
 /obj/machinery/door/airlock/hatch{
 	name = "Auxiliary Storage Bay";
@@ -610,12 +1306,74 @@
 /obj/machinery/economy/vending/cigarette,
 /turf/simulated/floor/plasteel/dark,
 /area/ruin/powered/fafnir)
+"jz" = (
+/obj/machinery/door/airlock{
+	id_tag = "toilet_unit1";
+	name = "Unit 1"
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "showroomfloor"
+	},
+/area/ruin/powered/restraunt)
+"jA" = (
+/turf/simulated/floor/plasteel{
+	icon_state = "freezerfloor"
+	},
+/area/ruin/powered/reverie)
+"jE" = (
+/obj/structure/window/reinforced/survival_pod{
+	dir = 1
+	},
+/obj/structure/railing{
+	dir = 8
+	},
+/obj/structure/table,
+/obj/machinery/atmospherics/pipe/manifold/hidden{
+	dir = 8
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "caution";
+	dir = 9
+	},
+/area/ruin/powered/promise)
+"jI" = (
+/obj/structure/cable/yellow{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/visible{
+	dir = 4
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "engine"
+	},
+/area/ruin/powered/promise)
+"jK" = (
+/obj/machinery/atmospherics/pipe/manifold/hidden{
+	dir = 4
+	},
+/turf/simulated/floor/catwalk,
+/area/ruin/powered/promise)
+"jV" = (
+/obj/structure/chair/office,
+/obj/effect/turf_decal/stripes/white/line{
+	dir = 1
+	},
+/turf/simulated/floor/plating,
+/area/ruin/powered/promise)
 "ka" = (
 /obj/effect/turf_decal/loading_area{
 	dir = 1
 	},
 /turf/simulated/floor/engine,
 /area/ruin/powered/fafnir)
+"kd" = (
+/obj/structure/dresser,
+/turf/simulated/floor/plasteel{
+	icon_state = "white"
+	},
+/area/ruin/powered/promise)
 "ke" = (
 /obj/machinery/door/window/reinforced/normal{
 	name = "Reception Desk";
@@ -643,6 +1401,9 @@
 	},
 /turf/simulated/floor/engine,
 /area/ruin/powered/fafnir)
+"kq" = (
+/turf/simulated/floor/carpet/purple,
+/area/ruin/powered/promise)
 "kr" = (
 /obj/structure/railing/cap/normal{
 	dir = 1
@@ -669,6 +1430,43 @@
 	icon_state = "freezerfloor"
 	},
 /area/ruin/powered/fafnir)
+"ky" = (
+/obj/structure/closet/crate,
+/turf/simulated/floor/plasteel{
+	icon_state = "dark"
+	},
+/area/ruin/powered/promise)
+"kA" = (
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
+/turf/simulated/floor/plasteel,
+/area/ruin/powered/promise)
+"kD" = (
+/obj/structure/railing{
+	dir = 1
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "black"
+	},
+/area/ruin/powered/promise)
+"kH" = (
+/obj/machinery/door/airlock{
+	name = "Apartment 1025A";
+	locked = 1
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "dark"
+	},
+/area/ruin/powered/reverie)
+"kI" = (
+/obj/machinery/atmospherics/unary/vent_pump/on,
+/turf/simulated/floor/plasteel{
+	icon_state = "dark"
+	},
+/area/ruin/powered/promise)
 "kQ" = (
 /obj/structure/table/glass/reinforced/plastitanium,
 /obj/structure/window/reinforced{
@@ -683,6 +1481,12 @@
 	},
 /turf/simulated/floor/carpet/royalblack,
 /area/ruin/powered/fafnir)
+"kR" = (
+/obj/machinery/door/window,
+/turf/simulated/floor/plasteel{
+	icon_state = "white"
+	},
+/area/ruin/powered/promise)
 "kS" = (
 /obj/structure/chair{
 	dir = 8
@@ -706,6 +1510,34 @@
 	},
 /turf/simulated/floor/plating,
 /area/ruin/powered/fafnir)
+"ln" = (
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 6
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "engine"
+	},
+/area/ruin/powered/promise)
+"lw" = (
+/obj/structure/closet,
+/turf/simulated/floor/plasteel{
+	icon_state = "darkfull"
+	},
+/area/ruin/powered/promise)
 "lx" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -720,6 +1552,13 @@
 	},
 /turf/simulated/floor/engine,
 /area/station/fluff_ship/engineering)
+"lC" = (
+/obj/structure/flora/ausbushes/fullgrass,
+/obj/structure/flora/ausbushes/fernybush,
+/obj/structure/flora/ausbushes/lavendergrass,
+/obj/structure/flora/ausbushes/leafybush,
+/turf/simulated/floor/grass,
+/area/ruin/powered/restraunt)
 "lE" = (
 /turf/simulated/wall/mineral/plastitanium/nodiagonal,
 /area/station/fluff_ship/engineering)
@@ -732,6 +1571,16 @@
 	icon_state = "whitepurple"
 	},
 /area/ruin/powered/fafnir)
+"lH" = (
+/obj/structure/window/reinforced/survival_pod{
+	dir = 10
+	},
+/obj/machinery/suit_storage_unit,
+/obj/machinery/atmospherics/pipe/simple/hidden{
+	dir = 10
+	},
+/turf/simulated/floor/plasteel,
+/area/ruin/powered/promise)
 "lI" = (
 /obj/structure/table/wood,
 /obj/machinery/computer/secure_data/laptop{
@@ -764,6 +1613,11 @@
 	},
 /turf/simulated/floor/engine,
 /area/station/fluff_ship/engineering)
+"lN" = (
+/turf/simulated/floor/wood{
+	icon_state = "wood-broken6"
+	},
+/area/ruin/powered/reverie)
 "lO" = (
 /obj/structure/railing{
 	dir = 1
@@ -778,6 +1632,17 @@
 	icon_state = "black"
 	},
 /area/station/fluff_ship)
+"lQ" = (
+/obj/structure/table/glass,
+/obj/item/shield/riot{
+	pixel_y = -9;
+	pixel_x = 11
+	},
+/obj/item/flashlight/lamp/green/off{
+	pixel_y = 2
+	},
+/turf/simulated/floor/carpet/purple,
+/area/ruin/powered/promise)
 "lR" = (
 /obj/structure/closet/secure_closet/security,
 /turf/simulated/floor/plasteel{
@@ -791,6 +1656,13 @@
 	},
 /turf/simulated/floor/plasteel/dark,
 /area/ruin/powered/fafnir)
+"lU" = (
+/obj/structure/weightmachine/weightlifter,
+/turf/simulated/floor/plasteel{
+	icon_state = "black";
+	dir = 8
+	},
+/area/ruin/powered/promise)
 "lV" = (
 /obj/structure/cable{
 	d1 = 2;
@@ -813,6 +1685,20 @@
 	icon_state = "black"
 	},
 /area/station/fluff_ship/bridge)
+"mc" = (
+/obj/structure/closet,
+/obj/effect/turf_decal/stripes/white/line,
+/turf/simulated/floor/plating,
+/area/ruin/powered/promise)
+"mg" = (
+/obj/structure/railing{
+	dir = 8
+	},
+/obj/structure/table,
+/turf/simulated/floor/plasteel{
+	icon_state = "dark"
+	},
+/area/ruin/powered/promise)
 "mk" = (
 /obj/machinery/door/airlock/maintenance{
 	name = "Maintenance Shaft";
@@ -824,6 +1710,51 @@
 /obj/effect/turf_decal,
 /turf/simulated/floor/plasteel/dark,
 /area/ruin/powered/fafnir)
+"ms" = (
+/obj/effect/turf_decal/stripes/white/line,
+/turf/simulated/floor/plasteel{
+	icon_state = "dark"
+	},
+/area/ruin/powered/promise)
+"mu" = (
+/obj/structure/closet/secure_closet/personal/cabinet,
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/simulated/floor/carpet/purple,
+/area/ruin/powered/promise)
+"mv" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/obj/machinery/light_switch{
+	name = "north bump";
+	pixel_y = 24
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "showroomfloor"
+	},
+/area/ruin/powered/restraunt)
+"mD" = (
+/obj/machinery/atmospherics/unary/vent_scrubber/on,
+/obj/machinery/atmospherics/unary/vent_scrubber/on{
+	dir = 8
+	},
+/obj/structure/cable/yellow{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/obj/machinery/atmospherics/air_sensor,
+/turf/simulated/floor/plasteel{
+	icon_state = "podfloor"
+	},
+/area/ruin/powered/promise)
 "mG" = (
 /obj/structure/cable{
 	d1 = 4;
@@ -853,6 +1784,21 @@
 	icon_state = "whitepurple"
 	},
 /area/ruin/powered/fafnir)
+"mM" = (
+/obj/structure/flora/ausbushes/fullgrass,
+/obj/structure/flora/ausbushes/fernybush,
+/turf/simulated/floor/grass,
+/area/ruin/powered/restraunt)
+"mQ" = (
+/obj/machinery/power/smes,
+/obj/structure/cable{
+	d2 = 4;
+	icon_state = "0-4"
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "engine"
+	},
+/area/ruin/powered/promise)
 "mZ" = (
 /obj/machinery/economy/vending/hatdispenser,
 /turf/simulated/floor/mineral/titanium/blue,
@@ -876,6 +1822,34 @@
 	icon_state = "freezerfloor"
 	},
 /area/ruin/powered/fafnir)
+"nd" = (
+/obj/structure/railing{
+	dir = 6
+	},
+/turf/simulated/floor/plasteel,
+/area/ruin/powered/restraunt)
+"nn" = (
+/obj/structure/railing{
+	pixel_x = -6
+	},
+/obj/structure/railing/corner{
+	dir = 8;
+	pixel_x = 22
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "whitehall"
+	},
+/area/ruin/powered/promise)
+"no" = (
+/obj/machinery/bluespace_beacon,
+/turf/simulated/floor/catwalk,
+/area/ruin/powered/promise)
 "np" = (
 /obj/item/kirbyplants,
 /obj/structure/cable{
@@ -917,10 +1891,41 @@
 	dir = 1
 	},
 /area/station/fluff_ship/bridge)
+"nI" = (
+/turf/simulated/floor/plasteel{
+	icon_state = "cafeteria"
+	},
+/area/ruin/powered/promise)
+"nJ" = (
+/obj/machinery/light/small{
+	dir = 4
+	},
+/turf/simulated/floor/plasteel/stairs,
+/area/ruin/powered/promise)
+"nK" = (
+/obj/structure/flora/ausbushes/fullgrass,
+/obj/structure/flora/ausbushes/lavendergrass,
+/turf/simulated/floor/grass,
+/area/ruin/powered/restraunt)
 "nL" = (
 /obj/structure/railing/cap,
 /turf/simulated/floor/plasteel,
 /area/station/fluff_ship/bridge)
+"nO" = (
+/obj/structure/railing,
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "cafeteria"
+	},
+/area/ruin/powered/promise)
+"nQ" = (
+/obj/structure/railing{
+	dir = 1
+	},
+/turf/simulated/floor/plasteel,
+/area/ruin/powered/restraunt)
 "nU" = (
 /obj/structure/sign/bobross{
 	pixel_y = 32
@@ -932,8 +1937,40 @@
 /obj/item/clothing/shoes/jackboots,
 /obj/item/clothing/head/beret,
 /obj/item/clothing/head/beret/black,
+/obj/item/clothing/gloves/color/black,
 /turf/simulated/floor/carpet/purple,
 /area/ruin/powered/fafnir)
+"nX" = (
+/obj/structure/railing{
+	dir = 1;
+	pixel_x = 6
+	},
+/obj/structure/railing/corner{
+	dir = 10;
+	pixel_y = 24;
+	pixel_x = 2
+	},
+/obj/structure/chair/sofa/bench/right,
+/turf/simulated/floor/plasteel{
+	icon_state = "whitehall";
+	dir = 1
+	},
+/area/ruin/powered/promise)
+"oc" = (
+/obj/structure/table,
+/obj/item/storage/belt/utility/full/multitool{
+	pixel_y = 1;
+	pixel_x = -3
+	},
+/obj/item/wrench/power{
+	pixel_y = 4;
+	pixel_x = 4
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "caution";
+	dir = 1
+	},
+/area/ruin/powered/promise)
 "of" = (
 /obj/machinery/light,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -967,6 +2004,9 @@
 "or" = (
 /obj/structure/lattice/catwalk,
 /turf/space,
+/area/space)
+"os" = (
+/turf/template_noop,
 /area/space)
 "ow" = (
 /obj/machinery/light_switch{
@@ -1033,12 +2073,46 @@
 	icon_state = "darkpurple"
 	},
 /area/station/fluff_ship/bedroom)
+"oN" = (
+/obj/machinery/light/small,
+/turf/simulated/floor/carpet/purple,
+/area/ruin/powered/promise)
 "oR" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/structure/railing/cap,
 /turf/simulated/floor/catwalk,
 /area/ruin/powered/fafnir)
+"oV" = (
+/obj/machinery/autolathe,
+/turf/simulated/floor/plasteel{
+	icon_state = "caution";
+	dir = 5
+	},
+/area/ruin/powered/promise)
+"oW" = (
+/obj/structure/rack,
+/obj/item/grown/log{
+	pixel_y = 5;
+	pixel_x = -3
+	},
+/obj/item/grown/log,
+/obj/item/grown/log{
+	pixel_x = 6
+	},
+/turf/simulated/floor/carpet/purple,
+/area/ruin/powered/promise)
+"oX" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "cautioncorner"
+	},
+/area/ruin/powered/promise)
 "pa" = (
 /obj/structure/railing/cap/normal{
 	dir = 8
@@ -1054,23 +2128,67 @@
 	icon_state = "tranquillite"
 	},
 /area/station/fluff_ship)
+"pc" = (
+/obj/structure/flora/ausbushes/fullgrass,
+/obj/structure/flora/ausbushes/fernybush,
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/simulated/floor/grass,
+/area/ruin/powered/restraunt)
+"pd" = (
+/obj/machinery/teleport/hub/upgraded,
+/turf/simulated/floor/wood,
+/area/ruin/powered/restraunt)
 "pe" = (
 /obj/effect/mapping_helpers/airlock/locked,
 /obj/machinery/door/airlock/command,
 /turf/simulated/floor/plating,
 /area/ruin/powered/fafnir)
+"ph" = (
+/obj/structure/table,
+/obj/item/rcd/preloaded{
+	pixel_y = 6;
+	pixel_x = 6
+	},
+/obj/item/rpd{
+	pixel_y = -3
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "cautioncorner";
+	dir = 4
+	},
+/area/ruin/powered/promise)
 "pu" = (
 /turf/simulated/floor/engine,
 /area/ruin/powered/fafnir)
+"pv" = (
+/obj/structure/railing,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "whitehall"
+	},
+/area/ruin/powered/promise)
 "py" = (
 /obj/machinery/computer/security{
-	network = list("SS13","Research        Outpost","Mining        Outpost")
+	network = list("SS13","Research                                                                Outpost","Mining                                                                Outpost")
 	},
 /turf/simulated/floor/plasteel{
 	dir = 4;
 	icon_state = "darkred"
 	},
 /area/ruin/powered/fafnir)
+"pz" = (
+/turf/simulated/floor/plasteel{
+	icon_state = "darkblue";
+	dir = 6
+	},
+/area/ruin/powered/promise)
 "pB" = (
 /turf/simulated/floor/transparent/glass,
 /area/station/fluff_ship)
@@ -1110,6 +2228,25 @@
 /obj/effect/landmark/spawner/late/crew,
 /turf/simulated/floor/mineral/titanium/blue,
 /area/shuttle/arrival/station)
+"pU" = (
+/obj/machinery/light/small{
+	dir = 1
+	},
+/obj/machinery/light_switch{
+	name = "north bump";
+	pixel_y = 24
+	},
+/turf/simulated/floor/wood,
+/area/ruin/powered/reverie)
+"pX" = (
+/obj/structure/chair/sofa/corp{
+	dir = 4
+	},
+/obj/machinery/light/small{
+	dir = 8
+	},
+/turf/simulated/floor/carpet/royalblue,
+/area/ruin/powered/promise)
 "pY" = (
 /turf/simulated/wall/mineral/plastitanium/nodiagonal,
 /area/station/fluff_ship/bedroom)
@@ -1119,6 +2256,12 @@
 	},
 /turf/simulated/floor/transparent/glass,
 /area/station/fluff_ship)
+"qa" = (
+/obj/effect/turf_decal/stripes/white/line{
+	dir = 6
+	},
+/turf/simulated/floor/plating,
+/area/ruin/powered/promise)
 "qb" = (
 /obj/machinery/door/window/reinforced/normal{
 	name = "Reception Desk";
@@ -1126,12 +2269,46 @@
 	},
 /turf/simulated/floor/carpet/royalblack,
 /area/ruin/powered/fafnir)
+"qc" = (
+/obj/structure/table,
+/turf/simulated/floor/plasteel{
+	icon_state = "showroomfloor"
+	},
+/area/ruin/powered/restraunt)
 "qf" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/effect/turf_decal/delivery/red/partial,
 /turf/simulated/floor/plasteel/dark,
 /area/ruin/powered/fafnir)
+"qh" = (
+/obj/structure/railing/corner{
+	dir = 4
+	},
+/obj/effect/turf_decal/stripes/white/corner,
+/turf/simulated/floor/plasteel{
+	icon_state = "dark"
+	},
+/area/ruin/powered/promise)
+"qs" = (
+/obj/machinery/atmospherics/pipe/simple/hidden{
+	dir = 6
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "engine"
+	},
+/area/ruin/powered/promise)
+"qt" = (
+/obj/structure/railing/corner{
+	dir = 1
+	},
+/obj/effect/turf_decal/stripes/white/corner{
+	dir = 8
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "dark"
+	},
+/area/ruin/powered/promise)
 "qu" = (
 /turf/simulated/floor/plasteel/stairs{
 	dir = 8
@@ -1148,11 +2325,46 @@
 /obj/item/pen/multi/fountain,
 /turf/simulated/floor/plasteel,
 /area/station/fluff_ship/bridge)
+"qz" = (
+/obj/structure/table,
+/obj/item/paper/astras{
+	pixel_y = 6;
+	pixel_x = 6
+	},
+/obj/item/storage/backpack/duffel/syndie/orlandos,
+/obj/item/clothing/gloves/ring/shadow/astras{
+	pixel_y = 6;
+	pixel_x = -6
+	},
+/turf/simulated/floor/wood,
+/area/ruin/powered/reverie)
+"qA" = (
+/obj/structure/railing/corner{
+	dir = 1
+	},
+/turf/simulated/floor/plasteel,
+/area/ruin/powered/restraunt)
+"qC" = (
+/obj/structure/flora/ausbushes/fullgrass,
+/obj/structure/flora/ausbushes/fernybush,
+/obj/structure/flora/ausbushes/lavendergrass,
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/simulated/floor/grass,
+/area/ruin/powered/restraunt)
 "qI" = (
 /turf/simulated/floor/plasteel{
 	icon_state = "whitepurple"
 	},
 /area/ruin/powered/fafnir)
+"qJ" = (
+/obj/structure/chair/sofa/right{
+	dir = 1
+	},
+/obj/machinery/light/small,
+/turf/simulated/floor/wood,
+/area/ruin/powered/reverie)
 "qL" = (
 /obj/structure/table,
 /obj/item/stack/nanopaste{
@@ -1166,6 +2378,12 @@
 /obj/item/stack/nanopaste,
 /turf/simulated/floor/plasteel/dark,
 /area/ruin/powered/fafnir)
+"qO" = (
+/obj/structure/chair/sofa/corp/left{
+	dir = 1
+	},
+/turf/simulated/floor/carpet/purple,
+/area/ruin/powered/promise)
 "qP" = (
 /obj/machinery/mech_bay_recharge_port,
 /turf/simulated/floor/bluegrid,
@@ -1194,6 +2412,25 @@
 	},
 /turf/simulated/floor/carpet/royalblue,
 /area/ruin/powered/fafnir)
+"qZ" = (
+/obj/structure/window/reinforced/survival_pod{
+	dir = 5
+	},
+/obj/structure/cable/yellow{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 5
+	},
+/obj/machinery/atmospherics/pipe/simple/visible/universal{
+	dir = 4
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "engine"
+	},
+/area/ruin/powered/promise)
 "rc" = (
 /obj/structure/chair/comfy/corp{
 	dir = 8
@@ -1212,19 +2449,87 @@
 	icon_state = "darkblue"
 	},
 /area/station/fluff_ship/bridge)
+"ri" = (
+/obj/structure/flora/ausbushes/sparsegrass,
+/obj/structure/chair/sofa/bamboo/left,
+/turf/simulated/floor/grass,
+/area/ruin/powered/promise)
+"rj" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 6
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "whitehall";
+	dir = 1
+	},
+/area/ruin/powered/promise)
+"rm" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/simulated/floor/plasteel,
+/area/ruin/powered/restraunt)
 "rn" = (
 /obj/structure/window/full/plastitanium,
 /turf/simulated/floor/plating,
 /area/station/fluff_ship)
+"rp" = (
+/obj/structure/chair/comfy/shuttle,
+/turf/simulated/floor/plasteel{
+	icon_state = "darkblue";
+	dir = 1
+	},
+/area/ruin/powered/promise)
 "rq" = (
 /obj/machinery/suit_storage_unit/industrial,
 /obj/item/mod/control/pre_equipped/mining/asteroid,
 /turf/simulated/floor/engine,
 /area/station/fluff_ship)
+"rs" = (
+/obj/structure/railing/corner{
+	dir = 10;
+	pixel_y = 24
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "whitecorner";
+	dir = 1
+	},
+/area/ruin/powered/promise)
+"rt" = (
+/turf/simulated/floor/plasteel/dark,
+/area/ruin/powered/restraunt)
+"rv" = (
+/obj/structure/table,
+/turf/simulated/floor/plasteel{
+	icon_state = "dark"
+	},
+/area/ruin/powered/promise)
 "rA" = (
 /obj/structure/dresser,
 /turf/simulated/floor/mineral/titanium/blue,
 /area/shuttle/arrival/station)
+"rD" = (
+/obj/structure/flora/ausbushes/fullgrass,
+/obj/structure/flora/ausbushes/pointybush,
+/obj/structure/flora/ausbushes/lavendergrass,
+/turf/simulated/floor/grass,
+/area/ruin/powered/restraunt)
+"rF" = (
+/obj/structure/flora/ausbushes/fullgrass,
+/obj/structure/flora/ausbushes/fernybush,
+/obj/structure/flora/ausbushes/lavendergrass,
+/turf/simulated/floor/grass,
+/area/ruin/powered/restraunt)
+"rG" = (
+/obj/structure/table/glass,
+/obj/item/fluff/zekemirror{
+	pixel_y = 6;
+	pixel_x = 7
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "white"
+	},
+/area/ruin/powered/promise)
 "rK" = (
 /obj/structure/table/reinforced,
 /obj/machinery/light{
@@ -1278,10 +2583,17 @@
 	},
 /turf/simulated/floor/plating,
 /area/ruin/powered/fafnir)
+"rV" = (
+/turf/simulated/wall/mineral/plastitanium/nodiagonal,
+/area/ruin/powered/promise)
 "rX" = (
 /obj/structure/table/wood,
 /turf/simulated/floor/carpet/purple,
 /area/ruin/powered/fafnir)
+"rZ" = (
+/obj/machinery/door/airlock/wood/glass,
+/turf/simulated/floor/plating,
+/area/ruin/powered/promise)
 "sa" = (
 /obj/structure/table/glass/reinforced/plastitanium,
 /obj/machinery/door/window/reinforced/normal{
@@ -1318,6 +2630,15 @@
 /obj/item/crowbar,
 /turf/simulated/floor/plasteel/dark,
 /area/ruin/powered/fafnir)
+"sk" = (
+/obj/structure/toilet{
+	dir = 4
+	},
+/obj/machinery/light,
+/turf/simulated/floor/plasteel{
+	icon_state = "white"
+	},
+/area/ruin/powered/promise)
 "sl" = (
 /obj/structure/rack,
 /obj/item/storage/belt/utility/full/multitool,
@@ -1336,21 +2657,71 @@
 /obj/item/clothing/gloves/color/fyellow,
 /turf/simulated/floor/plasteel/dark,
 /area/ruin/powered/fafnir)
+"sy" = (
+/obj/structure/shuttle/engine/heater{
+	dir = 8
+	},
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/turf/simulated/floor/plating/airless,
+/area/ruin/powered/promise)
 "sz" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /turf/simulated/floor/plasteel/dark,
 /area/ruin/powered/fafnir)
+"sB" = (
+/obj/effect/spawner/window/reinforced/tinted/grilled,
+/turf/simulated/floor/plasteel{
+	icon_state = "dark"
+	},
+/area/ruin/powered/reverie)
 "sE" = (
 /obj/machinery/door/airlock/hatch{
 	name = "Facility Access"
 	},
 /turf/simulated/floor/plating,
 /area/ruin/powered/fafnir)
+"sI" = (
+/obj/structure/flora/ausbushes/fullgrass,
+/obj/structure/flora/ausbushes/lavendergrass,
+/obj/structure/flora/tree/jungle,
+/turf/simulated/floor/grass,
+/area/ruin/powered/restraunt)
+"sJ" = (
+/obj/structure/chair/comfy/purp{
+	dir = 8
+	},
+/turf/simulated/floor/wood,
+/area/ruin/powered/promise)
+"sO" = (
+/obj/machinery/light{
+	dir = 4
+	},
+/obj/structure/table,
+/turf/simulated/floor/plasteel{
+	icon_state = "showroomfloor"
+	},
+/area/ruin/powered/restraunt)
 "sQ" = (
 /obj/structure/reagent_dispensers/fueltank,
 /turf/simulated/floor/plasteel/dark,
 /area/ruin/powered/fafnir)
+"sR" = (
+/obj/structure/sign/poster/official/fruit_bowl{
+	pixel_x = -32
+	},
+/obj/structure/bed/dogbed,
+/mob/living/simple_animal/pet/cat{
+	name = "June"
+	},
+/obj/item/toy/cattoy{
+	pixel_x = 7;
+	pixel_y = 4
+	},
+/turf/simulated/floor/carpet/purple,
+/area/ruin/powered/promise)
 "sT" = (
 /obj/machinery/door/airlock/hatch{
 	name = "airlock exterior";
@@ -1360,6 +2731,10 @@
 /obj/structure/fans/tiny,
 /turf/simulated/floor/engine,
 /area/station/fluff_ship)
+"te" = (
+/obj/machinery/light,
+/turf/simulated/floor/wood,
+/area/ruin/powered/restraunt)
 "tf" = (
 /obj/machinery/mecha_part_fabricator,
 /turf/simulated/floor/engine,
@@ -1379,6 +2754,17 @@
 	},
 /turf/simulated/floor/engine,
 /area/station/fluff_ship/engineering)
+"tn" = (
+/obj/structure/railing{
+	dir = 1
+	},
+/obj/structure/chair/stool{
+	dir = 8
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "dark"
+	},
+/area/ruin/powered/promise)
 "tp" = (
 /obj/structure/chair/wood,
 /turf/simulated/floor/carpet/black,
@@ -1395,10 +2781,70 @@
 	},
 /turf/simulated/floor/carpet/purple,
 /area/ruin/powered/fafnir)
+"tD" = (
+/obj/structure/closet/walllocker/emerglocker{
+	pixel_y = -32
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "dark"
+	},
+/area/ruin/powered/promise)
+"tE" = (
+/obj/machinery/light/small{
+	dir = 8
+	},
+/turf/simulated/floor/plasteel,
+/area/ruin/powered/promise)
+"tF" = (
+/obj/effect/turf_decal/stripes/white/line{
+	dir = 8
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "dark"
+	},
+/area/ruin/powered/promise)
+"tI" = (
+/obj/structure/railing/corner{
+	dir = 8
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "cafeteria"
+	},
+/area/ruin/powered/promise)
+"tK" = (
+/obj/machinery/light{
+	dir = 4
+	},
+/obj/machinery/ai_status_display{
+	pixel_x = 32
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "grimy"
+	},
+/area/ruin/powered/restraunt)
+"tT" = (
+/obj/machinery/door_control{
+	id = "bt1";
+	name = "Door Bolt Control";
+	normaldoorcontrol = 1;
+	pixel_y = -25;
+	specialfunctions = 4
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "freezerfloor"
+	},
+/area/ruin/powered/reverie)
+"tU" = (
+/obj/machinery/computer/teleporter,
+/turf/simulated/floor/wood,
+/area/ruin/powered/restraunt)
 "ua" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /turf/simulated/floor/plasteel,
 /area/station/fluff_ship/bridge)
+"ud" = (
+/turf/simulated/floor/plasteel/stairs,
+/area/ruin/powered/promise)
 "uf" = (
 /obj/structure/railing{
 	dir = 8
@@ -1407,6 +2853,12 @@
 	dir = 1
 	},
 /area/ruin/powered/fafnir)
+"uh" = (
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/simulated/floor/plasteel,
+/area/ruin/powered/restraunt)
 "uk" = (
 /obj/machinery/light{
 	dir = 8
@@ -1420,13 +2872,112 @@
 	icon_state = "whiteblue"
 	},
 /area/ruin/powered/fafnir)
+"up" = (
+/obj/structure/railing{
+	pixel_x = 6
+	},
+/obj/structure/railing/corner{
+	pixel_x = -21
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "whitehall"
+	},
+/area/ruin/powered/promise)
+"ur" = (
+/turf/simulated/wall/indestructible,
+/area/ruin/powered/restraunt)
+"uu" = (
+/obj/structure/flora/ausbushes/grassybush,
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/simulated/floor/grass,
+/area/ruin/powered/promise)
+"uw" = (
+/obj/machinery/teleport/station,
+/turf/simulated/floor/plasteel{
+	icon_state = "dark"
+	},
+/area/ruin/powered/reverie)
+"uy" = (
+/obj/structure/table/reinforced,
+/obj/machinery/kitchen_machine/microwave,
+/turf/simulated/floor/plasteel{
+	icon_state = "cafeteria"
+	},
+/area/ruin/powered/promise)
 "uA" = (
 /turf/simulated/floor/plating,
 /area/ruin/powered/fafnir)
+"uB" = (
+/obj/machinery/processor{
+	dir = 1
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "cafeteria"
+	},
+/area/ruin/powered/restraunt)
+"uC" = (
+/obj/structure/chair/comfy/shuttle,
+/turf/simulated/floor/plasteel{
+	icon_state = "darkbluecorners";
+	dir = 8
+	},
+/area/ruin/powered/promise)
+"uF" = (
+/obj/machinery/atmospherics/unary/vent_scrubber/on{
+	dir = 1
+	},
+/obj/machinery/atmospherics/unary/vent_scrubber/on{
+	dir = 8
+	},
+/obj/structure/cable/yellow{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/structure/cable/yellow{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/obj/machinery/atmospherics/air_sensor,
+/turf/simulated/floor/plasteel{
+	icon_state = "podfloor"
+	},
+/area/ruin/powered/promise)
 "uI" = (
 /obj/structure/filingcabinet,
 /turf/simulated/floor/carpet/royalblack,
 /area/ruin/powered/fafnir)
+"uJ" = (
+/obj/structure/toilet{
+	dir = 4
+	},
+/obj/machinery/door_control{
+	id = "toilet_unit1";
+	name = "Door Bolt Control";
+	normaldoorcontrol = 1;
+	pixel_y = -25;
+	specialfunctions = 4
+	},
+/obj/machinery/newscaster{
+	name = "north bump";
+	pixel_y = 28
+	},
+/obj/machinery/light/small{
+	dir = 8
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "showroomfloor"
+	},
+/area/ruin/powered/restraunt)
 "uR" = (
 /obj/structure/bed,
 /obj/item/bedsheet/medical,
@@ -1462,6 +3013,15 @@
 "uX" = (
 /turf/simulated/floor/carpet/purple,
 /area/ruin/powered/fafnir)
+"vb" = (
+/obj/structure/sign/poster/official/love_ian{
+	pixel_y = -32
+	},
+/obj/structure/table/glass/reinforced/plastitanium,
+/turf/simulated/floor/plasteel{
+	icon_state = "darkblue"
+	},
+/area/ruin/powered/promise)
 "vd" = (
 /obj/item/stack/sheet/metal/fifty,
 /obj/item/stack/sheet/glass/fifty,
@@ -1507,6 +3067,52 @@
 	},
 /turf/simulated/floor/catwalk,
 /area/ruin/powered/fafnir)
+"vj" = (
+/obj/machinery/cooker/deepfryer,
+/obj/machinery/light,
+/turf/simulated/floor/plasteel{
+	icon_state = "cafeteria"
+	},
+/area/ruin/powered/restraunt)
+"vn" = (
+/turf/simulated/floor/wood,
+/area/ruin/powered/reverie)
+"vp" = (
+/obj/structure/railing,
+/turf/simulated/floor/plasteel,
+/area/ruin/powered/promise)
+"vv" = (
+/obj/structure/chair/comfy/shuttle{
+	dir = 4
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "darkblue"
+	},
+/area/ruin/powered/promise)
+"vw" = (
+/obj/structure/flora/ausbushes/fullgrass,
+/obj/structure/flora/ausbushes/grassybush,
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/simulated/floor/grass,
+/area/ruin/powered/restraunt)
+"vA" = (
+/obj/structure/table/glass/reinforced/plastitanium,
+/obj/item/paper_bin{
+	pixel_y = 2;
+	pixel_x = 10
+	},
+/obj/item/pen{
+	pixel_y = 9;
+	pixel_x = 11
+	},
+/obj/machinery/computer/secure_data/laptop{
+	pixel_y = 5;
+	pixel_x = -6
+	},
+/turf/simulated/floor/carpet/royalblue,
+/area/ruin/powered/promise)
 "vB" = (
 /obj/machinery/door_control{
 	id = "fafbay";
@@ -1539,6 +3145,14 @@
 	},
 /turf/simulated/floor/plating,
 /area/ruin/powered/fafnir)
+"vL" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 10
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "dark"
+	},
+/area/ruin/powered/promise)
 "vQ" = (
 /obj/machinery/power/smes/engineering,
 /obj/structure/cable{
@@ -1547,6 +3161,23 @@
 	},
 /turf/simulated/floor/engine,
 /area/station/fluff_ship/engineering)
+"vR" = (
+/obj/structure/railing{
+	dir = 4
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "dark"
+	},
+/area/ruin/powered/promise)
+"vT" = (
+/obj/machinery/atmospherics/pipe/simple/hidden,
+/obj/machinery/door/airlock/highsecurity{
+	name = "Port Nacelle";
+	locked = 1
+	},
+/obj/effect/mapping_helpers/airlock/access/all/command/captain,
+/turf/simulated/floor/catwalk,
+/area/ruin/powered/promise)
 "vU" = (
 /obj/structure/toilet{
 	dir = 4
@@ -1563,6 +3194,16 @@
 	},
 /turf/simulated/floor/catwalk,
 /area/ruin/powered/fafnir)
+"wa" = (
+/obj/machinery/atmospherics/unary/vent_pump/on,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 10
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "whitehall";
+	dir = 1
+	},
+/area/ruin/powered/promise)
 "we" = (
 /obj/machinery/smartfridge/food,
 /obj/item/reagent_containers/food/condiment/flour,
@@ -1593,6 +3234,15 @@
 	icon_state = "tranquillite"
 	},
 /area/station/fluff_ship)
+"wf" = (
+/obj/structure/closet/walllocker/emerglocker{
+	pixel_y = -32
+	},
+/obj/machinery/light,
+/turf/simulated/floor/plasteel{
+	icon_state = "darkblue"
+	},
+/area/ruin/powered/promise)
 "wg" = (
 /obj/effect/spawner/window/plastitanium,
 /obj/structure/cable{
@@ -1605,6 +3255,18 @@
 	},
 /turf/simulated/floor/plating,
 /area/station/fluff_ship/bridge)
+"wi" = (
+/obj/structure/table,
+/turf/simulated/floor/plasteel{
+	icon_state = "cautionfull"
+	},
+/area/ruin/powered/reverie)
+"wm" = (
+/turf/simulated/floor/plasteel{
+	icon_state = "whitehall";
+	dir = 1
+	},
+/area/ruin/powered/promise)
 "wv" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
@@ -1617,6 +3279,12 @@
 /obj/machinery/power/terminal,
 /turf/simulated/floor/engine,
 /area/station/fluff_ship/engineering)
+"wx" = (
+/obj/structure/closet,
+/turf/simulated/floor/plasteel{
+	icon_state = "dark"
+	},
+/area/ruin/powered/promise)
 "wy" = (
 /obj/structure/table/reinforced,
 /obj/structure/window/reinforced{
@@ -1643,6 +3311,13 @@
 	icon_state = "darkredfull"
 	},
 /area/ruin/powered/fafnir)
+"wz" = (
+/obj/structure/chair/wood,
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/simulated/floor/wood,
+/area/ruin/powered/restraunt)
 "wE" = (
 /obj/machinery/conveyor/west{
 	id = "fafassembly";
@@ -1696,10 +3371,27 @@
 	},
 /turf/simulated/floor/plasteel,
 /area/station/fluff_ship/bridge)
+"wR" = (
+/obj/structure/flora/ausbushes/fullgrass,
+/obj/structure/flora/ausbushes/fernybush,
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/simulated/floor/grass,
+/area/ruin/powered/restraunt)
+"wT" = (
+/turf/simulated/floor/wood,
+/area/ruin/powered/restraunt)
 "wV" = (
 /obj/structure/chair/office/dark,
 /turf/simulated/floor/carpet/purple,
 /area/ruin/powered/fafnir)
+"wW" = (
+/obj/structure/flora/ausbushes/fullgrass,
+/obj/structure/flora/ausbushes/leafybush,
+/obj/structure/flora/ausbushes/pointybush,
+/turf/simulated/floor/grass,
+/area/ruin/powered/restraunt)
 "wY" = (
 /obj/structure/cable{
 	d1 = 4;
@@ -1708,6 +3400,21 @@
 	},
 /turf/simulated/floor/plasteel,
 /area/station/fluff_ship/bridge)
+"wZ" = (
+/obj/structure/railing{
+	dir = 8;
+	pixel_y = -6
+	},
+/obj/structure/railing/corner{
+	pixel_y = 24;
+	pixel_x = -23
+	},
+/obj/structure/closet,
+/turf/simulated/floor/plasteel{
+	icon_state = "whitehall";
+	dir = 9
+	},
+/area/ruin/powered/promise)
 "xa" = (
 /obj/machinery/conveyor/west{
 	id = "fafassembly";
@@ -1731,12 +3438,73 @@
 /obj/structure/reagent_dispensers/oil,
 /turf/simulated/floor/plasteel/dark,
 /area/ruin/powered/fafnir)
+"xm" = (
+/obj/structure/railing{
+	dir = 4
+	},
+/obj/machinery/computer{
+	dir = 8
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "darkblue";
+	dir = 4
+	},
+/area/ruin/powered/promise)
 "xp" = (
 /obj/machinery/light{
 	dir = 4
 	},
 /turf/simulated/floor/plasteel,
 /area/station/fluff_ship/bridge)
+"xq" = (
+/obj/machinery/power/apc{
+	dir = 4;
+	name = "east bump";
+	pixel_x = 24
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "dark"
+	},
+/area/ruin/powered/reverie)
+"xv" = (
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/plasteel,
+/area/ruin/powered/promise)
+"xD" = (
+/obj/machinery/door/window/survival_pod,
+/turf/simulated/floor/plasteel/stairs,
+/area/ruin/powered/promise)
+"xG" = (
+/obj/structure/closet/fireaxecabinet{
+	pixel_y = 32
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "darkblue";
+	dir = 1
+	},
+/area/ruin/powered/promise)
+"xL" = (
+/obj/machinery/teleport/station,
+/turf/simulated/floor/wood,
+/area/ruin/powered/restraunt)
+"xQ" = (
+/obj/machinery/door/airlock/freezer,
+/turf/simulated/floor/plasteel{
+	icon_state = "showroomfloor"
+	},
+/area/ruin/powered/restraunt)
+"xS" = (
+/turf/simulated/floor/carpet/green,
+/area/ruin/powered/promise)
+"xV" = (
+/obj/structure/flora/tree/jungle/small,
+/obj/structure/flora/ausbushes/lavendergrass,
+/turf/simulated/floor/grass,
+/area/ruin/powered/promise)
 "xY" = (
 /obj/structure/table,
 /obj/machinery/alarm/all_access{
@@ -1752,6 +3520,18 @@
 /obj/item/storage/fancy/donut_box,
 /turf/simulated/floor/plasteel,
 /area/station/fluff_ship/bridge)
+"xZ" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/effect/turf_decal/stripes/white/line,
+/turf/simulated/floor/plasteel{
+	icon_state = "dark"
+	},
+/area/ruin/powered/promise)
 "yd" = (
 /obj/machinery/access_button{
 	pixel_y = -25;
@@ -1779,6 +3559,14 @@
 /obj/structure/closet/crate,
 /turf/simulated/floor/plasteel/dark,
 /area/ruin/powered/fafnir)
+"yg" = (
+/obj/effect/turf_decal/stripes/white/corner{
+	dir = 1
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "dark"
+	},
+/area/ruin/powered/promise)
 "yl" = (
 /obj/machinery/door/airlock/command/glass{
 	id_tag = "ntrepofficedoor";
@@ -1792,10 +3580,24 @@
 	dir = 4
 	},
 /area/ruin/powered/fafnir)
+"yq" = (
+/turf/simulated/floor/plasteel{
+	icon_state = "darkblue"
+	},
+/area/ruin/powered/promise)
 "ys" = (
 /obj/machinery/teleport/station,
 /turf/simulated/floor/mineral/titanium/blue,
 /area/shuttle/arrival/station)
+"yA" = (
+/obj/structure/railing{
+	dir = 8
+	},
+/obj/structure/closet,
+/turf/simulated/floor/plasteel{
+	icon_state = "dark"
+	},
+/area/ruin/powered/promise)
 "yK" = (
 /obj/structure/closet/secure_closet/freezer/fridge/open,
 /turf/simulated/floor/plasteel{
@@ -1810,6 +3612,14 @@
 	},
 /turf/simulated/floor/engine,
 /area/station/fluff_ship)
+"yM" = (
+/obj/machinery/door/window{
+	name = "Kitchen"
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "grimy"
+	},
+/area/ruin/powered/restraunt)
 "yT" = (
 /obj/machinery/door_control{
 	id = "toilet_unit3";
@@ -1830,6 +3640,24 @@
 	icon_state = "freezerfloor"
 	},
 /area/ruin/powered/fafnir)
+"yY" = (
+/obj/structure/chair/sofa/corp{
+	dir = 4
+	},
+/turf/simulated/floor/carpet/royalblue,
+/area/ruin/powered/promise)
+"yZ" = (
+/obj/structure/flora/ausbushes/grassybush,
+/turf/simulated/floor/grass,
+/area/ruin/powered/promise)
+"zb" = (
+/obj/machinery/door/airlock{
+	name = "Unisex Restrooms"
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "showroomfloor"
+	},
+/area/ruin/powered/restraunt)
 "zc" = (
 /obj/structure/toilet/secret{
 	dir = 1;
@@ -1856,12 +3684,44 @@
 	icon_state = "freezerfloor"
 	},
 /area/ruin/powered/fafnir)
+"zj" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/simulated/floor/wood,
+/area/ruin/powered/restraunt)
+"zm" = (
+/obj/machinery/kitchen_machine/microwave,
+/obj/structure/table,
+/turf/simulated/floor/plasteel{
+	icon_state = "cautionfull"
+	},
+/area/ruin/powered/reverie)
 "zn" = (
 /turf/simulated/floor/plasteel{
 	dir = 1;
 	icon_state = "whitepurple"
 	},
 /area/ruin/powered/fafnir)
+"zo" = (
+/obj/machinery/atmospherics/pipe/simple/visible{
+	dir = 6;
+	level = 1
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "engine"
+	},
+/area/ruin/powered/promise)
+"zr" = (
+/obj/structure/railing{
+	dir = 4
+	},
+/obj/structure/table,
+/obj/machinery/light/small,
+/turf/simulated/floor/plasteel{
+	icon_state = "dark"
+	},
+/area/ruin/powered/promise)
 "zx" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/universal{
 	dir = 4
@@ -1880,6 +3740,13 @@
 	},
 /turf/simulated/floor/engine,
 /area/station/fluff_ship/engineering)
+"zC" = (
+/obj/machinery/door/airlock/maintenance_hatch{
+	name = "Starboard Nacelle"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden,
+/turf/simulated/floor/catwalk,
+/area/ruin/powered/promise)
 "zD" = (
 /obj/structure/table,
 /obj/item/stack/sheet/metal{
@@ -1908,6 +3775,21 @@
 	},
 /turf/simulated/floor/engine,
 /area/ruin/powered/fafnir)
+"zG" = (
+/obj/structure/railing{
+	dir = 5
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "whitehall";
+	dir = 5
+	},
+/area/ruin/powered/promise)
+"zH" = (
+/obj/machinery/bluespace_beacon,
+/turf/simulated/floor/plasteel{
+	icon_state = "dark"
+	},
+/area/ruin/powered/reverie)
 "zN" = (
 /obj/structure/table/reinforced,
 /obj/structure/window/reinforced{
@@ -1922,11 +3804,28 @@
 	icon_state = "darkredfull"
 	},
 /area/ruin/powered/fafnir)
+"zS" = (
+/obj/machinery/door/poddoor/impassable{
+	name = "Parking Ticket Gate"
+	},
+/turf/simulated/floor/plasteel/dark,
+/area/ruin/powered/restraunt)
 "zU" = (
 /obj/structure/table/wood,
 /obj/machinery/light,
 /turf/simulated/floor/carpet/purple,
 /area/ruin/powered/fafnir)
+"zW" = (
+/obj/structure/flora/ash/rock/style_4,
+/obj/structure/flora/ausbushes/lavendergrass,
+/turf/simulated/floor/grass,
+/area/ruin/powered/restraunt)
+"zX" = (
+/obj/structure/closet/cardboard,
+/turf/simulated/floor/plasteel{
+	icon_state = "darkfull"
+	},
+/area/ruin/powered/promise)
 "Ad" = (
 /obj/machinery/light/small{
 	dir = 8
@@ -1945,10 +3844,51 @@
 	icon_state = "tranquillite"
 	},
 /area/station/fluff_ship)
+"Ai" = (
+/obj/structure/railing{
+	dir = 1
+	},
+/obj/structure/chair/sofa/bench,
+/turf/simulated/floor/plasteel{
+	icon_state = "whitehall";
+	dir = 1
+	},
+/area/ruin/powered/promise)
+"Aj" = (
+/obj/machinery/atmospherics/pipe/simple/hidden{
+	dir = 9
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "engine"
+	},
+/area/ruin/powered/promise)
+"Ak" = (
+/obj/structure/closet/fireaxecabinet{
+	pixel_y = 32
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/effect/turf_decal/stripes/white/line,
+/turf/simulated/floor/plasteel{
+	icon_state = "dark"
+	},
+/area/ruin/powered/promise)
 "Ap" = (
 /obj/machinery/r_n_d/protolathe,
 /turf/simulated/floor/plasteel/dark,
 /area/ruin/powered/fafnir)
+"Ar" = (
+/obj/structure/chair/sofa/left{
+	dir = 1
+	},
+/turf/simulated/floor/wood{
+	icon_state = "wood-broken7"
+	},
+/area/ruin/powered/reverie)
 "Aw" = (
 /obj/machinery/access_button{
 	pixel_y = 25;
@@ -1983,6 +3923,22 @@
 "AC" = (
 /turf/simulated/floor/plasteel,
 /area/station/fluff_ship/bridge)
+"AD" = (
+/obj/item/gun/projectile/automatic/pistol/m1911,
+/obj/structure/table/reinforced,
+/obj/machinery/light/small{
+	dir = 1
+	},
+/turf/simulated/floor/catwalk,
+/area/ruin/powered/promise)
+"AG" = (
+/obj/machinery/computer/security/telescreen/entertainment{
+	pixel_x = 32
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "grimy"
+	},
+/area/ruin/powered/restraunt)
 "AH" = (
 /obj/machinery/atmospherics/unary/portables_connector{
 	dir = 8
@@ -2009,6 +3965,12 @@
 	icon_state = "tranquillite"
 	},
 /area/station/fluff_ship)
+"AP" = (
+/turf/simulated/floor/plasteel{
+	icon_state = "darkblue";
+	dir = 1
+	},
+/area/ruin/powered/promise)
 "AQ" = (
 /obj/structure/cable{
 	d1 = 1;
@@ -2028,6 +3990,12 @@
 	},
 /turf/simulated/floor/plating,
 /area/station/fluff_ship/bridge)
+"Bg" = (
+/obj/machinery/economy/vending/boozeomat,
+/turf/simulated/floor/plasteel{
+	icon_state = "cafeteria"
+	},
+/area/ruin/powered/promise)
 "Bi" = (
 /obj/structure/sink{
 	dir = 4;
@@ -2046,6 +4014,14 @@
 	},
 /turf/simulated/floor/plasteel/dark,
 /area/ruin/powered/fafnir)
+"Bn" = (
+/obj/structure/chair/comfy/shuttle{
+	dir = 4
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "darkbluecorners"
+	},
+/area/ruin/powered/promise)
 "Bo" = (
 /turf/simulated/floor/plasteel{
 	dir = 1;
@@ -2090,6 +4066,26 @@
 /obj/machinery/recharger/wallcharger,
 /turf/simulated/wall/mineral/plastitanium,
 /area/station/fluff_ship/engineering)
+"BH" = (
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "grimy"
+	},
+/area/ruin/powered/restraunt)
+"BI" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 5
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 5
+	},
+/obj/effect/turf_decal/stripes/white/line,
+/turf/simulated/floor/plasteel{
+	icon_state = "dark"
+	},
+/area/ruin/powered/promise)
 "BJ" = (
 /obj/structure/window/reinforced{
 	dir = 8
@@ -2101,6 +4097,37 @@
 	icon_state = "darkredfull"
 	},
 /area/ruin/powered/fafnir)
+"BL" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "caution";
+	dir = 6
+	},
+/area/ruin/powered/promise)
+"BN" = (
+/obj/structure/flora/ausbushes/fullgrass,
+/obj/structure/flora/ausbushes/lavendergrass,
+/obj/structure/flora/tree/jungle/small,
+/turf/simulated/floor/grass,
+/area/ruin/powered/restraunt)
+"BU" = (
+/obj/structure/chair/wood{
+	dir = 1
+	},
+/obj/structure/railing,
+/turf/simulated/floor/plasteel,
+/area/ruin/powered/restraunt)
+"Cc" = (
+/obj/structure/railing{
+	dir = 8
+	},
+/turf/simulated/floor/plasteel,
+/area/ruin/powered/restraunt)
 "Cf" = (
 /obj/structure/table/wood,
 /obj/machinery/computer/secure_data/laptop{
@@ -2127,15 +4154,45 @@
 	},
 /turf/simulated/floor/engine,
 /area/station/fluff_ship/engineering)
+"Ch" = (
+/obj/machinery/recharge_station,
+/obj/machinery/door_control{
+	id = "toilet_unit4";
+	name = "Door Bolt Control";
+	normaldoorcontrol = 1;
+	pixel_y = -25;
+	specialfunctions = 4
+	},
+/obj/machinery/light/small{
+	dir = 4
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "showroomfloor"
+	},
+/area/ruin/powered/restraunt)
 "Ck" = (
 /obj/effect/turf_decal/delivery/partial{
 	dir = 1
 	},
 /turf/simulated/floor/engine,
 /area/ruin/powered/fafnir)
+"Co" = (
+/turf/simulated/floor/plasteel/stairs{
+	dir = 8
+	},
+/area/ruin/powered/promise)
 "Cp" = (
 /turf/simulated/wall/mineral/plastitanium,
 /area/station/fluff_ship/bridge)
+"Cs" = (
+/obj/machinery/atmospherics/pipe/simple/hidden{
+	dir = 4
+	},
+/turf/simulated/floor/catwalk,
+/area/ruin/powered/promise)
+"Cw" = (
+/turf/simulated/floor/wood,
+/area/ruin/powered/promise)
 "CD" = (
 /obj/structure/safe,
 /obj/item/folder/important_documents,
@@ -2153,6 +4210,23 @@
 	},
 /turf/simulated/floor/plasteel/dark,
 /area/ruin/powered/fafnir)
+"CF" = (
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/obj/machinery/washing_machine,
+/turf/simulated/floor/plasteel{
+	icon_state = "white"
+	},
+/area/ruin/powered/promise)
+"CK" = (
+/obj/structure/flora/ausbushes/fullgrass,
+/obj/structure/flora/ausbushes/ppflowers,
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/simulated/floor/grass,
+/area/ruin/powered/restraunt)
 "CL" = (
 /obj/machinery/door/poddoor/preopen{
 	id_tag = "fafsecsouth";
@@ -2207,6 +4281,13 @@
 	},
 /turf/simulated/floor/carpet/purple,
 /area/ruin/powered/fafnir)
+"Da" = (
+/obj/structure/flora/ausbushes/fullgrass,
+/obj/structure/flora/ausbushes/leafybush,
+/obj/structure/flora/ausbushes/pointybush,
+/obj/structure/flora/ausbushes/ppflowers,
+/turf/simulated/floor/grass,
+/area/ruin/powered/restraunt)
 "Dd" = (
 /obj/machinery/power/apc{
 	name = "south bump";
@@ -2243,6 +4324,39 @@
 	},
 /turf/simulated/floor/plasteel/dark,
 /area/ruin/powered/fafnir)
+"Df" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 9
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "whitehall"
+	},
+/area/ruin/powered/promise)
+"Dg" = (
+/obj/structure/window/reinforced/survival_pod{
+	dir = 9
+	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden{
+	dir = 9
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 6
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 6
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "cautioncorner"
+	},
+/area/ruin/powered/promise)
 "Di" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /turf/simulated/floor/plasteel{
@@ -2250,6 +4364,13 @@
 	icon_state = "tranquillite"
 	},
 /area/station/fluff_ship)
+"Dp" = (
+/obj/structure/chair/wood,
+/turf/simulated/floor/plasteel,
+/area/ruin/powered/restraunt)
+"Dz" = (
+/turf/simulated/floor/carpet/purple,
+/area/ruin/powered/reverie)
 "DE" = (
 /obj/machinery/light_switch{
 	dir = 1;
@@ -2278,17 +4399,75 @@
 	},
 /turf/simulated/floor/plasteel/dark,
 /area/station/fluff_ship/bridge)
+"DJ" = (
+/obj/structure/chair/stool,
+/turf/simulated/floor/plasteel{
+	icon_state = "darkfull"
+	},
+/area/ruin/powered/promise)
 "DL" = (
 /obj/machinery/light{
 	dir = 1
 	},
 /turf/simulated/floor/carpet/royalblue,
 /area/ruin/powered/fafnir)
+"DO" = (
+/obj/structure/railing{
+	dir = 1
+	},
+/obj/machinery/atmospherics/unary/vent_scrubber/on,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 6
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "whitehall";
+	dir = 1
+	},
+/area/ruin/powered/promise)
 "DV" = (
 /obj/machinery/door/airlock/command,
 /obj/effect/mapping_helpers/airlock/locked,
 /turf/simulated/floor/plating,
 /area/ruin/powered/fafnir)
+"DX" = (
+/turf/simulated/floor/plasteel{
+	icon_state = "cafeteria"
+	},
+/area/ruin/powered/restraunt)
+"DZ" = (
+/obj/structure/window/reinforced/survival_pod,
+/obj/structure/railing{
+	dir = 8
+	},
+/obj/machinery/suit_storage_unit,
+/obj/machinery/atmospherics/pipe/simple/hidden{
+	dir = 6
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "caution";
+	dir = 10
+	},
+/area/ruin/powered/promise)
+"Ed" = (
+/obj/structure/table/glass/reinforced/titanium,
+/turf/simulated/floor/plasteel{
+	icon_state = "whitecorner";
+	dir = 4
+	},
+/area/ruin/powered/promise)
+"Ee" = (
+/obj/structure/flora/ausbushes/fullgrass,
+/obj/structure/flora/ausbushes/leafybush,
+/obj/structure/flora/ausbushes/lavendergrass,
+/obj/structure/flora/ausbushes/ppflowers,
+/turf/simulated/floor/grass,
+/area/ruin/powered/restraunt)
+"Eg" = (
+/obj/machinery/atmospherics/pipe/simple/hidden{
+	dir = 10
+	},
+/turf/simulated/floor/catwalk,
+/area/ruin/powered/promise)
 "Eh" = (
 /obj/structure/closet/walllocker/emerglocker/north{
 	filled = 0
@@ -2304,6 +4483,22 @@
 	icon_state = "white"
 	},
 /area/station/fluff_ship)
+"Ei" = (
+/obj/structure/table/reinforced,
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "engine"
+	},
+/area/ruin/powered/promise)
 "Ek" = (
 /obj/machinery/door/airlock/command/glass{
 	id_tag = "ntrepofficedoor";
@@ -2320,6 +4515,19 @@
 	},
 /turf/simulated/floor/plasteel/dark,
 /area/ruin/powered/fafnir)
+"Ep" = (
+/obj/structure/table/reinforced,
+/obj/machinery/chem_dispenser/soda,
+/turf/simulated/floor/plasteel{
+	icon_state = "grimy"
+	},
+/area/ruin/powered/restraunt)
+"Er" = (
+/obj/structure/chair/wood{
+	dir = 1
+	},
+/turf/simulated/floor/plasteel,
+/area/ruin/powered/restraunt)
 "Es" = (
 /obj/structure/bed,
 /obj/item/bedsheet/medical,
@@ -2338,12 +4546,36 @@
 	},
 /turf/simulated/floor/plasteel/dark,
 /area/ruin/powered/fafnir)
+"Ez" = (
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 5
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "whitehall"
+	},
+/area/ruin/powered/promise)
 "ED" = (
 /obj/machinery/defibrillator_mount/loaded{
 	pixel_y = 30
 	},
 /turf/simulated/floor/plasteel/dark,
 /area/ruin/powered/fafnir)
+"EE" = (
+/obj/structure/window/reinforced/survival_pod{
+	dir = 8
+	},
+/obj/machinery/computer/turbine_computer{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden{
+	dir = 4
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "caution";
+	dir = 8
+	},
+/area/ruin/powered/promise)
 "EG" = (
 /obj/structure/table/glass/reinforced/plastitanium,
 /obj/structure/window/reinforced{
@@ -2376,6 +4608,41 @@
 /obj/item/weldingtool/largetank,
 /turf/simulated/floor/plasteel/dark,
 /area/ruin/powered/fafnir)
+"EI" = (
+/obj/structure/chair/stool/bar{
+	dir = 1
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "cafeteria"
+	},
+/area/ruin/powered/promise)
+"EO" = (
+/obj/structure/closet/secure_closet/freezer/fridge,
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "cafeteria"
+	},
+/area/ruin/powered/promise)
+"EQ" = (
+/obj/effect/turf_decal/stripes/white/line{
+	dir = 6
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "dark"
+	},
+/area/ruin/powered/promise)
+"ES" = (
+/obj/structure/railing{
+	dir = 8
+	},
+/obj/structure/closet/crate,
+/obj/machinery/light/small,
+/turf/simulated/floor/plasteel{
+	icon_state = "dark"
+	},
+/area/ruin/powered/promise)
 "ET" = (
 /obj/structure/railing/corner{
 	dir = 4
@@ -2389,6 +4656,12 @@
 	icon_state = "blackcorner"
 	},
 /area/station/fluff_ship/bridge)
+"EW" = (
+/obj/machinery/door/airlock/external{
+	locked = 1
+	},
+/turf/simulated/floor/catwalk,
+/area/ruin/powered/promise)
 "Fa" = (
 /obj/structure/cable{
 	d1 = 4;
@@ -2414,12 +4687,41 @@
 	},
 /turf/simulated/floor/carpet/purple,
 /area/ruin/powered/fafnir)
+"Fh" = (
+/obj/structure/flora/ausbushes/lavendergrass,
+/turf/simulated/floor/grass,
+/area/ruin/powered/promise)
+"Fv" = (
+/obj/structure/flora/ausbushes/fullgrass,
+/obj/structure/flora/ausbushes/grassybush,
+/turf/simulated/floor/grass,
+/area/ruin/powered/restraunt)
 "Fw" = (
 /obj/structure/table,
 /turf/simulated/floor/plasteel{
 	icon_state = "darkblue"
 	},
 /area/station/fluff_ship/bridge)
+"Fy" = (
+/obj/structure/railing/corner{
+	dir = 1
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "dark"
+	},
+/area/ruin/powered/promise)
+"Fz" = (
+/obj/machinery/light/small{
+	dir = 4
+	},
+/turf/simulated/floor/plasteel/stairs{
+	dir = 1
+	},
+/area/ruin/powered/promise)
+"FB" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/universal,
+/turf/simulated/wall/mineral/plastitanium,
+/area/ruin/powered/promise)
 "FC" = (
 /obj/machinery/kitchen_machine/grill/upgraded,
 /obj/structure/extinguisher_cabinet{
@@ -2431,10 +4733,45 @@
 	icon_state = "tranquillite"
 	},
 /area/station/fluff_ship)
+"FK" = (
+/obj/structure/table/reinforced,
+/obj/item/eftpos/register{
+	dir = 4
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "grimy"
+	},
+/area/ruin/powered/restraunt)
+"FP" = (
+/obj/structure/chair/wood{
+	dir = 8
+	},
+/turf/simulated/floor/wood,
+/area/ruin/powered/restraunt)
 "FT" = (
 /obj/machinery/economy/vending/cola,
 /turf/simulated/floor/plasteel/dark,
 /area/ruin/powered/fafnir)
+"FU" = (
+/turf/simulated/floor/plasteel{
+	icon_state = "caution";
+	dir = 5
+	},
+/area/ruin/powered/promise)
+"Gb" = (
+/obj/structure/chair/stool/bar{
+	dir = 1
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "whitehall"
+	},
+/area/ruin/powered/promise)
+"Gc" = (
+/turf/simulated/floor/plasteel{
+	icon_state = "black";
+	dir = 4
+	},
+/area/ruin/powered/promise)
 "Gg" = (
 /obj/vehicle/secway,
 /obj/item/key/security,
@@ -2448,6 +4785,14 @@
 	icon_state = "darkred"
 	},
 /area/ruin/powered/fafnir)
+"Gh" = (
+/obj/structure/railing/corner{
+	dir = 8
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "dark"
+	},
+/area/ruin/powered/promise)
 "Gr" = (
 /obj/machinery/computer/rdconsole/robotics,
 /obj/machinery/light{
@@ -2455,6 +4800,12 @@
 	},
 /turf/simulated/floor/plasteel/dark,
 /area/ruin/powered/fafnir)
+"Gu" = (
+/obj/structure/chair/sofa{
+	dir = 1
+	},
+/turf/simulated/floor/wood,
+/area/ruin/powered/reverie)
 "GA" = (
 /obj/structure/chair/sofa/corp/left,
 /obj/item/storage/backpack/duffel/syndie/orlandos,
@@ -2462,10 +4813,50 @@
 	icon_state = "darkblue"
 	},
 /area/station/fluff_ship)
+"GB" = (
+/turf/simulated/floor/plasteel{
+	icon_state = "dark"
+	},
+/area/ruin/powered/promise)
+"GD" = (
+/obj/effect/spawner/window/reinforced,
+/turf/simulated/floor/plating,
+/area/ruin/powered/restraunt)
 "GE" = (
 /obj/machinery/computer/mech_bay_power_console,
 /turf/simulated/floor/bluegrid,
 /area/ruin/powered/fafnir)
+"GF" = (
+/obj/structure/flora/ausbushes/fullgrass,
+/obj/structure/flora/ausbushes/lavendergrass,
+/obj/structure/flora/ausbushes/sparsegrass,
+/turf/simulated/floor/grass,
+/area/ruin/powered/restraunt)
+"GH" = (
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "engine"
+	},
+/area/ruin/powered/promise)
+"GJ" = (
+/obj/structure/railing{
+	dir = 1
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "whitehall";
+	dir = 1
+	},
+/area/ruin/powered/promise)
 "GM" = (
 /obj/effect/spawner/window/reinforced/polarized{
 	id = "faflounge"
@@ -2489,6 +4880,12 @@
 	icon_state = "darkblue"
 	},
 /area/station/fluff_ship)
+"GT" = (
+/obj/machinery/atmospherics/unary/tank/air{
+	dir = 1
+	},
+/turf/simulated/floor/catwalk,
+/area/ruin/powered/promise)
 "GV" = (
 /obj/structure/table/glass,
 /obj/item/storage/firstaid/aquatic_kit/full,
@@ -2517,6 +4914,34 @@
 	},
 /turf/simulated/floor/plasteel/dark,
 /area/ruin/powered/fafnir)
+"GZ" = (
+/obj/structure/chair/sofa/corp/corner{
+	dir = 4
+	},
+/turf/simulated/floor/carpet/royalblue,
+/area/ruin/powered/promise)
+"Ha" = (
+/obj/structure/table/glass/reinforced/plastitanium,
+/obj/item/reagent_containers/food/drinks/bottle/whiskey{
+	pixel_y = 10;
+	pixel_x = 1
+	},
+/obj/item/reagent_containers/food/drinks/drinkingglass/shotglass{
+	pixel_y = 5;
+	pixel_x = -5
+	},
+/obj/item/reagent_containers/food/drinks/drinkingglass/shotglass,
+/turf/simulated/floor/carpet/royalblue,
+/area/ruin/powered/promise)
+"Hd" = (
+/obj/structure/flora/ausbushes/fullgrass,
+/obj/structure/flora/ash/rock/style_2,
+/obj/structure/flora/ausbushes/ppflowers,
+/turf/simulated/floor/grass,
+/area/ruin/powered/restraunt)
+"He" = (
+/turf/simulated/floor/carpet,
+/area/ruin/powered/reverie)
 "Hf" = (
 /obj/machinery/door/airlock/command/glass{
 	id_tag = "ntrepofficedoor";
@@ -2524,6 +4949,9 @@
 	},
 /turf/simulated/floor/plasteel/dark,
 /area/ruin/powered/fafnir)
+"Ho" = (
+/turf/simulated/floor/transparent/glass/reinforced,
+/area/ruin/powered/promise)
 "Hs" = (
 /obj/item/ammo_box/magazine/enforcer/lethal,
 /obj/item/ammo_box/magazine/enforcer/lethal,
@@ -2552,6 +4980,39 @@
 	},
 /turf/simulated/floor/plating,
 /area/ruin/powered/fafnir)
+"Hv" = (
+/obj/structure/cable{
+	d2 = 8;
+	icon_state = "0-8"
+	},
+/obj/machinery/power/apc/off_station{
+	pixel_x = 24
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "caution";
+	dir = 4
+	},
+/area/ruin/powered/promise)
+"HA" = (
+/obj/item/mounted/mirror{
+	pixel_x = -32
+	},
+/obj/structure/sink{
+	dir = 8;
+	pixel_x = -12
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "white"
+	},
+/area/ruin/powered/promise)
+"HB" = (
+/obj/structure/flora/ausbushes/fullgrass,
+/obj/structure/flora/ausbushes/leafybush,
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/simulated/floor/grass,
+/area/ruin/powered/restraunt)
 "HJ" = (
 /obj/effect/turf_decal/box,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -2574,6 +5035,19 @@
 	icon_state = "darkred"
 	},
 /area/ruin/powered/fafnir)
+"HY" = (
+/turf/simulated/floor/wood{
+	icon_state = "wood-broken5"
+	},
+/area/ruin/powered/reverie)
+"HZ" = (
+/obj/machinery/light/small,
+/obj/item/radio/intercom{
+	name = "south bump";
+	pixel_y = -28
+	},
+/turf/simulated/floor/wood,
+/area/ruin/powered/reverie)
 "Ib" = (
 /obj/structure/dresser,
 /obj/machinery/light{
@@ -2587,9 +5061,26 @@
 /obj/machinery/cell_charger,
 /turf/simulated/floor/plasteel/dark,
 /area/ruin/powered/fafnir)
+"Ie" = (
+/obj/structure/closet/crate,
+/turf/simulated/floor/plasteel{
+	icon_state = "black";
+	dir = 4
+	},
+/area/ruin/powered/promise)
 "If" = (
 /turf/simulated/floor/carpet/royalblack,
 /area/ruin/powered/fafnir)
+"Ik" = (
+/obj/structure/flora/ausbushes/fullgrass,
+/obj/structure/flora/ausbushes/ppflowers,
+/obj/structure/flora/ausbushes/sparsegrass,
+/turf/simulated/floor/grass,
+/area/ruin/powered/restraunt)
+"In" = (
+/obj/structure/table/wood,
+/turf/simulated/floor/plasteel,
+/area/ruin/powered/restraunt)
 "Io" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -2620,6 +5111,12 @@
 	icon_state = "whitepurple"
 	},
 /area/ruin/powered/fafnir)
+"Iv" = (
+/obj/structure/flora/ausbushes/grassybush,
+/obj/structure/bed/psych,
+/obj/item/reagent_containers/food/snacks/grown/poppy/lily,
+/turf/simulated/floor/grass,
+/area/ruin/powered/promise)
 "Iy" = (
 /obj/effect/spawner/window/plastitanium,
 /obj/machinery/door/poddoor/multi_tile/impassable/three_tile_hor{
@@ -2631,6 +5128,16 @@
 	},
 /turf/simulated/floor/plating/airless,
 /area/station/fluff_ship/bedroom)
+"IL" = (
+/obj/machinery/atmospherics/unary/vent_pump/on,
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 4
+	},
+/obj/machinery/atmospherics/air_sensor,
+/turf/simulated/floor/plasteel{
+	icon_state = "podfloor"
+	},
+/area/ruin/powered/promise)
 "IM" = (
 /obj/structure/railing{
 	dir = 1
@@ -2663,6 +5170,17 @@
 	icon_state = "black"
 	},
 /area/station/fluff_ship)
+"IU" = (
+/obj/structure/flora/ausbushes/fullgrass,
+/obj/structure/flora/ausbushes/pointybush,
+/turf/simulated/floor/grass,
+/area/ruin/powered/restraunt)
+"IV" = (
+/obj/structure/chair/comfy/beige{
+	dir = 8
+	},
+/turf/simulated/floor/wood,
+/area/ruin/powered/promise)
 "IY" = (
 /obj/machinery/light{
 	dir = 8
@@ -2673,6 +5191,31 @@
 /obj/structure/railing/cap/normal,
 /turf/simulated/floor/plasteel/dark,
 /area/ruin/powered/fafnir)
+"Jd" = (
+/turf/simulated/floor/plasteel{
+	icon_state = "caution";
+	dir = 6
+	},
+/area/ruin/powered/promise)
+"Ji" = (
+/obj/machinery/door/airlock/public/glass,
+/obj/effect/mapping_helpers/airlock/access/all/service/kitchen,
+/turf/simulated/floor/wood,
+/area/ruin/powered/restraunt)
+"Jk" = (
+/obj/structure/table/glass/reinforced/plastitanium,
+/obj/item/paper_bin{
+	pixel_y = 2;
+	pixel_x = -2
+	},
+/obj/item/pen{
+	pixel_y = 9;
+	pixel_x = 6
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "darkblue"
+	},
+/area/ruin/powered/promise)
 "Jn" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -2700,6 +5243,79 @@
 	icon_state = "tranquillite"
 	},
 /area/station/fluff_ship)
+"Js" = (
+/obj/structure/table/glass,
+/obj/item/toy/plushie/grey_cat{
+	pixel_y = -1
+	},
+/obj/item/toy/plushie/coffee_fox{
+	pixel_y = 8;
+	pixel_x = 3
+	},
+/obj/item/toy/plushie/slimeplushie{
+	pixel_y = 5;
+	pixel_x = 5
+	},
+/obj/machinery/newscaster{
+	pixel_x = 32
+	},
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/simulated/floor/carpet/purple,
+/area/ruin/powered/promise)
+"Ju" = (
+/obj/machinery/door/airlock/maintenance/glass,
+/turf/simulated/floor/plasteel{
+	icon_state = "cafeteria"
+	},
+/area/ruin/powered/promise)
+"Jw" = (
+/turf/simulated/floor/plasteel{
+	icon_state = "showroomfloor"
+	},
+/area/ruin/powered/restraunt)
+"Jz" = (
+/obj/machinery/door/airlock/maintenance/glass,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/turf/simulated/floor/plating,
+/area/ruin/powered/promise)
+"JB" = (
+/obj/machinery/computer{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 6
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "dark"
+	},
+/area/ruin/powered/promise)
+"JC" = (
+/obj/machinery/status_display{
+	pixel_x = 32
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "grimy"
+	},
+/area/ruin/powered/restraunt)
+"JD" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 5
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 5
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "darkblue";
+	dir = 1
+	},
+/area/ruin/powered/promise)
 "JI" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /turf/simulated/floor/plasteel/stairs{
@@ -2750,6 +5366,17 @@
 	icon_state = "black"
 	},
 /area/station/fluff_ship/bridge)
+"JQ" = (
+/obj/structure/flora/ausbushes/fullgrass,
+/obj/structure/flora/ausbushes/fernybush,
+/obj/structure/flora/ausbushes/grassybush,
+/turf/simulated/floor/grass,
+/area/ruin/powered/restraunt)
+"JR" = (
+/obj/structure/flora/ausbushes/fullgrass,
+/obj/structure/flora/ausbushes/ppflowers,
+/turf/simulated/floor/grass,
+/area/ruin/powered/restraunt)
 "JV" = (
 /obj/machinery/door/poddoor/shutters/preopen{
 	id_tag = "fafbay";
@@ -2761,6 +5388,13 @@
 /obj/structure/reagent_dispensers/water_cooler,
 /turf/simulated/floor/plasteel/dark,
 /area/ruin/powered/fafnir)
+"Ka" = (
+/obj/structure/curtain/open/shower,
+/obj/item/soap/deluxe,
+/turf/simulated/floor/plasteel{
+	icon_state = "white"
+	},
+/area/ruin/powered/promise)
 "Kh" = (
 /obj/machinery/light{
 	dir = 4
@@ -2770,6 +5404,20 @@
 	},
 /turf/simulated/floor/plasteel/dark,
 /area/ruin/powered/fafnir)
+"Kj" = (
+/obj/machinery/shower{
+	pixel_y = 8
+	},
+/obj/machinery/door/window/classic/reversed{
+	name = "Shower"
+	},
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "freezerfloor"
+	},
+/area/ruin/powered/reverie)
 "Kk" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -2782,6 +5430,22 @@
 	},
 /turf/simulated/floor/engine,
 /area/ruin/powered/fafnir)
+"Km" = (
+/obj/machinery/door/airlock/external,
+/turf/simulated/floor/catwalk,
+/area/ruin/powered/promise)
+"Kn" = (
+/obj/structure/sink{
+	pixel_y = -5;
+	dir = 1
+	},
+/obj/structure/mirror{
+	pixel_y = -28
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "showroomfloor"
+	},
+/area/ruin/powered/restraunt)
 "Ko" = (
 /obj/structure/table,
 /obj/item/storage/toolbox/mechanical{
@@ -2804,6 +5468,33 @@
 	},
 /turf/simulated/floor/engine,
 /area/ruin/powered/fafnir)
+"Kq" = (
+/obj/structure/table/wood,
+/obj/item/fishfood{
+	pixel_y = 11;
+	pixel_x = -7;
+	name = "definitely a cat food can"
+	},
+/obj/item/fishfood{
+	pixel_y = 9;
+	name = "definitely a cat food can"
+	},
+/obj/item/fishfood{
+	pixel_y = 4;
+	pixel_x = -7;
+	name = "definitely a cat food can"
+	},
+/turf/simulated/floor/wood,
+/area/ruin/powered/promise)
+"Ks" = (
+/obj/structure/railing{
+	dir = 6
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "whitehall";
+	dir = 6
+	},
+/area/ruin/powered/promise)
 "Kt" = (
 /obj/effect/spawner/window/plastitanium,
 /obj/structure/cable{
@@ -2828,6 +5519,11 @@
 	icon_state = "freezerfloor"
 	},
 /area/ruin/powered/fafnir)
+"KE" = (
+/turf/simulated/floor/plasteel{
+	icon_state = "grimy"
+	},
+/area/ruin/powered/restraunt)
 "KL" = (
 /obj/machinery/teleport/hub,
 /turf/simulated/floor/mineral/titanium/blue,
@@ -2836,6 +5532,18 @@
 /obj/structure/table/wood,
 /turf/simulated/floor/carpet/royalblue,
 /area/ruin/powered/fafnir)
+"KQ" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/light/small,
+/turf/simulated/floor/plasteel{
+	icon_state = "whitehall"
+	},
+/area/ruin/powered/promise)
 "KT" = (
 /obj/effect/spawner/window/plastitanium,
 /obj/structure/cable{
@@ -2858,6 +5566,12 @@
 	},
 /turf/simulated/floor/plating,
 /area/station/fluff_ship/bridge)
+"La" = (
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/simulated/floor/plasteel,
+/area/ruin/powered/restraunt)
 "Lb" = (
 /obj/machinery/processor{
 	dir = 8
@@ -2898,6 +5612,12 @@
 "Ll" = (
 /turf/simulated/wall/mineral/titanium,
 /area/shuttle/arrival/station)
+"Ln" = (
+/obj/structure/railing{
+	dir = 4
+	},
+/turf/simulated/floor/plasteel,
+/area/ruin/powered/restraunt)
 "Lq" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /turf/simulated/floor/carpet/purple,
@@ -2915,6 +5635,13 @@
 	},
 /turf/simulated/floor/plasteel/dark,
 /area/ruin/powered/fafnir)
+"Lz" = (
+/obj/machinery/door/airlock/maintenance/glass,
+/turf/simulated/floor/plasteel{
+	icon_state = "black";
+	dir = 8
+	},
+/area/ruin/powered/promise)
 "LC" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -2932,6 +5659,19 @@
 	icon_state = "darkblue"
 	},
 /area/station/fluff_ship)
+"LD" = (
+/obj/structure/railing,
+/obj/structure/chair/sofa/bench{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 9
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
+/turf/simulated/floor/plasteel{
+	icon_state = "whitehall"
+	},
+/area/ruin/powered/promise)
 "LE" = (
 /obj/effect/turf_decal{
 	dir = 8
@@ -2941,6 +5681,68 @@
 	},
 /turf/simulated/floor/plasteel/dark,
 /area/ruin/powered/fafnir)
+"LF" = (
+/obj/structure/table/glass/reinforced/plastitanium,
+/obj/machinery/readybutton{
+	pixel_y = -2;
+	pixel_x = -4
+	},
+/obj/machinery/button/windowtint{
+	pixel_x = 6;
+	pixel_y = -2
+	},
+/obj/machinery/button/windowtint{
+	pixel_x = 6;
+	pixel_y = 7
+	},
+/obj/machinery/button/windowtint{
+	pixel_x = 18;
+	pixel_y = -2
+	},
+/obj/machinery/flasher_button{
+	pixel_x = -4;
+	pixel_y = 8
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "dark"
+	},
+/area/ruin/powered/promise)
+"LG" = (
+/obj/structure/railing{
+	dir = 5
+	},
+/obj/machinery/computer{
+	dir = 8
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "darkblue";
+	dir = 5
+	},
+/area/ruin/powered/promise)
+"LI" = (
+/obj/structure/curtain/open,
+/turf/simulated/floor/wood,
+/area/ruin/powered/reverie)
+"LO" = (
+/obj/structure/musician/piano,
+/turf/simulated/floor/plasteel{
+	icon_state = "dark"
+	},
+/area/ruin/powered/promise)
+"LV" = (
+/obj/structure/railing/corner{
+	dir = 1
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "cafeteria"
+	},
+/area/ruin/powered/promise)
+"LY" = (
+/obj/structure/chair/wood{
+	dir = 1
+	},
+/turf/simulated/floor/wood,
+/area/ruin/powered/restraunt)
 "Ma" = (
 /obj/structure/cable{
 	d1 = 1;
@@ -2978,9 +5780,54 @@
 	icon_state = "darkblue"
 	},
 /area/station/fluff_ship/bridge)
+"Mi" = (
+/obj/structure/railing/corner{
+	dir = 8
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "whitecorner";
+	dir = 1
+	},
+/area/ruin/powered/promise)
 "Mj" = (
 /turf/simulated/wall/mineral/plastitanium,
 /area/station/fluff_ship/engineering)
+"Ms" = (
+/obj/structure/toilet{
+	dir = 4
+	},
+/obj/machinery/door_control{
+	id = "toilet_unit2";
+	name = "Door Bolt Control";
+	normaldoorcontrol = 1;
+	pixel_y = -25;
+	specialfunctions = 4
+	},
+/obj/machinery/newscaster{
+	name = "north bump";
+	pixel_y = 28
+	},
+/obj/machinery/light/small{
+	dir = 8
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "showroomfloor"
+	},
+/area/ruin/powered/restraunt)
+"Mv" = (
+/obj/machinery/door/airlock/multi_tile/glass{
+	dir = 2
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "dark"
+	},
+/area/ruin/powered/promise)
+"Mw" = (
+/obj/structure/chair/office{
+	dir = 8
+	},
+/turf/simulated/floor/catwalk,
+/area/ruin/powered/promise)
 "Mz" = (
 /obj/machinery/door/airlock{
 	id_tag = "toilet_unit2";
@@ -2990,10 +5837,52 @@
 	icon_state = "freezerfloor"
 	},
 /area/ruin/powered/fafnir)
+"MC" = (
+/obj/machinery/computer/security/wooden_tv{
+	network = list("SS13","Research    Outpost","Mining    Outpost")
+	},
+/turf/simulated/floor/wood,
+/area/ruin/powered/reverie)
+"MK" = (
+/turf/simulated/floor/plasteel{
+	icon_state = "darkfull"
+	},
+/area/ruin/powered/promise)
+"MM" = (
+/obj/structure/closet/secure_closet/personal,
+/turf/simulated/floor/wood,
+/area/ruin/powered/reverie)
+"MN" = (
+/obj/structure/table/wood,
+/obj/machinery/computer/secure_data/laptop,
+/turf/simulated/floor/wood,
+/area/ruin/powered/promise)
+"MO" = (
+/obj/structure/table,
+/obj/machinery/kitchen_machine/microwave,
+/turf/simulated/floor/plasteel{
+	icon_state = "cafeteria"
+	},
+/area/ruin/powered/restraunt)
+"MP" = (
+/obj/structure/sign/poster/official/ian{
+	pixel_x = 32
+	},
+/obj/machinery/light/small{
+	dir = 4
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "dark"
+	},
+/area/ruin/powered/promise)
 "MU" = (
 /obj/machinery/economy/vending/chinese,
 /turf/simulated/floor/carpet/black,
 /area/ruin/powered/fafnir)
+"MW" = (
+/obj/structure/bookcase/random,
+/turf/simulated/floor/plasteel,
+/area/ruin/powered/promise)
 "MY" = (
 /obj/structure/chair{
 	dir = 8
@@ -3019,6 +5908,69 @@
 /obj/structure/plasticflaps,
 /turf/simulated/floor/plasteel/dark,
 /area/ruin/powered/fafnir)
+"Nb" = (
+/turf/simulated/floor/plasteel{
+	icon_state = "whitecorner";
+	dir = 4
+	},
+/area/ruin/powered/promise)
+"Ng" = (
+/obj/structure/toilet,
+/obj/item/radio/intercom{
+	name = "north bump";
+	pixel_y = 28
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "freezerfloor"
+	},
+/area/ruin/powered/reverie)
+"Nm" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "darkblue";
+	dir = 1
+	},
+/area/ruin/powered/promise)
+"Nn" = (
+/obj/machinery/power/compressor{
+	dir = 4
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "podfloor"
+	},
+/area/ruin/powered/promise)
+"Ns" = (
+/turf/simulated/wall,
+/area/ruin/powered/restraunt)
+"Nu" = (
+/obj/structure/sign/poster/contraband/power{
+	pixel_y = -32
+	},
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden{
+	dir = 9
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/light,
+/turf/simulated/floor/plasteel{
+	icon_state = "caution";
+	dir = 10
+	},
+/area/ruin/powered/promise)
 "Nv" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 5
@@ -3037,6 +5989,43 @@
 /obj/machinery/light,
 /turf/simulated/floor/plating,
 /area/ruin/powered/fafnir)
+"NH" = (
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 9
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 9
+	},
+/obj/structure/closet/walllocker/emerglocker{
+	pixel_y = -32
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "caution"
+	},
+/area/ruin/powered/promise)
+"NI" = (
+/obj/structure/flora/ausbushes/fullgrass,
+/turf/simulated/floor/grass,
+/area/ruin/powered/restraunt)
+"NN" = (
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 6
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 6
+	},
+/turf/simulated/floor/plasteel,
+/area/ruin/powered/promise)
 "NU" = (
 /obj/machinery/door/poddoor/preopen{
 	id_tag = "fafsecnorth";
@@ -3052,6 +6041,57 @@
 	},
 /turf/simulated/floor/plasteel/dark,
 /area/ruin/powered/fafnir)
+"NY" = (
+/obj/machinery/atmospherics/pipe/manifold/hidden{
+	dir = 1
+	},
+/turf/simulated/floor/catwalk,
+/area/ruin/powered/promise)
+"Oe" = (
+/obj/machinery/power/terminal,
+/obj/structure/cable/yellow{
+	d2 = 4;
+	icon_state = "0-4"
+	},
+/obj/machinery/atmospherics/pipe/simple/visible{
+	dir = 4
+	},
+/obj/machinery/light/small{
+	dir = 1
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "engine"
+	},
+/area/ruin/powered/promise)
+"Og" = (
+/obj/structure/ore_box,
+/turf/simulated/floor/plasteel,
+/area/ruin/powered/promise)
+"Oh" = (
+/obj/machinery/kitchen_machine/oven,
+/turf/simulated/floor/plasteel{
+	icon_state = "cautionfull"
+	},
+/area/ruin/powered/reverie)
+"Oi" = (
+/obj/structure/window/reinforced/survival_pod{
+	dir = 6
+	},
+/obj/structure/cable/yellow{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 6
+	},
+/obj/machinery/atmospherics/pipe/simple/visible/universal{
+	dir = 4
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "engine"
+	},
+/area/ruin/powered/promise)
 "Oj" = (
 /obj/structure/shuttle/engine/propulsion{
 	dir = 8;
@@ -3059,6 +6099,18 @@
 	},
 /turf/space,
 /area/space)
+"Oz" = (
+/obj/structure/closet/walllocker/emerglocker{
+	pixel_y = 32
+	},
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "darkblue";
+	dir = 1
+	},
+/area/ruin/powered/promise)
 "OA" = (
 /obj/machinery/airlock_controller/air_cycler{
 	pixel_x = 25;
@@ -3084,6 +6136,21 @@
 	},
 /turf/simulated/floor/plasteel/dark,
 /area/ruin/powered/fafnir)
+"OJ" = (
+/obj/machinery/kitchen_machine/grill,
+/turf/simulated/floor/plasteel{
+	icon_state = "cautionfull"
+	},
+/area/ruin/powered/reverie)
+"OK" = (
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
+	dir = 1
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "whitehall";
+	dir = 1
+	},
+/area/ruin/powered/promise)
 "OM" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
@@ -3104,6 +6171,10 @@
 /obj/item/stock_parts/cell/high,
 /turf/simulated/floor/engine,
 /area/station/fluff_ship/engineering)
+"OQ" = (
+/obj/vehicle/space/speedbike,
+/turf/simulated/floor/plasteel/dark,
+/area/ruin/powered/restraunt)
 "OS" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -3119,6 +6190,12 @@
 	icon_state = "darkred"
 	},
 /area/ruin/powered/fafnir)
+"Pc" = (
+/obj/structure/chair/sofa/corp/right{
+	dir = 1
+	},
+/turf/simulated/floor/carpet/purple,
+/area/ruin/powered/promise)
 "Pd" = (
 /obj/effect/turf_decal/box,
 /obj/effect/turf_decal/arrows{
@@ -3156,6 +6233,12 @@
 	},
 /turf/simulated/floor/catwalk,
 /area/ruin/powered/fafnir)
+"Po" = (
+/obj/structure/flora/ausbushes/lavendergrass,
+/obj/structure/bed/psych,
+/obj/item/reagent_containers/food/snacks/grown/poppy/geranium,
+/turf/simulated/floor/grass,
+/area/ruin/powered/promise)
 "Pw" = (
 /obj/structure/table,
 /obj/machinery/light_switch{
@@ -3165,6 +6248,34 @@
 	},
 /turf/simulated/floor/engine,
 /area/station/fluff_ship/engineering)
+"Py" = (
+/obj/structure/flora/ausbushes/fullgrass,
+/obj/structure/flora/ausbushes/leafybush,
+/obj/structure/flora/ausbushes/lavendergrass,
+/obj/structure/flora/ausbushes/ppflowers,
+/obj/structure/flora/tree/jungle/small,
+/turf/simulated/floor/grass,
+/area/ruin/powered/restraunt)
+"Pz" = (
+/obj/structure/flora/ausbushes/fullgrass,
+/obj/structure/flora/ausbushes/grassybush,
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/simulated/floor/grass,
+/area/ruin/powered/restraunt)
+"PA" = (
+/obj/structure/table/wood,
+/turf/simulated/floor/wood,
+/area/ruin/powered/restraunt)
+"PF" = (
+/obj/machinery/light/small{
+	dir = 4
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "dark"
+	},
+/area/ruin/powered/promise)
 "PL" = (
 /obj/machinery/fishtank/tank,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -3174,6 +6285,40 @@
 	icon_state = "darkbluecorners"
 	},
 /area/station/fluff_ship)
+"PQ" = (
+/obj/machinery/door/airlock{
+	id_tag = "toilet_unit4";
+	name = "Unit 4"
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "showroomfloor"
+	},
+/area/ruin/powered/restraunt)
+"PR" = (
+/obj/machinery/economy/vending/plasmaresearch,
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "engine"
+	},
+/area/ruin/powered/promise)
+"PT" = (
+/obj/structure/bonfire/lit,
+/obj/structure/railing{
+	dir = 6;
+	pixel_y = -3
+	},
+/obj/structure/railing{
+	dir = 5;
+	pixel_y = 3
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "engine"
+	},
+/area/ruin/powered/promise)
 "PU" = (
 /obj/machinery/power/apc{
 	name = "south bump";
@@ -3222,6 +6367,20 @@
 /obj/item/storage/box/cups,
 /turf/simulated/floor/plasteel,
 /area/station/fluff_ship/bridge)
+"Qg" = (
+/obj/structure/table/glass/reinforced/titanium,
+/turf/simulated/floor/transparent/glass/reinforced,
+/area/ruin/powered/promise)
+"Qp" = (
+/obj/structure/chair/comfy/corp{
+	dir = 1
+	},
+/turf/simulated/floor/plasteel,
+/area/ruin/powered/promise)
+"Qr" = (
+/obj/structure/closet/cardboard,
+/turf/simulated/floor/plasteel,
+/area/ruin/powered/promise)
 "Qs" = (
 /obj/structure/railing{
 	dir = 1
@@ -3246,6 +6405,29 @@
 /obj/item/radio/beacon,
 /turf/simulated/floor/engine,
 /area/station/fluff_ship)
+"Qz" = (
+/obj/machinery/atmospherics/pipe/manifold/visible{
+	dir = 4
+	},
+/obj/machinery/atmospherics/meter,
+/turf/simulated/floor/plasteel{
+	icon_state = "engine"
+	},
+/area/ruin/powered/promise)
+"QC" = (
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden{
+	dir = 5
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
+/turf/simulated/floor/plasteel{
+	icon_state = "engine"
+	},
+/area/ruin/powered/promise)
 "QD" = (
 /obj/machinery/atmospherics/unary/vent_pump/on,
 /obj/structure/chair/comfy/corp{
@@ -3253,6 +6435,11 @@
 	},
 /turf/simulated/floor/carpet/purple,
 /area/station/fluff_ship/bedroom)
+"QG" = (
+/obj/structure/flora/ausbushes/fullgrass,
+/obj/structure/flora/ausbushes/sparsegrass,
+/turf/simulated/floor/grass,
+/area/ruin/powered/restraunt)
 "QK" = (
 /obj/machinery/door/airlock/medical/glass{
 	name = "Infirmary"
@@ -3268,6 +6455,17 @@
 	icon_state = "darkred"
 	},
 /area/ruin/powered/fafnir)
+"QO" = (
+/obj/machinery/smartfridge,
+/turf/simulated/floor/plasteel{
+	icon_state = "cautionfull"
+	},
+/area/ruin/powered/reverie)
+"QQ" = (
+/obj/structure/flora/ausbushes/sparsegrass,
+/obj/structure/chair/sofa/bamboo/right,
+/turf/simulated/floor/grass,
+/area/ruin/powered/promise)
 "QR" = (
 /obj/structure/railing/cap,
 /turf/simulated/floor/plasteel/dark,
@@ -3288,6 +6486,36 @@
 	},
 /turf/simulated/floor/plasteel/dark,
 /area/ruin/powered/fafnir)
+"Rl" = (
+/obj/machinery/door_control{
+	id = "toilet_unit3";
+	name = "Door Bolt Control";
+	normaldoorcontrol = 1;
+	pixel_y = -25;
+	specialfunctions = 4
+	},
+/obj/structure/toilet{
+	dir = 8
+	},
+/obj/machinery/newscaster{
+	name = "north bump";
+	pixel_y = 28
+	},
+/obj/machinery/light/small{
+	dir = 4
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "showroomfloor"
+	},
+/area/ruin/powered/restraunt)
+"Rn" = (
+/obj/structure/sign/poster/official/safety_internals{
+	pixel_y = -32
+	},
+/turf/simulated/floor/plasteel/stairs{
+	dir = 4
+	},
+/area/ruin/powered/promise)
 "Ro" = (
 /obj/structure/table,
 /obj/machinery/recharger,
@@ -3301,10 +6529,31 @@
 	},
 /turf/simulated/floor/plasteel,
 /area/station/fluff_ship/bridge)
+"Rr" = (
+/obj/structure/grille,
+/obj/structure/window/full/plastitanium,
+/obj/structure/curtain/open/shower/security,
+/turf/simulated/floor/plating,
+/area/ruin/powered/promise)
 "Rs" = (
 /obj/machinery/economy/vending/shoedispenser,
 /turf/simulated/floor/mineral/titanium/blue,
 /area/shuttle/arrival/station)
+"Rx" = (
+/obj/effect/spawner/window/reinforced/tinted/grilled,
+/turf/simulated/floor/plating,
+/area/ruin/powered/restraunt)
+"RB" = (
+/obj/structure/table,
+/obj/item/ammo_box/c10mm{
+	pixel_y = 9;
+	pixel_x = -3
+	},
+/obj/item/ammo_box/c10mm{
+	pixel_x = 4
+	},
+/turf/simulated/floor/plasteel,
+/area/ruin/powered/promise)
 "RD" = (
 /obj/machinery/door_control{
 	id = "bedroom";
@@ -3319,6 +6568,25 @@
 	icon_state = "darkpurple"
 	},
 /area/station/fluff_ship/bedroom)
+"RE" = (
+/obj/structure/rack,
+/obj/item/storage/toolbox/mechanical,
+/turf/simulated/floor/plasteel{
+	icon_state = "cautionfull"
+	},
+/area/ruin/powered/promise)
+"RH" = (
+/obj/structure/railing{
+	dir = 8
+	},
+/obj/structure/chair/comfy/corp{
+	dir = 4
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "whitecorner";
+	dir = 1
+	},
+/area/ruin/powered/promise)
 "RJ" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 9
@@ -3337,6 +6605,40 @@
 	icon_state = "darkbluecorners"
 	},
 /area/station/fluff_ship)
+"RK" = (
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 9
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 9
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "caution";
+	dir = 6
+	},
+/area/ruin/powered/promise)
+"RL" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/marker_beacon/dock_marker/collision,
+/turf/template_noop,
+/area/space)
+"RN" = (
+/obj/structure/table/reinforced,
+/turf/simulated/floor/plasteel{
+	icon_state = "grimy"
+	},
+/area/ruin/powered/restraunt)
+"RO" = (
+/obj/effect/turf_decal/stripes/white/line{
+	dir = 5
+	},
+/turf/simulated/floor/plating,
+/area/ruin/powered/promise)
 "RS" = (
 /obj/machinery/teleport/station,
 /turf/simulated/floor/plating,
@@ -3365,6 +6667,39 @@
 	},
 /turf/simulated/floor/plasteel/dark,
 /area/ruin/powered/fafnir)
+"Sh" = (
+/obj/vehicle/motorcycle,
+/turf/simulated/floor/plasteel/dark,
+/area/ruin/powered/restraunt)
+"Sk" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "whitehall"
+	},
+/area/ruin/powered/promise)
+"Sp" = (
+/obj/structure/railing,
+/turf/simulated/floor/plasteel,
+/area/ruin/powered/restraunt)
+"Sq" = (
+/obj/structure/railing{
+	dir = 1;
+	pixel_x = 6
+	},
+/obj/structure/railing/corner{
+	dir = 10;
+	pixel_y = 24
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "whitehall";
+	dir = 1
+	},
+/area/ruin/powered/promise)
 "Sr" = (
 /obj/structure/filingcabinet/chestdrawer,
 /obj/machinery/light{
@@ -3385,6 +6720,12 @@
 	icon_state = "darkbluecorners"
 	},
 /area/station/fluff_ship)
+"SH" = (
+/obj/structure/table,
+/turf/simulated/floor/plasteel{
+	icon_state = "cafeteria"
+	},
+/area/ruin/powered/restraunt)
 "SP" = (
 /obj/structure/railing{
 	dir = 1
@@ -3404,6 +6745,15 @@
 	icon_state = "black"
 	},
 /area/station/fluff_ship)
+"SQ" = (
+/obj/machinery/door/airlock{
+	id_tag = "ap1";
+	name = "Apartment 1022A"
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "dark"
+	},
+/area/ruin/powered/reverie)
 "ST" = (
 /turf/simulated/wall/mineral/plastitanium,
 /area/station/fluff_ship)
@@ -3445,6 +6795,17 @@
 	},
 /turf/simulated/floor/carpet/black,
 /area/ruin/powered/fafnir)
+"Tg" = (
+/obj/structure/extinguisher_cabinet{
+	pixel_x = -32
+	},
+/obj/machinery/light/small{
+	dir = 8
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "dark"
+	},
+/area/ruin/powered/promise)
 "Tj" = (
 /obj/machinery/door/airlock/hatch{
 	name = "Engineering"
@@ -3463,10 +6824,44 @@
 	},
 /turf/simulated/floor/engine,
 /area/station/fluff_ship/engineering)
+"Tx" = (
+/obj/structure/railing{
+	dir = 8;
+	pixel_y = 6
+	},
+/obj/structure/railing/corner{
+	dir = 10;
+	pixel_x = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 6
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 6
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "whitehall";
+	dir = 10
+	},
+/area/ruin/powered/promise)
 "Ty" = (
 /obj/structure/table/wood,
 /turf/simulated/floor/carpet/black,
 /area/ruin/powered/fafnir)
+"TC" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "whitecorner";
+	dir = 1
+	},
+/area/ruin/powered/promise)
+"TL" = (
+/obj/machinery/door/airlock/public,
+/obj/effect/mapping_helpers/airlock/locked,
+/turf/simulated/floor/carpet,
+/area/ruin/powered/reverie)
 "TP" = (
 /obj/effect/spawner/window/plastitanium,
 /obj/structure/cable{
@@ -3494,6 +6889,49 @@
 	},
 /turf/simulated/floor/plasteel/dark,
 /area/ruin/powered/fafnir)
+"TY" = (
+/obj/structure/bed,
+/obj/item/bedsheet/black{
+	name = "Astra's bedsheet";
+	desc = "A heavy bedsheet with a cable running to a connector in the nearby wall."
+	},
+/turf/simulated/floor/wood,
+/area/ruin/powered/reverie)
+"Ua" = (
+/obj/machinery/door/window/survival_pod{
+	dir = 1
+	},
+/turf/simulated/floor/plasteel/stairs{
+	dir = 1
+	},
+/area/ruin/powered/promise)
+"Ue" = (
+/obj/structure/closet/secure_closet/personal/cabinet,
+/turf/simulated/floor/carpet/purple,
+/area/ruin/powered/promise)
+"Un" = (
+/obj/structure/railing{
+	dir = 4
+	},
+/obj/structure/window/reinforced/survival_pod{
+	dir = 1
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden{
+	dir = 10;
+	initialize_directions = 10
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
+	dir = 4
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "engine"
+	},
+/area/ruin/powered/promise)
 "Up" = (
 /obj/machinery/iv_drip,
 /turf/simulated/floor/plasteel{
@@ -3501,6 +6939,25 @@
 	icon_state = "whiteblue"
 	},
 /area/ruin/powered/fafnir)
+"Uy" = (
+/turf/simulated/wall,
+/area/ruin/powered/reverie)
+"Uz" = (
+/obj/machinery/door/airlock{
+	name = "Apartment 1024A";
+	locked = 1
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "dark"
+	},
+/area/ruin/powered/reverie)
+"UA" = (
+/obj/structure/table/reinforced,
+/obj/item/kitchen/sushimat,
+/turf/simulated/floor/plasteel{
+	icon_state = "cafeteria"
+	},
+/area/ruin/powered/promise)
 "UB" = (
 /obj/structure/table/reinforced,
 /obj/item/clothing/glasses/hud/diagnostic,
@@ -3514,6 +6971,18 @@
 "UC" = (
 /turf/simulated/wall,
 /area/ruin/powered/fafnir)
+"UF" = (
+/obj/structure/railing{
+	dir = 6
+	},
+/obj/machinery/computer{
+	dir = 8
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "darkblue";
+	dir = 6
+	},
+/area/ruin/powered/promise)
 "UN" = (
 /obj/structure/curtain/black{
 	name = "shower curtain"
@@ -3538,12 +7007,27 @@
 	icon_state = "darkpurple"
 	},
 /area/station/fluff_ship/bedroom)
+"UQ" = (
+/obj/machinery/kitchen_machine/grill,
+/turf/simulated/floor/plasteel{
+	icon_state = "cafeteria"
+	},
+/area/ruin/powered/promise)
 "UR" = (
 /obj/structure/window/reinforced,
 /obj/structure/table/glass/reinforced/plastitanium,
 /obj/item/paper_bin,
 /turf/simulated/floor/carpet/royalblack,
 /area/ruin/powered/fafnir)
+"UT" = (
+/turf/simulated/floor/plasteel,
+/area/ruin/powered/restraunt)
+"UU" = (
+/obj/machinery/kitchen_machine/grill,
+/turf/simulated/floor/plasteel{
+	icon_state = "cafeteria"
+	},
+/area/ruin/powered/restraunt)
 "UZ" = (
 /obj/effect/turf_decal/caution{
 	dir = 8;
@@ -3551,6 +7035,36 @@
 	},
 /turf/simulated/floor/plasteel/dark,
 /area/ruin/powered/fafnir)
+"Vd" = (
+/obj/machinery/door/airlock/maintenance/glass,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "whitehall"
+	},
+/area/ruin/powered/promise)
+"Vh" = (
+/obj/structure/railing{
+	dir = 1;
+	pixel_x = -6
+	},
+/obj/structure/railing/corner{
+	dir = 6;
+	pixel_y = 24;
+	pixel_x = -2
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
+	dir = 1
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "whitehall";
+	dir = 1
+	},
+/area/ruin/powered/promise)
 "Vn" = (
 /turf/simulated/floor/plasteel/dark,
 /area/station/fluff_ship)
@@ -3575,6 +7089,14 @@
 	icon_state = "darkyellow"
 	},
 /area/station/fluff_ship/bedroom)
+"VC" = (
+/obj/structure/railing{
+	dir = 8
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "dark"
+	},
+/area/ruin/powered/promise)
 "VD" = (
 /turf/simulated/floor/plasteel{
 	dir = 4;
@@ -3587,6 +7109,11 @@
 	},
 /turf/simulated/floor/plasteel/dark,
 /area/ruin/powered/fafnir)
+"VO" = (
+/turf/simulated/floor/plasteel{
+	icon_state = "dark"
+	},
+/area/ruin/powered/reverie)
 "VQ" = (
 /obj/machinery/conveyor/west{
 	id = "fafassembly"
@@ -3605,6 +7132,12 @@
 	icon_state = "darkblue"
 	},
 /area/station/fluff_ship/bridge)
+"VY" = (
+/obj/machinery/door/airlock/public/glass{
+	name = "Parking Office"
+	},
+/turf/simulated/floor/wood,
+/area/ruin/powered/restraunt)
 "VZ" = (
 /turf/simulated/floor/plasteel/dark,
 /area/ruin/powered/fafnir)
@@ -3616,6 +7149,48 @@
 	icon_state = "tranquillite"
 	},
 /area/station/fluff_ship)
+"Wb" = (
+/obj/structure/railing/corner{
+	dir = 4
+	},
+/turf/simulated/floor/plasteel,
+/area/ruin/powered/restraunt)
+"We" = (
+/turf/simulated/floor/wood{
+	icon_state = "wood-broken7"
+	},
+/area/ruin/powered/reverie)
+"Wf" = (
+/obj/structure/chair/stool/bar{
+	dir = 1
+	},
+/turf/simulated/floor/transparent/glass/reinforced,
+/area/ruin/powered/promise)
+"Wg" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 5
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "whitehall"
+	},
+/area/ruin/powered/promise)
+"Wi" = (
+/obj/machinery/atmospherics/pipe/simple/visible{
+	dir = 5
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "engine"
+	},
+/area/ruin/powered/promise)
+"Wm" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 9
+	},
+/turf/simulated/wall/mineral/plastitanium,
+/area/ruin/powered/promise)
 "Wq" = (
 /obj/effect/turf_decal{
 	dir = 4
@@ -3630,6 +7205,18 @@
 /obj/item/flashlight/lamp/green,
 /turf/simulated/floor/carpet/purple,
 /area/ruin/powered/fafnir)
+"Wv" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 9
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 9
+	},
+/obj/effect/turf_decal/stripes/white/line,
+/turf/simulated/floor/plasteel{
+	icon_state = "dark"
+	},
+/area/ruin/powered/promise)
 "Ww" = (
 /turf/simulated/floor/carpet/purple,
 /area/station/fluff_ship/bedroom)
@@ -3662,6 +7249,24 @@
 	},
 /turf/simulated/floor/plasteel/dark,
 /area/station/fluff_ship/bedroom)
+"WD" = (
+/obj/structure/chair/wood,
+/turf/simulated/floor/wood,
+/area/ruin/powered/restraunt)
+"WH" = (
+/obj/item/bedsheet/purple,
+/obj/structure/bed,
+/turf/simulated/floor/carpet/purple,
+/area/ruin/powered/promise)
+"WJ" = (
+/obj/structure/flora/ausbushes/fullgrass,
+/obj/structure/flora/ausbushes/leafybush,
+/turf/simulated/floor/grass,
+/area/ruin/powered/restraunt)
+"WL" = (
+/obj/structure/flora/ausbushes/sparsegrass,
+/turf/simulated/floor/grass,
+/area/ruin/powered/promise)
 "WR" = (
 /obj/machinery/bodyscanner{
 	dir = 4
@@ -3671,16 +7276,62 @@
 	icon_state = "whiteblue"
 	},
 /area/ruin/powered/fafnir)
+"WS" = (
+/obj/structure/table/reinforced,
+/obj/item/kitchen/knife/butcher,
+/obj/item/kitchen/knife{
+	pixel_x = -7
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "cafeteria"
+	},
+/area/ruin/powered/promise)
 "WT" = (
 /turf/simulated/floor/plasteel{
 	dir = 9;
 	icon_state = "whitepurple"
 	},
 /area/ruin/powered/fafnir)
+"WX" = (
+/obj/structure/flora/ausbushes/fullgrass,
+/obj/structure/flora/ausbushes/fernybush,
+/obj/structure/flora/ausbushes/lavendergrass,
+/obj/structure/flora/ausbushes/grassybush,
+/turf/simulated/floor/grass,
+/area/ruin/powered/restraunt)
 "WZ" = (
 /obj/structure/railing,
 /turf/simulated/floor/plasteel,
 /area/station/fluff_ship/bridge)
+"Xa" = (
+/obj/machinery/door/airlock{
+	id_tag = "toilet_unit2";
+	name = "Unit 2"
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "showroomfloor"
+	},
+/area/ruin/powered/restraunt)
+"Xb" = (
+/obj/structure/flora/ausbushes/fullgrass,
+/obj/structure/flora/ausbushes/pointybush,
+/obj/structure/flora/ausbushes/ppflowers,
+/turf/simulated/floor/grass,
+/area/ruin/powered/restraunt)
+"Xd" = (
+/obj/structure/table/reinforced,
+/obj/item/areaeditor/blueprints{
+	pixel_y = 9;
+	pixel_x = 6
+	},
+/obj/item/pen{
+	pixel_x = 4
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "caution";
+	dir = 9
+	},
+/area/ruin/powered/promise)
 "Xe" = (
 /obj/structure/closet/firecloset{
 	pixel_x = -8
@@ -3690,6 +7341,17 @@
 	},
 /turf/simulated/floor/plasteel/dark,
 /area/ruin/powered/fafnir)
+"Xf" = (
+/obj/structure/sink{
+	pixel_y = 11
+	},
+/obj/structure/mirror{
+	pixel_y = 28
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "showroomfloor"
+	},
+/area/ruin/powered/restraunt)
 "Xh" = (
 /obj/machinery/door_control{
 	id = "port_shutters";
@@ -3734,6 +7396,18 @@
 	dir = 1
 	},
 /area/ruin/powered/fafnir)
+"Xo" = (
+/obj/machinery/computer,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 9
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 6
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "dark"
+	},
+/area/ruin/powered/promise)
 "Xp" = (
 /turf/simulated/floor/plasteel{
 	dir = 10;
@@ -3758,6 +7432,12 @@
 	},
 /turf/simulated/floor/plasteel,
 /area/station/fluff_ship/bridge)
+"Xr" = (
+/obj/structure/flora/ausbushes/fullgrass,
+/obj/structure/flora/ausbushes/leafybush,
+/obj/structure/flora/ausbushes/lavendergrass,
+/turf/simulated/floor/grass,
+/area/ruin/powered/restraunt)
 "Xs" = (
 /obj/effect/spawner/window/plastitanium,
 /obj/structure/cable{
@@ -3776,12 +7456,69 @@
 	},
 /turf/simulated/floor/plating,
 /area/station/fluff_ship/bridge)
+"Xz" = (
+/obj/structure/closet/secure_closet/guncabinet,
+/obj/item/gun/projectile/automatic/ak814,
+/turf/simulated/floor/catwalk,
+/area/ruin/powered/promise)
+"XA" = (
+/obj/structure/railing{
+	pixel_x = 6
+	},
+/obj/structure/railing/corner{
+	pixel_x = -21
+	},
+/obj/structure/chair/sofa/bench/left{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "whitehall"
+	},
+/area/ruin/powered/promise)
+"XD" = (
+/obj/machinery/bluespace_beacon,
+/turf/simulated/floor/wood,
+/area/ruin/powered/restraunt)
 "XH" = (
 /obj/structure/chair/sofa/right{
 	dir = 4
 	},
 /turf/simulated/floor/carpet/black,
 /area/ruin/powered/fafnir)
+"XK" = (
+/obj/structure/railing/corner,
+/obj/structure/chair/sofa/corp/right{
+	dir = 4
+	},
+/turf/simulated/floor/carpet/royalblue,
+/area/ruin/powered/promise)
+"XN" = (
+/obj/structure/table/glass,
+/turf/simulated/floor/plasteel{
+	icon_state = "white"
+	},
+/area/ruin/powered/promise)
+"XQ" = (
+/obj/structure/closet/walllocker/emerglocker{
+	pixel_y = 32
+	},
+/obj/structure/closet,
+/turf/simulated/floor/plasteel{
+	icon_state = "dark"
+	},
+/area/ruin/powered/promise)
+"XR" = (
+/obj/machinery/economy/vending/coffee/free,
+/turf/simulated/floor/plasteel{
+	icon_state = "darkbluefull"
+	},
+/area/ruin/powered/promise)
 "XS" = (
 /obj/structure/table,
 /obj/item/storage/belt/utility,
@@ -3796,11 +7533,49 @@
 	},
 /turf/simulated/floor/carpet/royalblack,
 /area/ruin/powered/fafnir)
+"XX" = (
+/obj/structure/window/reinforced/survival_pod{
+	dir = 4
+	},
+/obj/structure/cable/yellow{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/obj/structure/cable/yellow{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
+	dir = 8
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "engine"
+	},
+/area/ruin/powered/promise)
 "XY" = (
 /obj/structure/table/wood,
 /obj/item/aicard,
 /turf/simulated/floor/carpet/royalblue,
 /area/ruin/powered/fafnir)
+"Yd" = (
+/obj/structure/flora/ausbushes/fullgrass,
+/obj/structure/flora/ausbushes/lavendergrass,
+/obj/structure/flora/ausbushes/brflowers,
+/turf/simulated/floor/grass,
+/area/ruin/powered/restraunt)
+"Yg" = (
+/obj/structure/closet/wardrobe/grey,
+/obj/machinery/light,
+/turf/simulated/floor/plasteel{
+	icon_state = "white"
+	},
+/area/ruin/powered/promise)
+"Yn" = (
+/obj/structure/flora/ausbushes/fullgrass,
+/turf/simulated/floor/grass,
+/area/ruin/powered/promise)
 "Yo" = (
 /turf/simulated/wall/mineral/plastitanium/nodiagonal,
 /area/station/fluff_ship)
@@ -3830,6 +7605,27 @@
 	icon_state = "darkblue"
 	},
 /area/station/fluff_ship)
+"YH" = (
+/obj/structure/window/reinforced/survival_pod{
+	dir = 4
+	},
+/obj/structure/cable/yellow{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
+	dir = 8
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "engine"
+	},
+/area/ruin/powered/promise)
 "YI" = (
 /obj/structure/table/glass/reinforced/plastitanium,
 /obj/structure/window/reinforced,
@@ -3849,10 +7645,45 @@
 	dir = 1
 	},
 /area/ruin/powered/fafnir)
+"YV" = (
+/obj/machinery/door/airlock/maintenance/glass,
+/turf/simulated/floor/plasteel{
+	icon_state = "whitehall";
+	dir = 1
+	},
+/area/ruin/powered/promise)
+"YZ" = (
+/obj/structure/railing{
+	dir = 4;
+	pixel_y = 6
+	},
+/obj/structure/railing/corner{
+	dir = 6;
+	pixel_x = -1
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 10
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 10
+	},
+/obj/structure/rack,
+/obj/item/beach_ball/holoball,
+/turf/simulated/floor/plasteel{
+	icon_state = "whitehall";
+	dir = 6
+	},
+/area/ruin/powered/promise)
 "Zb" = (
 /obj/machinery/economy/vending/clothing,
 /turf/simulated/floor/mineral/titanium/blue,
 /area/shuttle/arrival/station)
+"Zd" = (
+/obj/vehicle/space/speedbike/red{
+	dir = 1
+	},
+/turf/simulated/floor/plasteel/dark,
+/area/ruin/powered/restraunt)
 "Ze" = (
 /obj/effect/spawner/window/plastitanium,
 /obj/structure/cable{
@@ -3866,6 +7697,17 @@
 	},
 /turf/simulated/floor/plating/airless,
 /area/station/fluff_ship/bedroom)
+"Zi" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/turf/simulated/floor/plasteel/stairs{
+	dir = 4
+	},
+/area/ruin/powered/promise)
 "Zj" = (
 /obj/machinery/light_switch{
 	dir = 4;
@@ -3886,6 +7728,31 @@
 	},
 /turf/simulated/floor/plasteel/dark,
 /area/ruin/powered/fafnir)
+"Zp" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 10
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 10
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "whitehall"
+	},
+/area/ruin/powered/promise)
+"Zs" = (
+/turf/simulated/floor/plasteel/stairs{
+	dir = 4
+	},
+/area/ruin/powered/promise)
+"Zt" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "whitecorner";
+	dir = 4
+	},
+/area/ruin/powered/promise)
 "Zu" = (
 /obj/machinery/optable{
 	name = "Robotics Operating Table"
@@ -3894,6 +7761,47 @@
 	icon_state = "white"
 	},
 /area/ruin/powered/fafnir)
+"Zw" = (
+/obj/machinery/power/terminal{
+	dir = 1
+	},
+/obj/structure/cable/yellow{
+	d2 = 4;
+	icon_state = "0-4"
+	},
+/obj/machinery/atmospherics/pipe/simple/visible{
+	dir = 4
+	},
+/obj/machinery/light/small,
+/turf/simulated/floor/plasteel{
+	icon_state = "engine"
+	},
+/area/ruin/powered/promise)
+"ZA" = (
+/obj/machinery/power/turbine{
+	dir = 8
+	},
+/obj/structure/cable/yellow{
+	d2 = 8;
+	icon_state = "0-8"
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "podfloor"
+	},
+/area/ruin/powered/promise)
+"ZD" = (
+/obj/machinery/atmospherics/unary/vent_scrubber/on{
+	dir = 1
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "dark"
+	},
+/area/ruin/powered/promise)
+"ZE" = (
+/obj/item/bedsheet/black,
+/obj/structure/bed,
+/turf/simulated/floor/carpet/purple,
+/area/ruin/powered/promise)
 "ZG" = (
 /obj/structure/chair/sofa/left,
 /obj/machinery/light{
@@ -3901,6 +7809,27 @@
 	},
 /turf/simulated/floor/carpet/black,
 /area/ruin/powered/fafnir)
+"ZK" = (
+/obj/machinery/computer/teleporter,
+/turf/simulated/floor/plasteel{
+	icon_state = "dark"
+	},
+/area/ruin/powered/reverie)
+"ZO" = (
+/obj/structure/railing{
+	dir = 1;
+	pixel_x = -6
+	},
+/obj/structure/railing/corner{
+	dir = 6;
+	pixel_y = 24
+	},
+/obj/structure/chair/sofa/bench/left,
+/turf/simulated/floor/plasteel{
+	icon_state = "whitehall";
+	dir = 1
+	},
+/area/ruin/powered/promise)
 "ZP" = (
 /obj/structure/cable{
 	d1 = 1;
@@ -3921,6 +7850,24 @@
 	},
 /turf/simulated/floor/plasteel/dark,
 /area/ruin/powered/fafnir)
+"ZZ" = (
+/obj/structure/table/reinforced,
+/obj/item/paper_bin{
+	pixel_y = 2;
+	pixel_x = -39
+	},
+/obj/item/weldingtool/largetank{
+	pixel_y = 4
+	},
+/obj/item/clothing/glasses/welding{
+	pixel_y = -1;
+	pixel_x = 5
+	},
+/turf/simulated/floor/plasteel{
+	icon_state = "caution";
+	dir = 1
+	},
+/area/ruin/powered/promise)
 
 (1,1,1) = {"
 el
@@ -23614,39 +27561,39 @@ el
 el
 el
 el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
+ur
+ur
+ur
+ur
+ur
+ur
+zS
+zS
+zS
+ur
+ur
+ur
+ur
+ur
+ur
+ur
+ur
+ur
+ur
+ur
+ur
+ur
+ur
+ur
+ur
+ur
+ur
+ur
+ur
+ur
+ur
+ur
+ur
 el
 el
 el
@@ -23871,39 +27818,39 @@ el
 el
 el
 el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
+ur
+rm
+UT
+UT
+UT
+UT
+rt
+rt
+rt
+La
+UT
+UT
+UT
+UT
+JR
+vw
+NI
+nK
+Fv
+WJ
+JQ
+HB
+WJ
+NI
+NI
+pc
+lC
+NI
+NI
+Ik
+Xb
+cb
+ur
 el
 el
 el
@@ -24128,39 +28075,39 @@ el
 el
 el
 el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
+ur
+UT
+rt
+rt
+rt
+rt
+rt
+rt
+rt
+rt
+rt
+OQ
+rt
+UT
+nK
+NI
+mM
+mM
+Fv
+rF
+NI
+fF
+Cc
+Cc
+Cc
+di
+eI
+Ik
+rD
+Ee
+Py
+WJ
+ur
 el
 el
 el
@@ -24385,39 +28332,39 @@ el
 el
 el
 el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
+ur
+UT
+rt
+rt
+rt
+rt
+rt
+rt
+rt
+rt
+rt
+OQ
+rt
+UT
+Yd
+mM
+NI
+NI
+sI
+zW
+Fv
+ih
+In
+Er
+UT
+Sp
+nK
+GF
+BN
+Da
+rD
+nK
+Rx
 el
 el
 el
@@ -24642,39 +28589,39 @@ el
 el
 el
 el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
+ur
+UT
+rt
+rt
+rt
+rt
+rt
+rt
+rt
+rt
+rt
+rt
+rt
+UT
+JR
+NI
+NI
+Fv
+NI
+nK
+Fv
+nQ
+UT
+UT
+UT
+Sp
+rF
+GF
+WJ
+NI
+IU
+rD
+Rx
 el
 el
 el
@@ -24899,39 +28846,39 @@ el
 el
 el
 el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
+ur
+UT
+UT
+UT
+UT
+UT
+rt
+rt
+rt
+UT
+UT
+UT
+UT
+UT
+Cc
+Cc
+Cc
+Cc
+Cc
+Cc
+Cc
+qA
+UT
+Dp
+In
+BU
+eI
+NI
+NI
+Ik
+WJ
+nK
+Rx
 el
 el
 el
@@ -25156,39 +29103,39 @@ el
 el
 el
 el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
+ur
+UT
+rt
+rt
+Zd
+rt
+rt
+rt
+rt
+rt
+rt
+rt
+rt
+UT
+Ln
+Ln
+Ln
+Ln
+Ln
+Ln
+Ln
+Wb
+UT
+UT
+UT
+Sp
+NI
+IU
+Ik
+aI
+WJ
+fo
+Rx
 el
 el
 el
@@ -25413,39 +29360,39 @@ el
 el
 el
 el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
+ur
+UT
+rt
+rt
+rt
+rt
+rt
+rt
+rt
+rt
+rt
+rt
+rt
+UT
+Hd
+nK
+nK
+nK
+NI
+WX
+NI
+fQ
+Wb
+UT
+cw
+nd
+mM
+wW
+QG
+NI
+Xr
+JR
+ur
 el
 el
 el
@@ -25670,39 +29617,39 @@ UC
 UC
 el
 el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
+ur
+UT
+rt
+rt
+rt
+rt
+rt
+rt
+rt
+rt
+rt
+rt
+rt
+UT
+JR
+wR
+rF
+mM
+Fv
+mM
+rF
+qC
+nQ
+UT
+Sp
+Pz
+nK
+IU
+nK
+NI
+NI
+CK
+ur
 el
 el
 el
@@ -25927,39 +29874,39 @@ uV
 UC
 el
 el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
+ur
+rm
+UT
+UT
+UT
+UT
+rt
+rt
+rt
+UT
+UT
+UT
+UT
+UT
+Ns
+Ns
+GD
+GD
+GD
+GD
+Ns
+Ns
+nQ
+UT
+Sp
+Ns
+Ns
+GD
+GD
+GD
+GD
+Ns
+Ns
 el
 el
 el
@@ -26184,39 +30131,39 @@ Ny
 UC
 el
 el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
+ur
+UT
+rt
+rt
+rt
+rt
+rt
+rt
+rt
+rt
+rt
+rt
+rt
+UT
+GD
+wz
+PA
+LY
+WD
+PA
+LY
+Ns
+GD
+dy
+GD
+Ns
+wT
+hO
+hO
+hO
+hO
+bW
+Ns
 el
 el
 el
@@ -26441,39 +30388,39 @@ UC
 UC
 el
 el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
+ur
+UT
+rt
+rt
+rt
+rt
+rt
+rt
+rt
+rt
+rt
+Sh
+rt
+UT
+GD
+wT
+wT
+wT
+wT
+wT
+wT
+GD
+hT
+hT
+hT
+GD
+wT
+PA
+PA
+PA
+PA
+wT
+Ns
 el
 el
 el
@@ -26698,39 +30645,39 @@ uA
 UC
 el
 el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
+ur
+UT
+rt
+rt
+rt
+rt
+rt
+rt
+rt
+rt
+rt
+rt
+rt
+ci
+Ns
+Ns
+Ns
+Ns
+Ns
+wT
+wT
+GD
+hT
+hT
+hT
+dy
+wT
+FP
+WD
+PA
+LY
+wT
+Ns
 el
 el
 el
@@ -26955,39 +30902,39 @@ Ny
 UC
 el
 el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
+ur
+ur
+Rx
+Rx
+ur
+UT
+rt
+rt
+rt
+UT
+UT
+UT
+UT
+UT
+Ns
+uJ
+Ns
+Ms
+Ns
+hO
+wT
+GD
+hT
+hT
+hT
+GD
+wT
+wT
+WD
+PA
+LY
+wT
+Ns
 el
 el
 el
@@ -27212,39 +31159,39 @@ uA
 UC
 el
 el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
+ur
+pd
+wT
+wT
+Rx
+UT
+rt
+rt
+rt
+rt
+rt
+rt
+rt
+UT
+Ns
+jz
+Ns
+Xa
+Ns
+PA
+te
+Ns
+GD
+Ns
+GD
+Ns
+zj
+wT
+wT
+wT
+wT
+wT
+Ns
 el
 el
 el
@@ -27469,39 +31416,39 @@ UC
 UC
 el
 el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
+ur
+xL
+XD
+wT
+VY
+UT
+rt
+rt
+rt
+rt
+rt
+OQ
+rt
+UT
+Ns
+Jw
+Jw
+Jw
+Ns
+FP
+wT
+bW
+WD
+PA
+LY
+bW
+wT
+wT
+WD
+PA
+LY
+wT
+Ns
 el
 el
 el
@@ -27726,39 +31673,39 @@ vU
 UC
 el
 el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
+ur
+tU
+eP
+wT
+Rx
+UT
+rt
+rt
+rt
+rt
+rt
+rt
+rt
+UT
+Ns
+mv
+Jw
+Jw
+zb
+wT
+wT
+wT
+wT
+wT
+wT
+wT
+wT
+wT
+WD
+PA
+LY
+wT
+Ns
 el
 el
 el
@@ -27983,39 +31930,39 @@ iM
 UC
 el
 el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
+ur
+ur
+ur
+ur
+ur
+uh
+UT
+UT
+UT
+UT
+UT
+UT
+UT
+uh
+Ns
+Xf
+Jw
+Kn
+Ns
+WD
+PA
+LY
+wT
+wT
+wT
+wT
+Ns
+Ns
+GD
+GD
+GD
+Ns
+Ns
 el
 el
 el
@@ -28244,35 +32191,35 @@ el
 el
 el
 el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
+ur
+ur
+ur
+ur
+ur
+ur
+ur
+ur
+ur
+ur
+Ns
+Xf
+Jw
+Kn
+Ns
+WD
+PA
+LY
+wT
+wT
+wT
+wT
+Ns
+dj
+MO
+SH
+SH
+bN
+ur
 el
 el
 el
@@ -28511,25 +32458,25 @@ el
 el
 el
 el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
+Ns
+cB
+Jw
+Jw
+zb
+wT
+wT
+wT
+wT
+wT
+wT
+wT
+Ji
+DX
+DX
+DX
+DX
+UU
+ur
 el
 el
 el
@@ -28750,43 +32697,43 @@ el
 el
 el
 el
+Uy
+Uy
+Uy
+Uy
+Uy
+Uy
+Uy
+Uy
+Uy
+Uy
+Uy
+Uy
+Uy
+Uy
+TL
+TL
+Uy
 el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
+Ns
+Jw
+Jw
+Jw
+Ns
+Ns
+Ep
+RN
+FK
+RN
+FK
+Ns
+Ns
+eT
+DX
+SH
+DX
+uB
+ur
 el
 el
 el
@@ -29007,43 +32954,43 @@ el
 el
 el
 el
+Uy
+MM
+We
+Uy
+dn
+jA
+Uy
+zm
+ei
+QO
+vn
+fx
+Ar
+Uy
+He
+He
+Uy
 el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
+Ns
+dt
+Ns
+PQ
+Ns
+KE
+KE
+KE
+KE
+KE
+KE
+KE
+yM
+DX
+DX
+SH
+DX
+vj
+ur
 el
 el
 el
@@ -29264,43 +33211,43 @@ el
 el
 el
 el
+Uy
+qz
+vn
+Uy
+Ng
+dS
+Uy
+OJ
+ei
+wi
+MC
+lN
+Gu
+Uy
+He
+He
+fw
 el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
+Ns
+Rl
+Ns
+Ch
+Ns
+KE
+KE
+KE
+KE
+KE
+KE
+KE
+yM
+DX
+DX
+SH
+DX
+gV
+ur
 el
 el
 el
@@ -29521,43 +33468,43 @@ el
 el
 el
 el
+Uy
+TY
+HZ
+Uy
+Kj
+tT
+Uy
+Oh
+ei
+wi
+vn
+vn
+qJ
+Uy
+He
+He
+Uy
 el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
+Ns
+Ns
+Ns
+Ns
+Ns
+KE
+tK
+JC
+JC
+ew
+AG
+BH
+yM
+DX
+DX
+DX
+DX
+DX
+ur
 el
 el
 el
@@ -29778,43 +33725,43 @@ el
 el
 el
 el
+Uy
+gW
+vn
+Uy
+Uy
+eU
+Uy
+Uy
+pU
+vn
+HY
+vn
+Dz
+SQ
+He
+He
+Uy
 el
 el
 el
 el
 el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
+ur
+ur
+ur
+ur
+ur
+ur
+ur
+ur
+Ns
+Ns
+Ns
+xQ
+Ns
+Ns
+ur
 el
 el
 el
@@ -30035,6 +33982,23 @@ el
 el
 el
 el
+Uy
+vn
+vn
+LI
+HY
+vn
+vn
+vn
+vn
+vn
+vn
+vn
+ft
+Uy
+He
+He
+Uy
 el
 el
 el
@@ -30048,30 +34012,13 @@ el
 el
 el
 el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
+Ns
+qc
+qc
+Jw
+qc
+qc
+ur
 el
 el
 el
@@ -30292,6 +34239,23 @@ el
 el
 el
 el
+Uy
+Uy
+Uy
+Uy
+Uy
+Uy
+Uy
+Uy
+Uy
+Uy
+Uy
+Uy
+Uy
+Uy
+He
+He
+Uy
 el
 el
 el
@@ -30305,30 +34269,13 @@ el
 el
 el
 el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
+Ns
+qc
+Jw
+Jw
+Jw
+qc
+ur
 el
 el
 el
@@ -30558,6 +34505,14 @@ el
 el
 el
 el
+Uy
+im
+VO
+VO
+sB
+He
+He
+Uy
 el
 el
 el
@@ -30571,21 +34526,13 @@ el
 el
 el
 el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
+Ns
+qc
+qc
+sO
+qc
+qc
+Ns
 el
 el
 el
@@ -30815,6 +34762,14 @@ el
 el
 el
 el
+Uy
+uw
+zH
+VO
+cz
+He
+He
+Uy
 el
 el
 el
@@ -30828,21 +34783,13 @@ el
 el
 el
 el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
+Ns
+Ns
+Ns
+Ns
+Ns
+Ns
+Ns
 el
 el
 el
@@ -31072,14 +35019,14 @@ el
 el
 el
 el
-el
-el
-el
-el
-el
-el
-el
-el
+Uy
+ZK
+VO
+xq
+sB
+He
+He
+kH
 el
 el
 el
@@ -31329,14 +35276,14 @@ el
 el
 el
 el
-el
-el
-el
-el
-el
-el
-el
-el
+Uy
+Uy
+Uy
+Uy
+Uy
+He
+He
+Uy
 el
 el
 el
@@ -31590,10 +35537,10 @@ el
 el
 el
 el
-el
-el
-el
-el
+Uy
+He
+He
+Uy
 el
 el
 el
@@ -31847,10 +35794,10 @@ el
 el
 el
 el
-el
-el
-el
-el
+Uz
+He
+He
+Uy
 el
 el
 el
@@ -32104,10 +36051,10 @@ el
 el
 el
 el
-el
-el
-el
-el
+Uy
+He
+He
+Uy
 el
 el
 el
@@ -32361,10 +36308,10 @@ el
 el
 el
 el
-el
-el
-el
-el
+Uy
+TL
+TL
+Uy
 el
 el
 el
@@ -36209,26 +40156,26 @@ el
 el
 el
 el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
+os
+os
+os
+os
+os
+os
+os
+os
+jg
+jg
+jg
+jg
+os
+os
+os
+os
+os
+os
+os
+os
 el
 el
 el
@@ -36466,26 +40413,26 @@ el
 el
 el
 el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
+os
+os
+os
+os
+os
+os
+os
+cN
+sy
+sy
+sy
+sy
+cN
+os
+os
+os
+os
+os
+os
+os
 el
 el
 el
@@ -36723,26 +40670,26 @@ el
 el
 el
 el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
+os
+os
+os
+os
+os
+os
+os
+bG
+zo
+Qz
+Qz
+Wi
+bG
+os
+os
+os
+os
+os
+os
+os
 el
 el
 el
@@ -36980,26 +40927,26 @@ el
 el
 el
 el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
+os
+os
+os
+os
+os
+os
+iH
+bG
+Oe
+mQ
+mQ
+Zw
+bG
+iH
+os
+os
+os
+os
+os
+os
 el
 el
 el
@@ -37237,26 +41184,26 @@ el
 el
 el
 el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
+os
+os
+os
+os
+jg
+jg
+RL
+bG
+jI
+PR
+Ei
+jI
+bG
+RL
+jg
+jg
+os
+os
+os
+os
 el
 el
 el
@@ -37494,26 +41441,26 @@ el
 el
 el
 el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
+os
+os
+os
+cN
+sy
+sy
+cN
+cN
+Oi
+XX
+YH
+qZ
+hM
+Wm
+sy
+sy
+cN
+os
+os
+os
 el
 el
 el
@@ -37751,26 +41698,26 @@ el
 el
 el
 el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
+os
+os
+os
+cN
+Xz
+Cs
+cN
+qs
+at
+uF
+mD
+Un
+QC
+cN
+NY
+cW
+cN
+os
+os
+os
 el
 el
 el
@@ -38008,26 +41955,26 @@ el
 el
 el
 el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
+os
+os
+os
+cN
+AD
+Eg
+vT
+Aj
+xD
+ZA
+ZA
+Ua
+GH
+zC
+jK
+eD
+cN
+os
+os
+os
 el
 el
 el
@@ -38265,26 +42212,26 @@ el
 el
 el
 el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
+os
+os
+os
+cN
+cN
+Mw
+cN
+hu
+xD
+Nn
+Nn
+Ua
+ln
+FB
+GT
+cN
+cN
+os
+os
+os
 el
 el
 el
@@ -38522,26 +42469,26 @@ el
 el
 el
 el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
+os
+os
+os
+os
+cN
+cN
+cN
+dQ
+DZ
+iU
+IL
+jE
+Nu
+cN
+cN
+cN
+RL
+os
+os
+os
 el
 el
 el
@@ -38779,26 +42726,26 @@ el
 el
 el
 el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
+os
+os
+os
+os
+os
+bG
+Xd
+bu
+lH
+EE
+EE
+Dg
+RK
+RE
+bG
+iH
+iH
+os
+os
+os
 el
 el
 el
@@ -39036,26 +42983,26 @@ el
 el
 el
 el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
+os
+os
+os
+iH
+RL
+bG
+ZZ
+kA
+xv
+xv
+NN
+NH
+cN
+cN
+cN
+RL
+os
+os
+os
+os
 el
 el
 el
@@ -39293,26 +43240,26 @@ el
 el
 el
 el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
+os
+os
+os
+iH
+os
+bG
+oV
+Hv
+cq
+ph
+oX
+Jd
+Km
+no
+EW
+iH
+os
+os
+os
+os
 el
 el
 el
@@ -39550,26 +43497,26 @@ el
 el
 el
 el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
+os
+os
+iH
+iH
+iH
+cN
+cN
+cN
+cN
+oc
+ee
+cN
+cN
+cN
+cN
+RL
+os
+os
+os
+os
 el
 el
 el
@@ -39807,26 +43754,26 @@ el
 el
 el
 el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
+os
+os
+RL
+os
+iH
+RL
+iH
+os
+bG
+FU
+BL
+bG
+os
+os
+RL
+iH
+os
+os
+os
+os
 el
 el
 el
@@ -40064,26 +44011,26 @@ el
 el
 el
 el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
+os
+os
+cN
+cN
+cN
+cN
+cN
+cN
+cN
+bB
+Jz
+cN
+cN
+cN
+cN
+cN
+cN
+cN
+os
+os
 el
 el
 el
@@ -40321,26 +44268,26 @@ el
 el
 el
 el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
+os
+cN
+cN
+mu
+sR
+PT
+oW
+cN
+cN
+rj
+Df
+cN
+cN
+cN
+HA
+XN
+sk
+cN
+cN
+os
 el
 el
 el
@@ -40578,26 +44525,26 @@ el
 el
 el
 el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
+os
+Rr
+Ue
+kq
+sJ
+IV
+Cw
+rZ
+ud
+OK
+ff
+aq
+ga
+hz
+hz
+xS
+kR
+bt
+cN
+os
 el
 el
 el
@@ -40835,26 +44782,26 @@ el
 el
 el
 el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
+os
+Rr
+Pc
+Cw
+Kq
+MN
+Cw
+Rr
+he
+wa
+Ez
+kD
+hh
+kd
+hz
+xS
+kR
+Ka
+cN
+os
 el
 el
 el
@@ -41092,26 +45039,26 @@ el
 el
 el
 el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
+os
+Rr
+qO
+kq
+Cw
+Cw
+Cw
+rZ
+ud
+wm
+Sk
+aq
+ga
+hz
+hz
+xS
+hz
+CF
+cN
+os
 el
 el
 el
@@ -41349,26 +45296,26 @@ el
 el
 el
 el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
+os
+cN
+cN
+Js
+WH
+ZE
+lQ
+Rr
+mg
+nX
+up
+ES
+cN
+cN
+bv
+rG
+Yg
+cN
+cN
+os
 el
 el
 el
@@ -41606,26 +45553,26 @@ el
 el
 el
 el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
+os
+os
+cN
+cN
+Rr
+Rr
+Rr
+Rr
+ky
+Ai
+pv
+GB
+rv
+cN
+cN
+cN
+cN
+cN
+os
+os
 el
 el
 el
@@ -41863,26 +45810,26 @@ el
 el
 el
 el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
+os
+os
+os
+bG
+GZ
+yY
+pX
+XK
+vR
+ZO
+nn
+vR
+qh
+fl
+ii
+yZ
+bG
+os
+os
+os
 el
 el
 el
@@ -42120,26 +46067,26 @@ el
 el
 el
 el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
+os
+bG
+bG
+bG
+in
+vA
+Ha
+EQ
+aq
+wm
+Sk
+ud
+ms
+WL
+yZ
+Fh
+bG
+bG
+bG
+os
 el
 el
 el
@@ -42377,26 +46324,26 @@ el
 el
 el
 el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
+bG
+bG
+TC
+Mi
+RH
+rs
+tF
+yg
+aq
+aL
+YZ
+aV
+BI
+Yn
+Fh
+kq
+kq
+kq
+bG
+bG
 el
 el
 el
@@ -42634,26 +46581,26 @@ el
 el
 el
 el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
+bG
+Ed
+Gb
+Ho
+Qg
+Qp
+ud
+GB
+GB
+MP
+PF
+GB
+xZ
+QQ
+kq
+kq
+Yn
+kq
+oN
+bG
 el
 el
 el
@@ -42891,26 +46838,26 @@ el
 el
 el
 el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
+bG
+Ed
+Wf
+Ho
+gZ
+Qp
+vp
+tD
+cN
+cN
+cN
+cN
+Ak
+ic
+kq
+ai
+xV
+yZ
+kq
+bG
 el
 el
 el
@@ -43148,26 +47095,26 @@ el
 el
 el
 el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
+bG
+Ed
+Gb
+Ho
+Qg
+Qp
+ud
+GB
+GB
+hC
+Tg
+GB
+xZ
+ri
+kq
+kq
+ai
+kq
+oN
+bG
 el
 el
 el
@@ -43405,26 +47352,26 @@ el
 el
 el
 el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
+bG
+bG
+Zt
+Nb
+Nb
+Nb
+LO
+GB
+aq
+wZ
+Tx
+aV
+Wv
+yZ
+Yn
+kq
+kq
+kq
+bG
+bG
 el
 el
 el
@@ -43662,26 +47609,26 @@ el
 el
 el
 el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
+os
+bG
+bG
+bG
+Zs
+Zs
+tn
+GB
+aq
+wm
+Sk
+ud
+ms
+ai
+Po
+Iv
+bG
+bG
+bG
+os
 el
 el
 el
@@ -43919,26 +47866,26 @@ el
 el
 el
 el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
+os
+os
+os
+bG
+GB
+GB
+Fy
+Gh
+VC
+Sq
+XA
+yA
+qt
+gL
+uu
+Yn
+bG
+os
+os
+os
 el
 el
 el
@@ -44176,26 +48123,26 @@ el
 el
 el
 el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
+os
+os
+cN
+cN
+GB
+Mv
+cN
+XQ
+GB
+DO
+LD
+wx
+GB
+cN
+bG
+bG
+cN
+cN
+os
+os
 el
 el
 el
@@ -44433,26 +48380,26 @@ el
 el
 el
 el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
+os
+cN
+cN
+nO
+Co
+Co
+cN
+cN
+cy
+Vh
+ie
+zr
+cN
+cN
+Qr
+RB
+tE
+cN
+cN
+os
 el
 el
 el
@@ -44690,26 +48637,26 @@ el
 el
 el
 el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
+os
+bG
+Bg
+tI
+nI
+nI
+LV
+Ju
+ud
+cX
+Wg
+aq
+gg
+Gc
+Gc
+Gc
+Gc
+Ie
+bG
+os
 el
 el
 el
@@ -44947,26 +48894,26 @@ el
 el
 el
 el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
+os
+bG
+uy
+WS
+UA
+EI
+nI
+bG
+he
+wm
+Sk
+kD
+bG
+DJ
+MK
+gv
+zX
+lw
+bG
+os
 el
 el
 el
@@ -45204,26 +49151,26 @@ el
 el
 el
 el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
+os
+bG
+fh
+nI
+nI
+nI
+nI
+Ju
+ud
+wm
+Sk
+aq
+Lz
+cV
+lU
+bs
+ir
+en
+bG
+os
 el
 el
 el
@@ -45461,26 +49408,26 @@ el
 el
 el
 el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
+os
+cN
+cN
+EO
+id
+UQ
+cN
+cN
+cN
+wm
+Sk
+cN
+cN
+cN
+Og
+aQ
+MW
+cN
+cN
+os
 el
 el
 el
@@ -45718,26 +49665,26 @@ el
 el
 el
 el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
+os
+os
+cN
+cN
+cN
+cN
+cN
+os
+cN
+YV
+Vd
+cN
+os
+cN
+cN
+cN
+cN
+cN
+if
+os
 el
 el
 el
@@ -45975,26 +49922,26 @@ el
 el
 el
 el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
+os
+os
+os
+RL
+iH
+RL
+iH
+os
+bG
+wm
+Sk
+bG
+os
+iH
+RL
+iH
+iH
+RL
+iH
+os
 el
 el
 el
@@ -46232,26 +50179,26 @@ el
 el
 el
 el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
+os
+os
+os
+iH
+os
+cN
+cN
+cN
+rV
+fj
+KQ
+rV
+cN
+cN
+cN
+iH
+os
+os
+os
+os
 el
 el
 el
@@ -46489,26 +50436,26 @@ el
 el
 el
 el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
+os
+os
+os
+iH
+RL
+cN
+XR
+AP
+Jk
+wm
+Sk
+AP
+vv
+aB
+cN
+iH
+os
+os
+os
+os
 el
 el
 el
@@ -46746,26 +50693,26 @@ el
 el
 el
 el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
+os
+os
+os
+os
+os
+cN
+rV
+rp
+yq
+wm
+Sk
+AP
+yq
+rV
+cN
+iH
+os
+os
+os
+os
 el
 el
 el
@@ -47003,26 +50950,26 @@ el
 el
 el
 el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
+os
+os
+os
+os
+os
+os
+cN
+xG
+yq
+wm
+Zp
+JD
+vb
+cN
+RL
+iH
+os
+os
+os
+os
 el
 el
 el
@@ -47260,26 +51207,26 @@ el
 el
 el
 el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
+os
+os
+os
+os
+os
+os
+cN
+Zs
+Zs
+GJ
+de
+Zi
+Rn
+cN
+os
+os
+os
+os
+os
+os
 el
 el
 el
@@ -47517,26 +51464,26 @@ el
 el
 el
 el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
+os
+os
+os
+os
+os
+cN
+rV
+Oz
+yq
+zG
+Ks
+Nm
+wf
+rV
+cN
+os
+os
+os
+os
+os
 el
 el
 el
@@ -47774,26 +51721,26 @@ el
 el
 el
 el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
+os
+os
+os
+os
+cN
+rV
+aq
+AP
+uC
+JB
+Xo
+cx
+yq
+ud
+rV
+cN
+os
+os
+os
+os
 el
 el
 el
@@ -48031,26 +51978,26 @@ el
 el
 el
 el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
+os
+os
+os
+os
+bG
+mc
+aq
+AP
+kI
+hf
+vL
+ZD
+yq
+ud
+jV
+bG
+os
+os
+os
+os
 el
 el
 el
@@ -48288,26 +52235,26 @@ el
 el
 el
 el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
+os
+os
+os
+os
+bG
+hv
+aq
+jb
+fT
+bY
+LF
+Bn
+pz
+ud
+jV
+bG
+os
+os
+os
+os
 el
 el
 el
@@ -48545,26 +52492,26 @@ el
 el
 el
 el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
+os
+os
+os
+os
+cN
+rV
+RO
+Fz
+LG
+xm
+gK
+UF
+nJ
+qa
+rV
+cN
+os
+os
+os
+os
 el
 el
 el
@@ -48802,26 +52749,26 @@ el
 el
 el
 el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
+os
+os
+os
+os
+RL
+cN
+bG
+rV
+cD
+cD
+cD
+cD
+rV
+bG
+cN
+RL
+os
+os
+os
+os
 el
 el
 el
@@ -49059,26 +53006,26 @@ el
 el
 el
 el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
+os
+os
+os
+os
+iH
+iH
+RL
+cN
+bG
+bG
+bG
+bG
+cN
+RL
+iH
+iH
+os
+os
+os
+os
 el
 el
 el
@@ -49316,26 +53263,26 @@ el
 el
 el
 el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
-el
+os
+os
+os
+os
+os
+os
+iH
+os
+os
+os
+os
+os
+os
+iH
+os
+os
+os
+os
+os
+os
 el
 el
 el

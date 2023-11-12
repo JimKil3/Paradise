@@ -166,7 +166,7 @@
 
 /obj/item/storage/backpack/duffel/syndie/orlandos
 	name = "Orlando's duffelbag"
-	desc = "A Syndicate dufflebag plundered from the maintenance tunnels of the NSS Cyberiad."
+	desc = "A compact duffelbag for cherished memories and favorite keepsakes."
 
 /obj/item/storage/backpack/duffel/syndie/orlandos/Initialize(mapload)
 	. = ..()
@@ -204,3 +204,12 @@
 
 /area/ruin/powered/fafnir
 	name = "Fafnir Experimental Positronics"
+
+/area/ruin/powered/restraunt
+	name = "Restraunt"
+
+/area/ruin/powered/promise
+	name = "Promise"
+
+/area/ruin/powered/reverie
+	name = "NRS Reverie"
