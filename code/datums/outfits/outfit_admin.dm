@@ -1391,6 +1391,41 @@
 	belt = /obj/item/tank/internals/emergency_oxygen/double/vox
 	box = /obj/item/storage/box/survival_vox
 
+/datum/outfit/admin/fafnir_security
+	name = "Fafnir Security"
+
+	uniform = /obj/item/clothing/under/syndicate/combat/fafnir
+	head = /obj/item/clothing/head/beret/black
+	shoes = /obj/item/clothing/shoes/magboots/elite
+	gloves = /obj/item/clothing/gloves/color/black/krav_maga/combat
+	belt = /obj/item/storage/belt/military/assault/fafnir
+	id = /obj/item/card/id/data
+	back = /obj/item/storage/backpack/satchel
+	l_ear = /obj/item/radio/headset/syndicate/alt/fafnir
+	glasses = /obj/item/clothing/glasses/hud/diagnostic/sunglasses
+	pda = /obj/item/pda/syndicate
+
+	backpack_contents = list(
+		/obj/item/storage/box/survival = 1,
+		/obj/item/flashlight/seclite = 1
+	)
+
+	implants = list(
+		/obj/item/implant/adrenalin
+	)
+
+	cybernetic_implants = list(
+		/obj/item/organ/internal/cyberimp/chest/nutriment/plus/hardened,
+		/obj/item/organ/internal/cyberimp/chest/reviver/hardened,
+		/obj/item/organ/internal/cyberimp/arm/toolset
+	)
+
+/datum/outfit/admin/fafnir_security/post_equip(mob/living/carbon/human/H, visualsOnly)
+	. = ..()
+	var/obj/item/card/id/I = H.wear_id
+	if(istype(I))
+		apply_to_card(I, H, get_all_accesses(), "Fafnir Security")
+
 /datum/outfit/admin/enforcer
 	name = "Oblivion Enforcer"
 

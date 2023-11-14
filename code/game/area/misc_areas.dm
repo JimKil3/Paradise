@@ -213,3 +213,21 @@
 
 /area/ruin/powered/reverie
 	name = "NRS Reverie"
+
+/obj/item/clothing/under/syndicate/combat/fafnir
+	name = "armored combat uniform"
+	desc = "A combat uniform specially made from durathread-adjacent materials and sewn in with armor plating."
+	body_parts_covered = UPPER_TORSO|LOWER_TORSO|LEGS|FEET|ARMS|HANDS
+	armor = list(MELEE = 50, BULLET = 5, LASER = 5, ENERGY = 5, BOMB = 0, RAD = 0, FIRE = 200, ACID = 200)
+
+/obj/item/storage/belt/military/assault/fafnir/populate_contents()
+	new /obj/item/gun/projectile/automatic/pistol/enforcer(src)
+	new /obj/item/ammo_box/magazine/enforcer(src)
+	new /obj/item/ammo_box/magazine/enforcer(src)
+	new /obj/item/melee/classic_baton/telescopic/contractor(src)
+	new /obj/item/restraints/handcuffs(src)
+	new /obj/item/reagent_containers/hypospray/combat/nanites(src)
+
+/obj/item/radio/headset/syndicate/alt/fafnir
+	name = "Fafnir headset"
+	desc = "A bowman headset used by Fafnir Experimental Positronics field agents."
