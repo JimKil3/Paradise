@@ -1118,3 +1118,87 @@
 /obj/item/supermatter_halberd/proc/recharge()
 	charged = TRUE
 	playsound(loc, 'sound/machines/sm/accent/normal/1.ogg', 25, TRUE)
+
+/obj/item/gun/energy/kinetic_accelerator/crossbow/large/hoarfrost_lancer //this path sucks
+	name = "\improper Hoarfrost Lancer"
+	desc = "A prototype weapon that harnesses the esoteric properties of cryogenic anomaly cores to freeze, harden, \
+			and launch lances of ice formed from lingering moisture in the air."
+
+	w_class = WEIGHT_CLASS_BULKY
+	slot_flags = SLOT_FLAG_BACK
+
+	ammo_type = list(/obj/item/ammo_casing/energy/cryo_lance)
+	fire_sound_text = "lance firing"
+	can_bayonet = FALSE
+	show_charge_on_examine = FALSE
+	can_shoot_through_windows = FALSE
+	overheat_time = 30 SECONDS
+
+/obj/item/gun/energy/kinetic_accelerator/crossbow/large/hoarfrost_lancer/Initialize(mapload)
+	. = ..()
+	AddComponent(/datum/component/two_handed, icon_wielded = "[base_icon_state]1")
+
+/obj/item/gun/energy/kinetic_accelerator/crossbow/large/hoarfrost_lancer/examine(mob/user)
+	. = ..()
+	. += "<span class='notice'>This thing is massive! You'll have to <b>wield</b> it in order to fire."
+	. += "<span class='notice'>There is [cell.charge ? "a lance" : "nothing"] prepared.</span>"
+
+/obj/item/gun/energy/kinetic_accelerator/crossbow/large/hoarfrost_lancer/can_shoot()
+	if(!HAS_TRAIT(src, TRAIT_WIELDED))
+		return FALSE
+	return ..()
+
+/obj/item/gun/energy/kinetic_accelerator/crossbow/large/hoarfrost_lancer/shoot_with_empty_chamber(mob/living/user)
+	if(!HAS_TRAIT(src, TRAIT_WIELDED))
+		to_chat(user, "<span class='userdanger'>You struggle to hold up [src] with one hand, let alone fire it!</span>")
+		return
+
+	visible_message("<span class='danger'>[src] whirs quietly. There isn't a lance formed!</span>")
+
+/obj/item/projectile/cryo_lance
+	name = "cryogenic lance"
+	damage = 30
+	armour_penetration_flat = 100
+	shield_buster = TRUE
+
+/obj/item/projectile/cryo_lance/on_hit(atom/target, armor, hit_zone)
+	. = ..()
+	if(istype(target, /mob/living/carbon/human))
+		var/mob/living/carbon/human/target_human = target
+		var/obj/item/organ/external/limb_target = target_human.bodyparts_by_name[hit_zone]
+
+		var/obj/item/cryo_lance/lance = new
+		limb_target.add_embedded_object(lance)
+		visible_message("<span class='userdanger'>[lance] plunges into [target_human]'[target_human.p_s()] [limb_target.name]!</span>")
+		addtimer(CALLBACK(lance, TYPE_PROC_REF(/obj/item/cryo_lance, melt), limb_target, target_human), 2 MINUTES)
+		return TRUE
+
+	if(istype(target, /mob/living/silicon/robot))
+		var/mob/living/silicon/robot/target_robot = target
+		var/component_name = pick(target_robot.components)
+		var/datum/robot_component/component = target_robot.components[component_name]
+
+		component.take_damage(50, 0, TRUE)
+		to_chat(target_robot, "<span class='userdanger'>Your [component] is pierced by [src]!</span>")
+		return TRUE
+
+	if(istype(target, /obj/mecha))
+		return TRUE//stuff later
+
+/obj/item/cryo_lance
+	name = "cryogenic lance"
+	w_class = WEIGHT_CLASS_NORMAL
+	embedded_fall_chance = 0
+	embedded_pain_multiplier = 4
+
+/obj/item/cryo_lance/proc/melt(obj/item/organ/external/limb, mob/living/carbon/human/target)
+	limb.remove_embedded_object(src)
+	if(!target.has_embedded_objects())
+		target.clear_alert("embeddedobject")
+	visible_message("<span class='notice'>[src] melts.</span>")
+	qdel(src)
+
+/obj/item/ammo_casing/energy/cryo_lance
+	projectile_type = /obj/item/projectile/cryo_lance
+	muzzle_flash_color = null
+	e_cost = 500

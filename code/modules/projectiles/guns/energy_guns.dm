@@ -25,12 +25,17 @@
 	var/overlay_set
 	/// Used when updating icon and overlays to determine the energy pips
 	var/ratio
+	/// If the item shows its charge on examine
+	var/show_charge_on_examine = TRUE
+	/// If the item can shoot through windows
+	var/can_shoot_through_windows = TRUE
 
 /obj/item/gun/energy/examine(mob/user)
 	. = ..()
-	if(cell)
+	if(cell && show_charge_on_examine)
 		. += "<span class='notice'>It is [round(cell.percent())]% charged.</span>"
-	. += "<span class='notice'>Energy weapons can fire through windows and other see-through surfaces. [can_charge ? "Can be recharged with a recharger" : "Cannot be recharged in a recharger."]</span>"
+	if(can_shoot_through_windows)
+		. += "<span class='notice'>Energy weapons can fire through windows and other see-through surfaces. [can_charge ? "Can be recharged with a recharger" : "Cannot be recharged in a recharger."]</span>"
 
 /obj/item/gun/energy/emp_act(severity)
 	cell.use(round(cell.charge / severity))
@@ -90,6 +95,7 @@
 	newshot()
 
 /obj/item/gun/energy/attack_self(mob/living/user as mob)
+	. = ..()
 	if(ammo_type.len > 1)
 		select_fire(user)
 		update_icon()
