@@ -1165,7 +1165,7 @@
 
 /obj/item/projectile/cryo_lance/on_hit(atom/target, armor, hit_zone)
 	. = ..()
-	if(istype(target, /mob/living/carbon/human))
+	if(ishuman(target))
 		var/mob/living/carbon/human/target_human = target
 		var/obj/item/organ/external/limb_target = target_human.bodyparts_by_name[hit_zone]
 
@@ -1175,7 +1175,7 @@
 		addtimer(CALLBACK(lance, TYPE_PROC_REF(/obj/item/cryo_lance, melt), limb_target, target_human), 2 MINUTES)
 		return TRUE
 
-	if(istype(target, /mob/living/silicon/robot))
+	if(isrobot(target))
 		var/mob/living/silicon/robot/target_robot = target
 		var/component_name = pick(target_robot.components)
 		var/datum/robot_component/component = target_robot.components[component_name]
@@ -1184,8 +1184,31 @@
 		to_chat(target_robot, "<span class='userdanger'>Your [component] is pierced by [src]!</span>")
 		return TRUE
 
-	if(istype(target, /obj/mecha))
-		return TRUE//stuff later
+	if(ismecha(target))
+		var/damage_type
+		var/obj/mecha/target_mech = target
+		switch(rand(1, 5))
+			if(1)
+				visible_message("<span class='userdanger'>[src] pierces [target_mech]'[target_mech.p_s()] cockpit!</span>")
+				var/pilot = target_mech.occupant
+				if(ishuman(pilot))
+					var/mob/living/carbon/human/pilot_human = pilot
+					var/obj/item/organ/external/pilot_limb = pick(pilot_human.bodyparts)
+					pilot_limb.receive_damage(30, sharp = TRUE)
+					to_chat(pilot_human, "<span class='userdanger'>[src] drives into your [pilot_limb]!</span>")
+			if(2 to 3)
+				damage_type = MECHA_INT_SHORT_CIRCUIT
+				visible_message("<span class='userdanger'>[src] plunges into [target_mech], sending out a torrent of sparks!</span>")
+				target_mech.take_damage(70) //100 total damage
+				do_sparks(3, FALSE, target_mech)
+			if(4 to 5)
+				damage_type = MECHA_INT_CONTROL_LOST
+				visible_message("<span class='userdanger'>[src] rips through [target_mech]'[target_mech.p_s()] hydraulics!</span>")
+				target_mech.take_damage(70)
+				new /obj/effect/decal/cleanable/blood/oil/streak(target_mech.loc)
+
+		target_mech.setInternalDamage(damage_type)
+		return TRUE
 
 /obj/item/cryo_lance
 	name = "cryogenic lance"
