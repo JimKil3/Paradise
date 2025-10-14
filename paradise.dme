@@ -1919,6 +1919,7 @@
 #include "code\modules\client\preference\preferences_mysql.dm"
 #include "code\modules\client\preference\preferences_toggles.dm"
 #include "code\modules\client\preference\preferences_volume_mixer.dm"
+#include "code\modules\client\preference\subspecies_tgui.dm"
 #include "code\modules\client\preference\loadout\gear_tweaks.dm"
 #include "code\modules\client\preference\loadout\loadout.dm"
 #include "code\modules\client\preference\loadout\loadout_accessories.dm"
