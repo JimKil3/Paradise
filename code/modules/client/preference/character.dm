@@ -37,6 +37,7 @@
 	var/e_colour = "#000000"			//Eye color
 	var/alt_head = "None"				//Alt head style.
 	var/species = "Human"
+	var/subspecies = "None"
 	var/language = "None"				//Secondary language
 	var/autohiss_mode = AUTOHISS_OFF	//Species autohiss level. OFF, BASIC, FULL.
 	/// If a spawned cyborg should have an MMI, a positronic, or a robobrain. MMI by default

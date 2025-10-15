@@ -1,32 +1,20 @@
-import {
-  Box,
-  Button,
-  Dimmer,
-  Dropdown,
-  ImageButton,
-  Input,
-  LabeledList,
-  ProgressBar,
-  Section,
-  Stack,
-  Tabs,
-} from 'tgui-core/components';
-import { createSearch } from 'tgui-core/string';
+import { Stack } from 'tgui-core/components';
 
 import { useBackend } from '../backend';
 import { Window } from '../layouts';
 
-type Data = {
+type Data = {};
 
-};
-
-export const Loadout = (props) => {
+export const SubspeciesSelection = (props) => {
   const { act, data } = useBackend<Data>();
 
   return (
     <Window width={1105} height={650}>
       <Window.Content scrollable>
-
+        <Stack fill vertical>
+          <Stack.Item>hi</Stack.Item>
+        </Stack>
       </Window.Content>
     </Window>
-  )
+  );
+};
